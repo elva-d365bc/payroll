@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "d:/a/1/s/lv-LV",
+  "source_base_path": "D:/a/1/s/lv-LV",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -124,7 +124,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/1.setting_up.html",
-          "hash": "jY77A/2BeL2O2/epNXS8Pg=="
+          "hash": "NQhnJ1NcCN4gFL2em0/I3A=="
         }
       },
       "is_incremental": false,
@@ -460,7 +460,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/2.payroll_acc.html",
-          "hash": "ODIzT2A+MznWIiJ/NoUi0Q=="
+          "hash": "sEKXP9qfYver4WCYDZRAug=="
         }
       },
       "is_incremental": false,
@@ -770,7 +770,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/4.empl_card.html",
-          "hash": "X5qk2c7j0Sn6Lw+CAOtydQ=="
+          "hash": "7dKbQrJwccI30/EAcdpmig=="
         }
       },
       "is_incremental": false,
