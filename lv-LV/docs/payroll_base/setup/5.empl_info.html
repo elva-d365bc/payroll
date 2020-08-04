@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Darbinieku dati | Latvian Payroll </title>
+    <title>Darbinieku iestat&#299;jumi | Latvian Payroll </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Darbinieku dati | Latvian Payroll ">
+    <meta name="title" content="Darbinieku iestat&#299;jumi | Latvian Payroll ">
     <meta name="generator" content="docfx 2.56.2.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
@@ -77,8 +77,270 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="darbinieku-dati">Darbinieku dati</h1>
+<h1 id="darbinieku-iestatījumi">Darbinieku iestatījumi</h1>
 
+<p>Lai varētu sākt ērti, bez aizķeršanās vadīt datus darbinieka kartiņā, ir ieteicams sākotnēji veikt zemāk uzskaitītos iestatījumus, kas būs nepieciešmai darbinieku kartiņas lauku aizpildīšanai:</p>
+<ul>
+<li>jāizveido uzņēmuma struktūrvienības;</li>
+<li>jāizveido darbinieku amatu saraksts;</li>
+<li>jāiestata darba laika kalendāri;</li>
+<li>jāiestata svētku kalendārs;</li>
+<li>jāiestata algu dimensijas.</li>
+</ul>
+<h2 id="struktūrvienības">Struktūrvienības</h2>
+<p>Sistēmā iespējams uzturēt strukturētu informāciju par uzņēmuma struktūrvienībām. Informācija būs gan aktuālā, gan arī vēsturiskā, jo struktūrvienības sistēmā netiek dzēstas, bet gan slēgtas.</p>
+<p>Lai nodrošinātu struktūrvienību hierarhiju, tiek kombinētas kārtošanas un atkāpju metodes. Tātad viena struktūrvienība ir pakļauta otrai struktūrvienībai, ja tā atrodas pēc galvenās struktūrvienības un ir ar vienu līmeni lielāku atkāpi. Atkarībā no struktūrvienību atkāpju dziļuma un struktūrvienību skaita, sastāda struktūrvienības kodu. Struktūrvienības atkāpes tiek veidotas ar funkciju <img src="count1.png" alt="alt">, <img src="count3.png" alt="alt"> un <img src="count4.png" alt="alt"> palīdzību Struktūrvienības rīkjoslā.</p>
+<p>Struktūrvienībām var piesaistīt dimensijas, klikšķinot uz pogas <em>Dimensijas</em> (<img src="count2.png" alt="alt">)</p>
+<p><img src="2.payroll_acc_9.png" alt="alt"></p>
+<table>
+<thead>
+<tr>
+<th>Lauka nosaukums</th>
+<th>Apraksts</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kods</td>
+<td>Struktūrvienības kods, ko definē lietotājs.</td>
+</tr>
+<tr>
+<td>Nosaukums</td>
+<td>Struktūrvienības nosaukums.</td>
+</tr>
+<tr>
+<td>Adrese</td>
+<td>Adrese, kur atdodas struktūrvienība.</td>
+</tr>
+<tr>
+<td>Izveidošanas datums</td>
+<td>Datums, kad struktūrvienība ir izveidota.</td>
+</tr>
+<tr>
+<td>Slēgšanas datums</td>
+<td>Datums, kad struktūrvienība ir slēgta.</td>
+</tr>
+<tr>
+<td>Pakļautība hierarhijā kods</td>
+<td>Struktūrvienības kods, kurai struktūrvienība ir pakļauta.</td>
+</tr>
+<tr>
+<td>Vadītāja amata kods</td>
+<td>Atbilstošais vadītājā amata kods no saraksta <em>Amati</em>.</td>
+</tr>
+<tr>
+<td>Dimensijas vērtības kods</td>
+<td>Struktūrvienības dimensijas vērtības kods no standarta algu dimensiju klasifikatora.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="amati">Amati</h2>
+<p>Visi uzņēmumā lietotie amati tiek apkopoti sarakstā <em>Amati</em>. Katram amatam ir jāizveido atsevišķa Amata kartiņa.</p>
+<p>Ja sistēmā tiek labota informācija par profesijas kodu un struktūrvienības kodu, tad, lai šīs izmaiņas parādītos arī darbinieka kartiņā, amata kartē ir jāaktivizē funkcija <em>Atjaunot darbinieku amatus</em>, klikšķinot uz <em>Apstrādāt</em> (<img src="count1.png" alt="alt">) un <em>Atjaunot darbinieku amatus</em> (<img src="count2.png" alt="alt">).</p>
+<p>Amata kartiņai var piesaistīt dimensijas, klikšķinot uz <em>Naviģēt</em> (<img src="count3.png" alt="alt">) un izvēloties funkciju <em>Dimensijas</em>.</p>
+<p><img src="2.payroll_acc_8.png" alt="alt"></p>
+<table>
+<thead>
+<tr>
+<th>Lauka nosaukums</th>
+<th>Apraksts</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kods</td>
+<td>Jaunās amata vietas kods.</td>
+</tr>
+<tr>
+<td>Nosaukums</td>
+<td>Amata nosaukums.</td>
+</tr>
+<tr>
+<td>Profesijas kods</td>
+<td>Kods no <em>Darbinieku statistikas grupas</em>.</td>
+</tr>
+<tr>
+<td>Struktūrvienības kods</td>
+<td>Kods no <em>Struktūrvienības</em> saraksta.</td>
+</tr>
+<tr>
+<td>Struktūrvienības apraksts</td>
+<td>Apraksts no <em>Struktūrvienības</em> saraksta.</td>
+</tr>
+<tr>
+<td>Kopējās slodzes</td>
+<td>Slodzes, kas ir paredzētas šim amatam kopā.</td>
+</tr>
+<tr>
+<td>Patreizējās slodzes</td>
+<td>Cik amata slodzes uzņēmumā jau ir aizņemtas.</td>
+</tr>
+<tr>
+<td>Patreizējais darbinieku skaits</td>
+<td>Darbinieku skaits, kas ir nodarbināti konkrētā amatā.</td>
+</tr>
+<tr>
+<td>Vakantās slodzes</td>
+<td>Cik slodzes vēl ir vakantas šim amatam.</td>
+</tr>
+<tr>
+<td>Izveidošanas datums</td>
+<td>Amata izveidošanas datums.</td>
+</tr>
+<tr>
+<td>Slēgšanas datums</td>
+<td>Amata slēgšanas datums.</td>
+</tr>
+<tr>
+<td>Amata alga</td>
+<td>Informatīvs lauks.</td>
+</tr>
+<tr>
+<td>Darba laiks nav nosakāms</td>
+<td>Atzīmē, ja amatam darba laiks nav nosakāms un tiek pakārtots uzņēmuma vajadzībām.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="darba-laika-kalendāri">Darba laika kalendāri</h2>
+<blockquote>
+<p>Kalendārs ir visu aprēķinu pamatā. Katrai darbinieka amata kartei ir jāpievieno darba laika kalendāra kods. Kalendārs tiek izmantots darba dienu un stundu aprēķinos, kā arī, lai aprēķinātu plānotās darba dienas un stundas mēnesī, ko izmanto prombūtņu aprēķinos.</p>
+</blockquote>
+<p>Katram kalendāram ir savu kartiņa. Darba laiku kalendāru kartiņas apkopotas sarakstā <em>Darba laika kalendāri</em>. Lietotājs var izveidot papildus kalendārus atkarībā no uzņēmuma vajadzībām. Sistēmas standartpakotnē ir divu veidu darba laika kalendāri: 5 darba dienu un 6 darba dienu. Darba dienām, kurām atšķiras darba stundas  (piemēram, pirmssvētku dienas) nepieciešams kalendāros papildināt manuāli ik gadu.</p>
+<p>Veidojot jaunu darba laika kalendāra kartiņu, iestatījumiem pieejami sekojoši lauki:</p>
+<h3 id="cilne-visp-info">Cilne: <em>Visp. info</em></h3>
+<p><img src="3.payroll_calc_7.png" alt="alt"></p>
+<table>
+<thead>
+<tr>
+<th>Lauka nosaukums</th>
+<th>Apraksts</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kods</td>
+<td>Brīvi definēts kods.</td>
+</tr>
+<tr>
+<td>Nosaukums</td>
+<td>Brīvi izvēlēts nosaukums.</td>
+</tr>
+<tr>
+<td>Svētku kalendāra kods</td>
+<td>Svētku kalendārs, kas ir piesaistīts konkrētam darba laika kalendāram.</td>
+</tr>
+<tr>
+<td>Svētku kalendārs</td>
+<td>Atzīme, ka šis kalendārs ir svētku kalendārs (tikai svētku kalendāriem).</td>
+</tr>
+<tr>
+<td>Darbs arī brīvdienās</td>
+<td>Atzīmē, ka darbinieki strādā arī brīvdienās.</td>
+</tr>
+<tr>
+<td>Cikla kalendārs</td>
+<td>Atzīme, ja darba laika kalendārs ir veidots kā cikla kalendārs.</td>
+</tr>
+<tr>
+<td>Cikla sākuma datums</td>
+<td>Nodefinē cikla kalendāra pirmo dienu.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="cilne-kalendāra-ieraksti">Cilne: <em>Kalendāra ieraksti</em></h3>
+<p><img src="3.payroll_calc_8.png" alt="alt"></p>
+<p>Kalendāra ierakstos tiek atspoguļota informācija par katru dienu, ņemot vērā piesaistīto svētku dienu kalendāru.
+Ja pamata kalendāram virsrakstā ir norādīts Svētku kalendārs, tad visas svētku dienas attiecas arī uz šo kalendāru. Īpašas izmaiņas var izdarīt katrā kalendārā atsevišķi - pārcelt konkrētas darba dienas, saīsināt pirmssvētku dienu stundas, norādot konkrētus datumus.  Gadījumā, ja vajadzētu kompensēt svētku dienu, kura iekrīt normālajā darba nedēļā, šo informāciju var reģistrēt cilnē <em>Kalendāra izmaiņu apakšforma</em>.</p>
+<h3 id="cilne-kalendāra-izmaiņu-apakšforma">Cilne: <em>Kalendāra izmaiņu apakšforma</em></h3>
+<p><img src="3.payroll_calc_9.png" alt="alt"></p>
+<table>
+<thead>
+<tr>
+<th>Lauka nosaukums</th>
+<th>Apraksts</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Periodiskums</td>
+<td>Gada periods (parasti izmanto svētku kalendāriem), Nedēļas periods vai Cikls.</td>
+</tr>
+<tr>
+<td>Datums</td>
+<td>Ja nepieciešams, norāda konkrētu datumu (parasti izmanto svētku kalendāriem).</td>
+</tr>
+<tr>
+<td>Diena</td>
+<td>Norāda nedēļas dienas dienu.</td>
+</tr>
+<tr>
+<td>Cikla kārtas numurs</td>
+<td>Ja periodiskums ir Cikls, tad norāda cikla kārtas Nr.</td>
+</tr>
+<tr>
+<td>Nosaukums</td>
+<td>Brīvi izvēlēts apraksts.</td>
+</tr>
+<tr>
+<td>Brīvdiena</td>
+<td>Atzīme, vai konkrētā diena ir brīvdiena.</td>
+</tr>
+<tr>
+<td>Svētku diena</td>
+<td>Atzīme, vai konkrētā diena ir svētku diena.</td>
+</tr>
+</tbody>
+</table>
+<p>Gadījumā, ja svētku diena pārcelta uz citu dienu (piemēram, 18. novembris vai 4. maijs), tad šai informācijai jābūt ievadītai darba laika kalendārā ar tipu Brīvdiena un kompensējamām stundām.</p>
+<h3 id="cilne-kalendāra-gadu-apakšforma">Cilne: <em>Kalendāra gadu apakšforma</em></h3>
+<p><img src="3.payroll_calc_10.png" alt="alt"></p>
+<p>Tiek noradīts gads un vidējais stundu skaits mēnesī gadījumam, ja darbiniekam ir summētais darba laiks un pamatalga proporcionāli stundām, tiek ņemts vērā vidējais stundu skaits mēnesī stundas likmes aprēķinam. Šī likme tiek izmantota nakts stundām, virsstundām, svētku stundām, svētku dienu/stundu kompensācijām.</p>
+<h2 id="svētku-dienu-kalendāri">Svētku dienu kalendāri</h2>
+<p>Sistēmas standarta pakotnē ir izveidots standarta svētku kalendārs ar jau iestatītām svētku dienām, kas atkārtojas katru gadu vienā un tai pašā datumā (piemēram, Ziemassvētki, Jāņi, utt.). Svētku dienas, kuras neatkārtojas vienā un tai pašā datumā (piemēram, Lieldienas, Mātes diena, Vasarsvētki, kā arī, pārceltās svētku dienas), ir jāpapildina manuāli katru gadu.</p>
+<h3 id="cilne-visp-info-1">Cilne: <em>Visp. info</em></h3>
+<p>Tiek aizpildīti tikai lauki Kods un Nosaukums, kā arī ielikta pazīme “Svētku kalendārs” . Pārējie šīs cilnes lauki ir neaktīvi, un sistēma tos aizpilda pati.</p>
+<p><img src="3.payroll_calc_11.png" alt="alt"></p>
+<h3 id="cilne-kalendāra-ieraksti-1">Cilne: <em>Kalendāra ieraksti</em></h3>
+<p><img src="3.payroll_calc_12.png" alt="alt"></p>
+<h3 id="cilne-kalendāra-izmaiņu-apakšforma-1">Cilne: <em>Kalendāra izmaiņu apakšforma</em></h3>
+<p>Ja svētku dienas atkārtojas ik gadu vienos un tajos pašos datumos, tad periodiskumu izvēlas Gada periods un saliek attiecīgos uzstādījumus.
+Ja svētku dienas neatkārtojas ik gadu vienos un tajos pašos datumos, tad lauku periodiskums atstāj tukšu.</p>
+<p><img src="3.payroll_calc_13.png" alt="alt"></p>
+<h2 id="algu-dimensiju-uzstādījumi">Algu dimensiju uzstādījumi</h2>
+<p>Šīs funkcionalitātes izmantošana nav obligāta sekmīgas sistēmas darbības nodrošināšanai.</p>
+<p><em>Algu dimensiju uzstādījumos</em> norāda tās dimensijas, kuras tiks izmantotas algu aprēķinus. Pārējās sistēmā pieejamās dimensijas tiks ignorētas.</p>
+<p><img src="2.payroll_acc_5.png" alt="alt"></p>
+<table>
+<thead>
+<tr>
+<th>Lauka nosaukums</th>
+<th>Apraksts</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dimensijas kods</td>
+<td>Izvēlas dimensiju no saraksta, kura tiks lietota algas aprēķinos.</td>
+</tr>
+<tr>
+<td>Vērtības izcelsme</td>
+<td>Norāda līmeni, no kurienes tiks ņemta dimensijas vērtība:<br>a)	Avots – Prombūtnes reģistrācija, Darba algas komponentes, Algas komponenšu reģistrs; <br>b)	Algas komponente –  Norādītais dimensijas kods tiek ņemts no algas komponentes; <br>c)	Darbinieka amats – Norādītais dimensijas kods tiek ņemts no Darbinieku amata; <br>d)	Darbinieks – Augstākais līmenis, norādītais dimensijas kods tiek ņemts no darbinieka kartes.</td>
+</tr>
+<tr>
+<td>Nelietot hierarhiju</td>
+<td>Ja nav atzīme šajā laukā, tad norādītais dimensijas kods tiek meklēts augstākos līmeņos. Ja ir atzīme, tad tikai izvēlētajā līmenī.</td>
+</tr>
+<tr>
+<td>Pieļaut tukšu vērtību</td>
+<td>Pārbauda, vai pēc iepriekš norādītajiem uzstādījumiem dimensijas vērtība nav tukša vērtība. Ja ir atzīme šajā laukā, tad programma <strong>nedod kļūdas paziņojumu, ja</strong> nevienā no līmeņiem (konkrētā līmenī, ja ir atzīme laukā nelietot hierarhiju) <strong>dimensija nav atrasta</strong>.</td>
+</tr>
+</tbody>
+</table>
+<p>Sistēma piedāvā iespēju pievienot pie struktūrvienības, amata n-tās dimensijas. Ja pie struktūrvienības norāda dimensiju vērtības un pie attiecīgās struktūrvienības amata norāda vēl citu dimensiju vērtības, tad pie darbinieka amata parāda visas (gan tās, kas bija norādītas pie struktūrvienības, gan tās, kas bija norādītas pie amata).</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p><strong>Nav ieteicams norādīt vienas un tās pašas dimensijas, bet ar atšķirīgām vērtībām gan pie struktūrvienības, gan amata</strong>.</p>
+</div>
 </article>
           </div>
           

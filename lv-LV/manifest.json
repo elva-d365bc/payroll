@@ -119,12 +119,23 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/1.empl_termin_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/1.empl_termin_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "docs/payroll_base/setup/1.setting_up.md",
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/1.setting_up.html",
-          "hash": "kemJi+u56SaJtEebrC8aSQ=="
+          "hash": "9DR72uq34BCvMb68OSXRUQ=="
         }
       },
       "is_incremental": false,
@@ -455,12 +466,35 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/15.empl_termin_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/15.empl_termin_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_base/setup/15.empl_termination.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_base/setup/15.empl_termination.html",
+          "hash": "ciP9wBsMp8lL7ybtpVayqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "docs/payroll_base/setup/2.payroll_acc.md",
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/2.payroll_acc.html",
-          "hash": "moz+nxu4OTx1qn+w047lNA=="
+          "hash": "WfrOAUs7geZsb8x9lpBo1w=="
         }
       },
       "is_incremental": false,
@@ -770,7 +804,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/4.empl_card.html",
-          "hash": "giB9AYuXHdbTzMjiGuqFiQ=="
+          "hash": "VMHQQnN2+J2kcA7ugXMZbA=="
         }
       },
       "is_incremental": false,
@@ -837,7 +871,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/5.empl_info.html",
-          "hash": "77sF86HT7Vh1LQgKM8weNg=="
+          "hash": "vmT5w4rjfuCsn0MMO0u2Cg=="
         }
       },
       "is_incremental": false,
@@ -955,11 +989,23 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "docs/payroll_base/setup/6.1.empl_add.info.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_base/setup/6.1.empl_add.info.html",
+          "hash": "pjX+D7fMkqNTTHg2DExWvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "docs/payroll_base/setup/6.empl_add.info.md",
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/6.empl_add.info.html",
-          "hash": "XyilHpitugs6y4KPPZwDmw=="
+          "hash": "Sj7LWMEtDUac/Bl8f3YqVA=="
         }
       },
       "is_incremental": false,
@@ -1059,7 +1105,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/7.salary.html",
-          "hash": "Kry3lxbMuti2i9BpwAwf+A=="
+          "hash": "vU7wc/nALhbjo7SsCaa9Pg=="
         }
       },
       "is_incremental": false,
@@ -1148,7 +1194,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/8.salary_timing.html",
-          "hash": "MynTJPRzzwOOd3nREEN0wg=="
+          "hash": "u7yR+bFyv8XEHEsapJYrHQ=="
         }
       },
       "is_incremental": false,
@@ -1160,7 +1206,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/9.salary_absence.html",
-          "hash": "6VIpScgJXm1vX4gz4ANbbg=="
+          "hash": "1R0+VO+IkT/eb/JAtjj7vQ=="
         }
       },
       "is_incremental": false,
@@ -1348,7 +1394,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/toc.html",
-          "hash": "5qMRzBeG4swoBCOW9hrAcw=="
+          "hash": "JxT6Mhgz/Ygo8BiF42Y9HQ=="
         }
       },
       "is_incremental": false,
@@ -1597,7 +1643,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 34,
+          "total_file_count": 36,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
