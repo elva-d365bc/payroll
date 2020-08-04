@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "D:/a/1/s/lv-LV",
+  "source_base_path": "d:/a/1/s/lv-LV",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -135,7 +135,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/1.setting_up.html",
-          "hash": "eG5An1qEtAn8ej4sQVVgMQ=="
+          "hash": "V0R59exak9mhtXhnIFKaUw=="
         }
       },
       "is_incremental": false,
@@ -415,7 +415,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/14.reports.html",
-          "hash": "jKJ0/LtNi2Q9Fzw478r8YA=="
+          "hash": "Wj25ZphjQL8yCbw8T82SZg=="
         }
       },
       "is_incremental": false,
@@ -460,6 +460,30 @@
       "output": {
         "resource": {
           "relative_path": "docs/payroll_base/setup/14.reports_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_base/setup/14.reports_an.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_base/setup/14.reports_an.html",
+          "hash": "lKm+25q7vnIPM4t9+TjAJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_base/setup/14.reports_eds.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_base/setup/14.reports_eds.html",
+          "hash": "8BSmxcaVJv9arLzWZbuOzA=="
         }
       },
       "is_incremental": false,
@@ -1394,7 +1418,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/toc.html",
-          "hash": "JxT6Mhgz/Ygo8BiF42Y9HQ=="
+          "hash": "WWSCpdsW8+4iAlZWvEm5VQ=="
         }
       },
       "is_incremental": false,
@@ -1643,7 +1667,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 36,
+          "total_file_count": 38,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

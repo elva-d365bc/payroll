@@ -79,13 +79,13 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="atskaites">Atskaites</h1>
 
-<p>Lomu centra sākumlapā ir pieejama saīsne ar nosaukumu <em>Atskaites</em> uz galvenajām standarta atskaitēm.</p>
+<p>Lomu centra sākumlapā ir pieejama saīsne <em>Atskaites</em> ātrai piekļuvei pie galvenajām standarta atskaitēm.</p>
 <p>Sistēma nodrošina Latvijas likumdošanā noteikto obligāto atskaišu sagatavošanu un eksportēšanu uz EDS:</p>
 <ul>
 <li>Ziņojums par VSAOI</li>
 <li>Ziņas par darba ņēmējiem (ja ieslēgts)</li>
 <li>Paziņojums par fiziskām personām izmaksātām summām</li>
-<li>IINNR saraksts</li>
+<li>Paziņojums par izmaksātiem ienākumiem nerezidentiem</li>
 </ul>
 <p>Kā arī iespējams izdrukāt atskaites iekšējai lietošanai, tādas kā:</p>
 <ul>
@@ -95,97 +95,6 @@
 <li>Algas komponenšu kopsummas</li>
 <li>Darbinieku AK pa mēnešiem</li>
 </ul>
-<h2 id="eds-atskaites">EDS atskaites</h2>
-<h3 id="ziņojums-par-vsaoi">Ziņojums par VSAOI</h3>
-<p>Lai sagatavotu <em>Ziņojumu par VSAOI</em>, atskaites drukāšanas logā izvēlieties periodu, par kuru vēlaties sagatavot atskaiti (<img src="count1.png" alt="alt">) un izvēlieties <em>Eksportēt EDS failu</em> (<img src="count2.png" alt="alt">), ja vēlāties izdrukājot atskaiti sagatavot arī failu augšupielādei EDS sistēmā.</p>
-<p><img src="14.reports_1.1.png" alt="alt"></p>
-<h3 id="ziņas-par-darba-ņēmējiem">Ziņas par darba ņēmējiem</h3>
-<p>Lai sagatavotu <em>Ziņas par darba ņēmējiem</em>, atskaites drukāšanas logā jāatzīmē nepieciešamība sagatavot eksporta failu (<img src="count1.png" alt="alt">), ja nepieciešams, filtrā jāiestata kādi specifiski darbinieku atlases kritēriji (<img src="count2.png" alt="alt">) un, ja nepieciešams, norāda periodu (<img src="count3.png" alt="alt">) par kādu nepieciešams sagatavot atskaiti.</p>
-<p><img src="14.reports_2.png" alt="alt"></p>
-<h3 id="paziņojums-par-fiziskai-personai-izmaksātām-summām">Paziņojums par fiziskai personai izmaksātām summām</h3>
-<p>Lai izveidotu paziņojumu par fiziskajām personām izmaksātajām summām, jāveido jauns dokuments (jeb buferis) sarakstā <em>PFPIS virsraksts</em>, kas pieejams ievadot nosaukumu sistēmas meklētājā.</p>
-<p>PFPIS buferis sastāv no 3 daļām –  <em>Vispārīgā informācija</em>, <em>Kopsummas</em>, <em>PFPIS rindu apakšforma</em>.</p>
-<p>Lai sagatavotu buferi, aizpildiet cilnes <em>Visp. info</em> laukus un rīkjoslā klikšķiniet uz pogām <em>Apstrādāt</em> (<img src="count1.png" alt="alt">) - <em>Ģenerēt ierakstus</em> (<img src="count2.png" alt="alt">).</p>
-<p>Kad dati buferī ir saģenerēti un pārbaudīti, var sagatavot eksporta failu iesniegšanai EDS noklikšķinot uz pogas <em>Eksportēt uz XML</em> (<img src="count3.png" alt="alt">).</p>
-<p>Pirms iesniegšanas EDS, pārskatu var izdrukāt un pārbaudīt klikšķinot rīkjoslā uz pogām <em>Pārskats</em> - <em>Drukāt kopsavilkumu</em> vai <em>Drukāt darbinieku</em>.</p>
-<p><img src="14.reports_1.png" alt="alt"></p>
-<p>Cilne <em>Visp. info</em></p>
-<table>
-<thead>
-<tr>
-<th>Lauka nosaukums</th>
-<th>Apraksts</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Nr.</td>
-<td>PFPIS dokumenta numurs. Aizpildās automātiski.</td>
-</tr>
-<tr>
-<td>Kods</td>
-<td>Uzņēmuma reģistrācijas Nr., aizpildās automātiski no <em>Uzņēmuma informācija</em>.</td>
-</tr>
-<tr>
-<td>Apraksts</td>
-<td>Dokumenta apraksts.</td>
-</tr>
-<tr>
-<td>Gads</td>
-<td>Bufera veidošanas gads.</td>
-</tr>
-<tr>
-<td>Mēnesis</td>
-<td>Izvēlas no saraksta bufera veidošanas mēnesi. Ja nepieciešams paziņojums par atbrīvotajiem darbiniekiem, izvēlas mēnesi, kurā darbinieks/-i ir atlaists/-i. Ja nepieciešams gada paziņojums par visiem darbiniekiem, tad sarakstā izvēlas <em>Gads</em>.</td>
-</tr>
-<tr>
-<td>Noslēgts</td>
-<td>Pazīme, ka buferis ir iesniegts EDS un noslēgts.</td>
-</tr>
-<tr>
-<td>Izpildītājs</td>
-<td>Atbildīgās personas vārds un uzvārds.</td>
-</tr>
-<tr>
-<td>Izpildītāja tālruņa nr.</td>
-<td>Atbildīgās personas tālruņa nr.</td>
-</tr>
-</tbody>
-</table>
-<p>Cilne <em>Kopsummas</em></p>
-<p>R05..R16 – bufera rindu vērtību lauku kopsummas</p>
-<p>Cilne <em>PFPIS rindu apakšforma</em></p>
-<p>Bufera rindas ģenerējas automātiski palaižot funkciju <em>Ģenerēt ierakstus</em>. Bufera sagatavošanai var izmantot dažādus filtrus, ko piedāvās rindu ģenerēšanas logs.</p>
-<h2 id="analītiskās-atskaites">Analītiskās atskaites</h2>
-<p>Atskaites iekšējai lietošanai uzņēmumā.</p>
-<h3 id="izziņa-par-ienākumiem">Izziņa par ienākumiem</h3>
-<p>Pēc darbinieka pieprasījuma sagatavojama izziņa, kur darba devējs uzrāda izvēlētā laika periodā (3, 6 vai 12 mēneši) aprēķināto darba algas un nodokļu apmēru, kā arī apliecina apmaksu veikšanu. Ar iespēju norādīt izziņas izsniegšanas mērķi.</p>
-<h3 id="uzkrātais-atvaļinājums">Uzkrātais atvaļinājums</h3>
-<p>Uz brīvi izvēlētu datumu (<img src="count1.png" alt="alt">) var aprēķināt darbinieku neizņemtās atvaļinājuma dienas, kā arī to izmaksas, ņemot vērā darbinieku vidējo dienas izpeļņu un darba devēja sociālā nodokļa izmaksas. Kā arī, var nosūtīt (<img src="count2.png" alt="alt">) uz virsgrāmatas žurnālu (<img src="count3.png" alt="alt">) atvaļinājuma uzkrājumu summas (<img src="count4.png" alt="alt">) grāmatojumus. Rezultātā virsgrāmatas žurnālā būs sagatavoti grāmatojumi, kurus atliek pārbaudīt un iegrāmatot.</p>
-<p><img src="14.reports_3.png" alt="alt"></p>
-<h3 id="vidējā-izpeļņa">Vidējā izpeļņa</h3>
-<p>Pēc pieprasījuma darbiniekam var sagatavot atskaiti par viņa vidējo izpeļņu - dienas un stundas griezumā. Dati tiks sagatavoti uz aktuālo darba datumu.</p>
-<p>Papildus var norādīt vidējās mēneša izpeļņas sadalījumu pa mēnešiem.</p>
-<h3 id="algas-lapiņa">Algas lapiņa</h3>
-<p>Var izdrukāt jebkura mēneša algas lapiņu jebkuram darbiniekam vai algas sarakstam.</p>
-<h3 id="tabeles-izdruka">Tabeles izdruka</h3>
-<p>Var izdrukāt darba laika uzskaites tabeles veidni, kuru nosūtot uz Word vai Excel vidi var koriģēt pēc nepieciešamības.</p>
-<p>Tabelē tiek attēlotas <strong>plānotās</strong> darba stundas saskaņā ar katram darbiniekam piesaistīto Darba laika kalendāru.</p>
-<p>Atskaites izdrukas logā iespējojot pogu <em>Uzskaite</em>, tabeles izdrukā tiks atrādītas pieprasītajā periodā katram darbiniekam reģistrētās prombūtnes, un atbilstoši samazinātas plānoto darba dienu/stundu skaits.</p>
-<div class="TIP">
-<h5>Tip</h5>
-<p>*Stundu reģistrā ievadītās stundas neatrādās Tabeles izdrukā. Lai iegūtu faktiski nostrādātā darba laika datus, nepieciešams importēt atskaiti Excel vai Word vidē un sagatavot izdruku ar faktisko stundu sadalījumu pa diemām.</p>
-</div>
-<h3 id="algu-analīze">Algu analīze</h3>
-<p>Lai varētu izmantot šo atskaiti, ir jāsagatavo Algu analīzes veidnes kartiņa, kas atbildīs jūsu uzņēmuma prasībām.</p>
-<h3 id="algas-komponenšu-analīze">Algas komponenšu analīze</h3>
-<p>Atskaitē <em>Darbinieka AK pa mēnešiem</em> algu komponenšu vērtības ir izvērstas tabulā pa mēnešiem katram darbiniekam atsevišķi.</p>
-<p>Savukārt atskaitē <em>Algas komponenšu kopsummas</em> var iegūt datus analīzei pa komponenšu kodiem atsevišķam izvēlētam algu sarakstam kopā.</p>
-<h3 id="personīgais-konts">Personīgais konts</h3>
-<p>Var izdrukāt katram darbiniekam atsevišķu pārskatu, kurā iekļauti visi darbinieka algas aprēķinu dati pa mēnešiem gada griezumā. Ppaildus tabulā uzskaitītas visas prombūtnes.</p>
-<h3 id="pensionēšanās-vecums">Pensionēšanās vecums</h3>
-<h3 id="darbinieku-vidējais-skaits">Darbinieku vidējais skaits</h3>
-<p>Norādot algas dimensiju un periodu, iespējams iegūt datus par vidējo darbinieku skaitu, darbinieku skaitu perioda sākumā, darbinieku skaitu perioda beigās, un atbrīvoto darbinieku skaitu. Iespējams pievienot papildus filtrus, piemēram, atlasīt darbinieku skaitu pēc dzimuma.</p>
 </article>
           </div>
           
