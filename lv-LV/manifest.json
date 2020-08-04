@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "d:/a/1/s/lv-LV",
+  "source_base_path": "D:/a/1/s/lv-LV",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -135,7 +135,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/1.setting_up.html",
-          "hash": "9DR72uq34BCvMb68OSXRUQ=="
+          "hash": "eG5An1qEtAn8ej4sQVVgMQ=="
         }
       },
       "is_incremental": false,
@@ -482,7 +482,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/15.empl_termination.html",
-          "hash": "ciP9wBsMp8lL7ybtpVayqA=="
+          "hash": "aZUhq2bHl8d/lC40jganfQ=="
         }
       },
       "is_incremental": false,
