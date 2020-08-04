@@ -82,6 +82,142 @@
 <h2 id="darbinieku-prombūtnes">Darbinieku prombūtnes</h2>
 <p>Visas nobīdes no plānotā darba laika jāievada <em>Darbinieku prombūtnes</em> reģistrācijas žurnālā.</p>
 <p>Lai reģistrētu prombūtni, nepieciešams <em>Neierašānās iemesla kods</em>. Visi neierašānās iemeslu kodi un to uzstādījumi ir akopoti sarakstā <em>Prombūtne</em>. <strong>Prombūtņu iemesla kodus ieteicams patstāvīgi nemainīt</strong>.</p>
+<h2 id="prombūtes-iemesli">Prombūtes iemesli</h2>
+<p>Prombūtnes iemeslu kodu kartiņas apkopotas sarakstā <em>Prombūtne</em>. Koda kartiņu var atvērt uzklikšķinot uz koda un nospiežot rīkjoslā uz pogām <em>Darbības - Jauns dokuments - Karte</em>.</p>
+<p><img src="3.payroll_calc_14.png" alt="alt"></p>
+<h3 id="cilne-visp-info">Cilne <em>Visp. info</em></h3>
+<table>
+<thead>
+<tr>
+<th>Lauka nosaukums</th>
+<th>Apraksts</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kods</td>
+<td>Brīvi definēts prombūtnes kods.</td>
+</tr>
+<tr>
+<td>Apraksts</td>
+<td>Prombūtnes apraksts.</td>
+</tr>
+<tr>
+<td>Mērvienības kods</td>
+<td>Izvēlas no mērvienību klasifikatora.</td>
+</tr>
+<tr>
+<td>Kopā neierašānās (bāze)</td>
+<td>Sistēma uzrāda, cik kopā ir reģistrēta šī prombūtne. Ņemot vērā ka tas ir standarta Microsoft lauks, kurš nav uzturēts, vienmēr rāda nulli.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="cilne-algas">Cilne <em>Algas</em></h3>
+<table>
+<thead>
+<tr>
+<th>Lauka nosaukums</th>
+<th>Apraksts</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Neattaisnota prombūtne</td>
+<td>Neattaisnotas prombūtnes pazīme.</td>
+</tr>
+<tr>
+<td>Algas aprēķina veids</td>
+<td>Izvēlas no saraksta, kādā  veidā tiek aprēķināta prombūtne: <br>1. Vidējā apmaksa – aprēķina periodu vispirms ņem iepriekšējos 6 mēn., ja nav, tad iepriekšējos 12 mēn. Ja arī nav, tad programma pārbauda Algu uzstādījumos, vai ir atzīme laukā Lietot tekošo mēnesi vid. apmaksai. Ja šajā laukā nav atzīmes, tad rēķina vidējo no minimālās algas;<br>2.	Saglabāta alga (Cita komponente) – par izvēlēto periodu saglabās aprēķināto pamatalgu, summu izdalot citā algas komponentē; <br>3. Saglabāta alga –  par izvēlēto periodu nekas nemainās pamatalgas aprēķinā (piem: attaisnota prombūtne); <br> 4. Iepr. apmaksa – izmaksā pamatalgu Starpizmaksās par izvēlēto periodu (atvaļinājums uz priekšu); <br> 5. Bez algas – par izvēlēto periodu neaprēķina algu (piem.: bezalgas atvaļinājums, neattaisnota neierašanās); <br> 6. Bez atvieglojumiem – Neaprēķina algu un atvieglojumus (piem.: B lapas); <br> 7.	Tukšums – ignorē algās.</td>
+</tr>
+<tr>
+<td>Algas komponentes kods</td>
+<td>Norāda atbilstošo algas komponenti.</td>
+</tr>
+<tr>
+<td>Nākamā perioda algas komp. kods</td>
+<td>Norāda komponenti, ja samaksa par nākamo periodu tiek izdalīta citā komponentē.</td>
+</tr>
+<tr>
+<td>Kalendāro dienu ierobežojums</td>
+<td>Norāda prombūtnes iemesla dienu skaitu (piem. slimības lapas, komandējumi), lai brīdinātu par ierobežojumu pārsniegšanu.</td>
+</tr>
+<tr>
+<td>Samazināta likme</td>
+<td>Norāda samazinātos likmes pa dienām. (Piem: slimības lapas kādā veidā tiek apmaksātas). Klikšķiniet uz lauka linku, lai iestatītu. <br><img src="9.salary_absence_4.1.png" alt="alt"></td>
+</tr>
+<tr>
+<td>Piespiedu kalendāra kods</td>
+<td>Izvēlas noklusēto kalendāru, pēc kura tiks veikts aprēķins konkrētai prombūtnei. Atvaļinājumiem ir savs noklusētais kalendārs.</td>
+</tr>
+<tr>
+<td>Piespiedu kalendāra kods 6DDN</td>
+<td>Izvēlas noklusēto kalendāru, pēc kura tiks veikts aprēķins konkrētai prombūtnei pēc sešu darba dienu kalendāra.</td>
+</tr>
+<tr>
+<td>Lietot kalendārās dienas</td>
+<td>Norāda prombūtnes aprēķina veidu pa dienām (periods): <br>-	Darba diena; <br> -	Kalendārā diena; <br>-	Ar roku  - dienu skaits nav atkarīgs no perioda.</td>
+</tr>
+<tr>
+<td>Atvieglojumi aprēķina periodā</td>
+<td>Atzīme laukā norāda, ka atvieglojumi būs šajā mēnesī. Ja atzīmes nav, tad tie tiks pārnesti arī uz priekšu. (piem.: gari atvaļinājumi skolotājiem).</td>
+</tr>
+<tr>
+<td>Iekļaut faktiskajā darba laikā</td>
+<td>Ja ir atzīme šajā laukā, tad  tiek uztvertas kā faktiski nostrādātās dienas (piem. komandējums).</td>
+</tr>
+<tr>
+<td>Aprēķina prioritāte</td>
+<td>Norāda prombūtnes iemesla vietu algas aprēķināšanas darbību ķēdē - jo mazāks skaitlis, jo augstāka prioritāte. Tās var norādīt gan algas komponentēm, gan arī prombūtnes iemesliem. Ja algas komponente nāk no prombūtnes ieraksta (atval. komp.), tad prioritāte tiek ņemta no prombūtnes iemesla.</td>
+</tr>
+<tr>
+<td>Vidējā izpeļņa pa stundām</td>
+<td>Pastāv iespēja izvēlēties: tukšums, tikai SDL ( summētajam darba laikam), visiem..</td>
+</tr>
+<tr>
+<td>Grāmatot uz nākamajiem periodiem</td>
+<td>Ķeksis tiek ielikts gadījumā, ja pārejošās prombūtnes nākamā perioda daļa tiek grāmatota uz nākamā perioda izdevumiem.</td>
+</tr>
+<tr>
+<td>G/U Kods</td>
+<td>Norāda brīvi izvēlētu kodu, kas būs apzīmējums šim prombūtnes veidam tabeles izdrukā.</td>
+</tr>
+<tr>
+<td>Krāsa tabeles izdrukā</td>
+<td>Izvēlas krāsu, ar kādu marķētas prombūtnes dienas tabeles izdrukā.</td>
+</tr>
+<tr>
+<td>Brīvdiena saglabājot darba algu</td>
+<td>Tiek izmantota, ja darbiniekam iedota brīvdiena, kura jāapmaksā pēc principa  “saglabājot darba algu”, bet neiekļaut faktiskajā laikā (piemēram, donora dienas).</td>
+</tr>
+<tr>
+<td>Prombūtnes sāk. ziņu kods</td>
+<td>Norāda ziņu kodu, kāds tiks atspoguļots atskaitē  Ziņas par darba ņēmējiem saistībā ar prombūtnes sākumu. Darbinieka ziņu kods sistēmā aizpildīsies pēc prombūtnes sākuma datuma ievadīšanas.</td>
+</tr>
+<tr>
+<td>Darba atsākšanas ziņu kods</td>
+<td>Norāda ziņu kodu, kāds tiks atspoguļots atskaitē  Ziņas par darba ņēmējiem saistībā ar prombūtnes beigām. Darbinieka ziņu kods sistēmā aizpildīsies pēc prombūtnes beigu datuma ievadīšanas.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="cilne-atvaļinājumi">Cilne <em>Atvaļinājumi</em></h3>
+<table>
+<thead>
+<tr>
+<th>Lauka nosaukums</th>
+<th>Apraksts</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ietekme uz atvaļinājumu</td>
+<td>Norāda prombūtnes ietekmi uz ikgadējo atvaļinājumu atlikumu.</td>
+</tr>
+<tr>
+<td>Atvaļinājuma kompensācija</td>
+<td>Atvaļinājuma kompensācijas pazīme. Pielietota Alvaļinājuma kompensācijas koda kartiņā.</td>
+</tr>
+</tbody>
+</table>
 <p>Lai ievadītu jaunu prombūtni, ir jādodas uz reģistru <em>Darbinieku prombūtnes</em> un jāizveido jauna <em>Darbinieka prombūtnes karte</em> klikšķinot uz pogas <em>Jauns</em>.</p>
 <p>Darbinieka prombūtnei iespējams definēt Dimensijas klikšķinot uz <img src="count1.png" alt="alt">.</p>
 <p>Izvēloties <em>Darbinieka Nr.</em> ir iespējams apskatīt izvēlētā darbinieka detalizāciju <img src="count2.png" alt="alt">, lai ērti apskatītu, piemēram, iepriekšējo prombūtņu ierakstus vai iepriekšējo periodu algas datus.</p>
