@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/faq.html",
-          "hash": "MMfeWCDS/oBkhRwTOuaUHw=="
+          "hash": "zRoe6i9OWWpNtMQOZReXlQ=="
         }
       },
       "is_incremental": false,
@@ -147,7 +147,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/10.salary_comp.register.html",
-          "hash": "tnlP1dwMO4+5IEI/JBs4rw=="
+          "hash": "iXymGCDovTmoV4BcMGXB6g=="
         }
       },
       "is_incremental": false,
@@ -292,7 +292,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/12.salary_pay.html",
-          "hash": "2MNh8u/3Nkd6FHWxat84Jg=="
+          "hash": "XDXS8EL1pMUGTQ9OeiujzQ=="
         }
       },
       "is_incremental": false,
@@ -449,6 +449,17 @@
       "output": {
         "resource": {
           "relative_path": "docs/payroll_base/setup/14.reports_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/14.reports_3.1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/14.reports_3.1.png"
         }
       },
       "is_incremental": false,
@@ -1230,7 +1241,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/9.salary_absence.html",
-          "hash": "n3+HQi6bAVxZ1t9QvVu2Gw=="
+          "hash": "O4G43XOhSjI+NG5LiZga4Q=="
         }
       },
       "is_incremental": false,
