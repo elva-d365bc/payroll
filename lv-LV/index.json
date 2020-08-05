@@ -72,7 +72,7 @@
   "docs/payroll_base/setup/15.empl_termination.html": {
     "href": "docs/payroll_base/setup/15.empl_termination.html",
     "title": "Darbinieka atbrīvošana no darba | Latvian Payroll",
-    "keywords": "Darbinieka atbrīvošana no darba Lai darbinieku atbrīvotu no darba, darbinieka kartiņas cilnē Administrēšana ieraksta atbrīvošanas datumu . Apstiprinot datuma ievadi, sistēma šo datumu ievadīs arī Darbinieka amata kartiņas laukā Datums līdz un tiks noslēgtas visas algu komponentes . Ja Algu uzstādījumu cilnē Atskaites ir ieslēgta funkcija Ziņu koda pārbaudes iesl. , tad aizpildot Līguma izbeigšanas datums lauku, sistēma piedāvās arī ievadīt darbinieka ziņu kodu EDS iesniedzamam paziņojumam Ziņas par darba ņēmējiem . Komponešu reģistrā var pievienot nepieciešamās piemaksas vai atvilkumus gala aprēķinam. Ja darbiniekam ir negatīvs uzkrātās atvaļinājuma dienu atlikums."
+    "keywords": "Darbinieka atbrīvošana no darba Lai darbinieku atbrīvotu no darba, darbinieka kartiņas cilnē Administrēšana ieraksta atbrīvošanas datumu . Apstiprinot datuma ievadi, sistēma šo datumu ievadīs arī Darbinieka amata kartiņas laukā Datums līdz un tiks noslēgtas visas algu komponentes . Ja Algu uzstādījumu cilnē Atskaites ir ieslēgta funkcija Ziņu koda pārbaudes iesl. , tad aizpildot Līguma izbeigšanas datums lauku, sistēma piedāvās arī ievadīt darbinieka ziņu kodu EDS iesniedzamam paziņojumam Ziņas par darba ņēmējiem . Komponešu reģistrā var pievienot nepieciešamās piemaksas vai atvilkumus gala aprēķinam. Sagatavojot algas aprēķinu neizmantotā atvaļinājuma kompensācijas aprēķins tiek pievienots algas aprēķinam automātiski, ņemot vērā uzkrāto."
   },
   "docs/payroll_base/setup/2.payroll_acc.html": {
     "href": "docs/payroll_base/setup/2.payroll_acc.html",
