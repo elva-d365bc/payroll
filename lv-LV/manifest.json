@@ -1228,18 +1228,6 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "docs/payroll_base/setup/7.salary.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/payroll_base/setup/7.salary.html",
-          "hash": "WWzl24uVb+a0IKhoClLzKQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
       "type": "Resource",
       "source_relative_path": "docs/payroll_base/setup/7.salary_1.png",
       "output": {
@@ -1522,7 +1510,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/toc.html",
-          "hash": "0ujMOus/+2UExqTzhE1Raw=="
+          "hash": "KTRNU0JXGXAZmIQ0DiBnug=="
         }
       },
       "is_incremental": false,
@@ -1771,7 +1759,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 43,
+          "total_file_count": 42,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
