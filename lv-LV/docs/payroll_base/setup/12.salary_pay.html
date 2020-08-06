@@ -95,6 +95,75 @@ Gadījumā, ja nepieciešams stornēt jau veiktus maksājumus, jāieliek ķeksis
 <p>Lai iegūtu izmaksu informāciju failā, jāklikšķina uz pogām Banka (<img src="count1.png" alt="alt">) un <em>Eksportēt algu maksājumu</em> (<img src="count2.png" alt="alt">).</p>
 <p>Lai iegrāmatotu algu maksājumu, rīkjoslas sadaļā <em>Grāmatot/drukāt</em> (<img src="count3.png" alt="alt">) klikšķina uz pogas <em>Grāmatot</em>. Tomēr, ja Algu uzstādījumu cilnē <em>Visp.info</em> nav atzīmēta funkcija <em>Atļaut detalizētu maksājumu grāmatošanu</em>, tad algas maksājumu grāmatošanai sadaļā <em>Grāmatot/drukāt</em> (<img src="count3.png" alt="alt">) klikšķina uz pogas <em>Algu grupētais grāmatojums</em>.</p>
 <p>Papaildus kontrolei un apstiprinājumam pirms algas izmaksas ir iespēja izdrukāt atskaiti ar darbinieku sarakstu un tiem izmaksājamām summām un bankas kontiem, kur tiks pārskaitīts maksājums. Atskaite pieejama rīkjoslas sadaļā <em>Atskaite</em> (<img src="count4.png" alt="alt">) - <em>Algu saraksta izdruka</em>.</p>
+<h2 id="maksājums-trešajām-pusēm">Maksājums trešajām pusēm</h2>
+<p>Ja pēc ieturējuma veikšanas summa jāpārskaita citai personai uz citu bankas kontu, tad jāievada atbilstoši visi bankas konta dati darbinieka kartiņā klikšķinot uz pogām <em>Naviģēt</em> - <em>Darbinieks</em> - <em>Algas</em> - <em>Pārskaitījumi</em>.</p>
+<p><img src="10.salary_comp.register_5.png" alt="alt"></p>
+<p>Lai iestatītu maksājumu, jāaizpilda sekojoši lauki:</p>
+<table>
+<thead>
+<tr>
+<th>Lauka nosaukums</th>
+<th>Apraksts</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Darbinieka Nr</td>
+<td>Sistēmas ģenerēts lauks.</td>
+</tr>
+<tr>
+<td>Darbinieka algas komponentes rindas Nr.</td>
+<td>Izvēlieties no saistītajam darbiniekam pieveinoto komponenšu saraksta atbilstošo ieturējuma komponenti.</td>
+</tr>
+<tr>
+<td>Algas komponentes kods</td>
+<td>Tiks automātiski aizpildīts no lauka <em>Darbinieka algas komponente</em>.</td>
+</tr>
+<tr>
+<td>Piegādātāja Nr.</td>
+<td>Izvēlas no Piegādātāju saraksta maksājuma saņēmēju. Ja nepieciešams, ievada jaunu piegādātāju.</td>
+</tr>
+<tr>
+<td>Piegādātāja vārds</td>
+<td>Tiks automātiski aizpildīts no Piegādātāju saraksta.</td>
+</tr>
+<tr>
+<td>Piegādātāja bankas kods</td>
+<td>Izvēlas no piegādātāja banaks kontu saraksta nepieciešamo bankas kontu.</td>
+</tr>
+<tr>
+<td>Nosaukums</td>
+<td>Ieraksta brīvi izvēlētu maksājuma nosaukumu.</td>
+</tr>
+<tr>
+<td>Informācija par maksājumu</td>
+<td>Ieraksta maksājuma pamatojumu, ko nepieciešams atspoguļot bankas maksājuma detaļās.</td>
+</tr>
+<tr>
+<td>Izmaksu summa</td>
+<td>Sistēmas ģenerēts lauks, kas atspoguļo summu, kas aprēķināta izmaksai šajai trešajai personai visos aprēķina periodos kopā.</td>
+</tr>
+<tr>
+<td>Maksājumu summa</td>
+<td>Sistēmas ģenerēts lauks, kas atspoguļo summu, kas ir samaksāta trešajai personai visos aprēķina periodos kopā.</td>
+</tr>
+<tr>
+<td>Atlikusī maksājumu summa</td>
+<td>Sistēmas ģenerēts lauks, kas atspoguļo summu, kas ir aprēķināta, bet nav samaksāta trešajai personai visos aprēķina periodos kopā.</td>
+</tr>
+</tbody>
+</table>
+<p>Lai veiktu izmaksu trešajām personām, jāpalaiž atbilstošā mēneša Algas aprēķina sarakstā funkcija <em>Eksports uz maksājumu žurnālu</em>, kas atrodas zem rīkjoslas pogas <em>Darbības</em>.
+Iznirstošajā logā jāievada sekojoši parametri:</p>
+<ol>
+<li>No saraksta jāizvēlas <em>Pārskaitījumi trešajām pusēm</em>;</li>
+<li>Izvēlas noklusējuma maksājuma žurnāla iedaļu;</li>
+<li>Ieraksta maksājuma grāmatošanas datumu.</li>
+</ol>
+<p><img src="10.salary_comp.register_6.png" alt="alt"></p>
+<p>Maksājuma žurnālā tika izveidoti ieraksti.</p>
+<p>Lai izveidotu failu, kas jāimportē internetbankā, jānospiež (<img src="count1.png" alt="alt">, <img src="count2.png" alt="alt">) poga <em>Eksportēt</em> (maksājumu fails parastiem piegādātājiem).</p>
+<p><img src="10.salary_comp.register_7.png" alt="alt"></p>
 <h2 id="algu-saraksta-grāmatošana">Algu saraksta grāmatošana</h2>
 <p>Lai izveidoto algu sarakstu varētu iegrāmatot, vispirms izmanto Rīkjoslas sadaļas <em>Apstrādāt</em> (<img src="count1.png" alt="alt">) funkciju <em>Nodot</em> (<img src="count2.png" alt="alt">), lai noslēgtu algu sarakstu (<img src="count3.png" alt="alt">) un to vairs nebūtu iespējams rediģēt. Ar funkciju <em>Grāmatot</em> (<img src="count4.png" alt="alt">) tiek izveidots <em>Algas grāmatošanas buferis</em>, kurā redzami visi algas saraksta grāmatojumi rindās.</p>
 <p><img src="12.salary_pay_3.png" alt="alt"></p>
@@ -110,6 +179,51 @@ Algas grāmatošanas buferis ģenerē datus no sekojošiem avotiem:</p>
 <p><img src="12.salary_pay_4.png" alt="alt"></p>
 <p>Algu sarakstu statusu un grāmatošanas faktu var redzēt sarakstā <em>Algu saraksti</em>.</p>
 <h2 id="algas-lapiņu-izsūtne">Algas lapiņu izsūtne</h2>
+<p>Lai būtu iespējams sūtīt algas lapiņas no sistēmas ir jāaizpilda <em>SMTP pasta uzstādījumi</em>, kas pieejami ievadot nosaukumu sistēmas meklētājā.</p>
+<p><img src="12.salary_pay_6.png" alt="alt"></p>
+<table>
+<thead>
+<tr>
+<th>Lauka nosaukums</th>
+<th>Apraksts</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SMTP serveris</td>
+<td>E-pasta pārsūtīšanas SMTP servera adrese.</td>
+</tr>
+<tr>
+<td>SMTP servera ports</td>
+<td>Norāda SMTP server portu. Noklusētā vērtība ir 25.</td>
+</tr>
+<tr>
+<td>Autentifikācija</td>
+<td>Autentifikācijas mehānisms: <br><em>Anonīms</em> – nav nepieciešams lietotāja ID un parole;    <br><em>NTLM</em> – tiks izmantota Windows autentifikācija; <br><em>Pamata</em> – tiks izmantots formā norādītais lietotājs un parole.</td>
+</tr>
+<tr>
+<td>Lietotāja ID</td>
+<td>Ieraksta, pamata autentifikācijas gadījumā.</td>
+</tr>
+<tr>
+<td>Parole</td>
+<td>Ieraksta, pamata autentifikācijas gadījumā.</td>
+</tr>
+<tr>
+<td>Drošs savienojums</td>
+<td>Norāda, ja SMTP pasta servera uzstādīšana pieprasa drošu savienojumu, kas izmanto šifrēšanu vai drošības protokolu, piemēram, SSL.</td>
+</tr>
+<tr>
+<td>Sūtīt lietotāja vārdā</td>
+<td>Norāda tā lietotāja ID, kura vārdā e-pasta ziņojumi tiks sūtīti. Piemēram, tas var noderēt, ja vēlaties, lai vairākas personas varētu nosūtīt ziņojumus, kas šķietami nāk no viena sūtītāja, piemēram, sales@companyname.</td>
+</tr>
+<tr>
+<td>Atļaut sūtītāja aizvietošanu</td>
+<td>Norāda, ka SMTP serveris ļauj mainīt sūtītāja vārdu un e-pastu.</td>
+</tr>
+</tbody>
+</table>
+<p>Rīkjoslā ir funkcija <em>Izmantot servera Office 365 iestatījumus</em> (<img src="count1.png" alt="alt">) un funkcija veikto iestatījumu pārbaudei, nosūtot testa ziņojumu <em>Pārbaudīt e-pasta uzstādījumus</em> (<img src="count2.png" alt="alt">).</p>
 <p>Algu sarakstā ir saīsne uz funkciju algas lapiņu izdrukai. Ja nepieciešams darbiniekiem izsūtīt algas lapiņas, sistēma izmantos e-pastu, kas norādīts darbinieka kartiņas cilnē <em>Adrese un kontaktinformācija</em>.</p>
 <p>Klikšķiniet uz pogām <em>Pārskats</em> (<img src="count1.png" alt="alt">) - <em>Algas lapiņa</em> (<img src="count2.png" alt="alt">). Drukāšanas iestatījumu logā izvēlieties <em>Sūtīt e-pastā</em> (<img src="count3.png" alt="alt">), ja nepieciešams izsūtīt tikai atsevišķiem darbiniekiem, izvēlieties darbiniekus (<img src="count4.png" alt="alt">) un norādiet periodu (<img src="count5.png" alt="alt">), par kādu vēlaties izsūtīt algas lapiņas.</p>
 <p><img src="12.salary_pay_5.png" alt="alt"></p>
