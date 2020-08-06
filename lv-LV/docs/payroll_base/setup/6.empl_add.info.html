@@ -503,13 +503,73 @@
 <p>Pēc noklusējuma sadaļā Algas komponentes uzlikts filtrs <em>Tikai aktīvas</em> komponentes. Tas nozīmē, ka sistēma atspoguļo aktīvas komponentes aktuālajā sistēmas darba datumā. Lai apskatītu visas komponentes, jānoklikšķina uz pogām <em>Algas komponentes</em> un <em>Rādīt visas/Tikai aktīvas</em>. Nospiežot otro reizi, sistēma uzliks noklusēto filtru.</p>
 <p>Izveidojot jaunu darbinieka kartiņu, pirmo reizi algu komponentes ir jāģenerē automātiski. Lai to izdarītu, rīkjoslā jānoklikšķina uz pogas <em>Apstrādāt</em> (<img src="count1.png" alt="alt">) un tad <em>Izveidot noklusētās darbinieka algas komponentes</em> (<img src="count2.png" alt="alt">).</p>
 <p><img src="5.empl_info_8.png" alt="alt"></p>
-<p>Algas komponentes ir vieta, kur ir jānorāda pamatalgas komponente, kā arī citas regulāru papildus ienākumu komponentes (piemaksas, prēmijas, bonusus u.tml., kas ir konstantas summas katru mēnesi ilgstošu laika periodu).
+<p>Algas komponentes ir vieta, kur ir jānorāda pamatalgas komponente, kā arī citas regulāru papildus ienākumu komponentes (piemaksas, prēmijas, bonusus u.tml., kas ir konstantas summas katru mēnesi ilgstošu laika periodu). Izmaksājamo avansa summu norāda avansa komponentē.
 Nepieciešamības gadījumā rindas papildina ar informāciju par atvieglojumiem - Apgādājamie, Invaliditāte, Represētais.</p>
 <div class="TIP">
 <h5>Tip</h5>
 <p><strong>Gadījumā, ja darbinieks iesniedzis nodokļu grāmatiņu darba devējam, jāaizpilda katalogs <em>Saistīta informācija</em>, ko var atrast rīkjoslā klikšķinot uz <em>Naviģēt</em> -<em>Darbinieks</em>-<em>Algas</em>.</strong></p>
 </div>
-<p>Komponentēs norāda arī informāciju par ilgstošiem Atvilkumiem (izpildraksti, alimenti, par auto lietošanu, u.tml.). Kā atvilkums uzrādāms arī avanss. Atvilkumus darbinieku kartiņā atzīmē tikai tajos gadījumos, kad tie ir konstantas summas, kas atkārtojas katru mēnesi. Vienreizēji ieturami atvilkumi reģistrējami <em>Komponenšu reģistrs</em>.</p>
+<p>Komponentēs norāda arī informāciju par ilgstošiem Atvilkumiem (izpildraksti, alimenti, par auto lietošanu, u.tml.). Atvilkumus darbinieku kartiņā atzīmē tikai tajos gadījumos, kad tie ir konstantas summas, kas atkārtojas katru mēnesi. Vienreizēji ieturami atvilkumi reģistrējami <em>Komponenšu reģistrs</em>.</p>
+<h3 id="izpildrakstu-apstrāde">Izpildrakstu apstrāde</h3>
+<p>Izpildraksts ir jāreģistrē darbinieka kartes cilnē <em>Algas komponentes</em></p>
+<p><img src="10.salary_comp.register_2.png" alt="alt"></p>
+<p><em>Konkrētajā piemērā ir ieturēti 20 % no bāzes ALIM (alga pēc nodokļu ieturēšanas) izmantojot algas komponenti Nr.740, kur minimālais ieturējums 250 EUR mēnesī, un 1250 EUR ir vekti ieturējumi par iepriekšejiem periodiem. Ieturējumam limita nav.</em></p>
+<p>Lai iestatītu izpildraksta ieturējumu, jāaizpilda sekojoši lauki:</p>
+<table>
+<thead>
+<tr>
+<th>Lauka nosaukums</th>
+<th>Apraksts</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kods</td>
+<td>Izvēlēties algas komponenti. Atkārībā no algas komponentes uzstādījumiem tiek aprēķināta ieturējuma summa.</td>
+</tr>
+<tr>
+<td>No datuma/ Līdz datumam</td>
+<td>Ja zināms, norādiet datumus, kādā periodā jāveic ieturējums.</td>
+</tr>
+<tr>
+<td>Vērtība</td>
+<td>Aizpilda gadījumā, ja ir zināma konkrēta summa, kas tiks ieturēta katru mēnesi.</td>
+</tr>
+<tr>
+<td>Kopējais limits</td>
+<td>Norāda kopējo parāda summu pēc izpildraksta.</td>
+</tr>
+<tr>
+<td>Aprēķinātā summa</td>
+<td>Sistēma šeit atspoguļo kopējo ieturēto summa šim konkrētajam izpildrakstam (no visiem algu sarakstiem kopējā summa).</td>
+</tr>
+<tr>
+<td>Mēneša limits</td>
+<td>Norāda mēneša minimālo limitu.</td>
+</tr>
+<tr>
+<td>Izmaksas minimālais limits</td>
+<td>Norāda darbinieka algas izmaksas minimālo limitu. Šajā gadījumā obligāti jābūt aizpildītai izmaksas bāzei.</td>
+</tr>
+<tr>
+<td>Izmaksas limita bāze</td>
+<td>Norāda limita bāzi, ja ir norādīts izmaksas minimālais limits.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Iespējamie konfigurācijas varianti:</strong></p>
+<ul>
+<li>Tiek ieturēti 30% no darbiniekam izmaksājamās, bet ne vairāk kā 350 EUR mēnesī. Kopējā ieturāmā summa 350 EUR. Parādīts, ka no darbinieka ir ieturēts jau 346.08 EUR.</li>
+</ul>
+<p><img src="10.salary_comp.register_3.png" alt="alt"></p>
+<ul>
+<li>Tiek ieturēti 20%, pie nosacījuma, ka ir jānodrošina darbinieka algas izmaksas summa vismaz 370 EUR mēnesī. Kopējā ieturamā summa 350 EUR. Parādīts, ka no darbinieka ir ieturēts 199.36 EUR.</li>
+</ul>
+<p><img src="10.salary_comp.register_4.png" alt="alt"></p>
+<div class="TIP">
+<h5>Tip</h5>
+<p><strong>Sistēma nenodrošina abus variantus vienlaicīgi - kad tiek lietots <em>Mēneša limits</em> un <em>Izmaksas minimālais limits</em>!</strong></p>
+</div>
 </article>
           </div>
           
