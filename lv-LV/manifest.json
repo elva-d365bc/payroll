@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/0.conf_pack.html",
-          "hash": "ja2FSTVUljZXtM0qBXgxqw=="
+          "hash": "20G04r78R8aHo6ItMD745g=="
         }
       },
       "is_incremental": false,
@@ -135,7 +135,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/1.setting_up.html",
-          "hash": "7TiV5YG/GSXZOjtLvoTtHg=="
+          "hash": "qncXS6zpPRxCE7CZV5fJuQ=="
         }
       },
       "is_incremental": false,
@@ -147,7 +147,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/10.salary_comp.register.html",
-          "hash": "1BonaxO6LrT3+LkHpUbG6g=="
+          "hash": "kehZWlmtA7J0PZreRcIi1w=="
         }
       },
       "is_incremental": false,
@@ -292,7 +292,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/12.salary_pay.html",
-          "hash": "PrFOxySuQFczt7v5ecYl1A=="
+          "hash": "SUx1cbAfgNC2sEhyPJhDKA=="
         }
       },
       "is_incremental": false,
@@ -381,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/13.salary_recalc.html",
-          "hash": "P1wnSGFHUNhc6wQ23M+TDw=="
+          "hash": "pFsmmCC/odFhh8qxTtTl+g=="
         }
       },
       "is_incremental": false,
@@ -515,7 +515,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/14.reports_an.html",
-          "hash": "TXBkuH3HeQHfODaafn/LtQ=="
+          "hash": "oHyTFZtJGE2ZxVUaFNsi2w=="
         }
       },
       "is_incremental": false,
@@ -527,7 +527,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/14.reports_eds.html",
-          "hash": "V+gDw7UcHvwb+gAds08bPQ=="
+          "hash": "3tUKpS96BN3whqvb7SagIA=="
         }
       },
       "is_incremental": false,
@@ -550,18 +550,6 @@
       "output": {
         "resource": {
           "relative_path": "docs/payroll_base/setup/15.empl_termin_2.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/payroll_base/setup/15.empl_termination.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/payroll_base/setup/15.empl_termination.html",
-          "hash": "Avr9cGfB6tV4U8bXgo4LCQ=="
         }
       },
       "is_incremental": false,
@@ -742,7 +730,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/3.absence.html",
-          "hash": "Ql+17oKYV+bjZaqcyspX+A=="
+          "hash": "MFdkLoh4e7DxNgsEwBOmSA=="
         }
       },
       "is_incremental": false,
@@ -943,7 +931,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/4.empl_card.html",
-          "hash": "Ays1nqBmTYU4G0EjjOWgSg=="
+          "hash": "LMhd+o6QHIIqvngJJ1NDnQ=="
         }
       },
       "is_incremental": false,
@@ -1132,7 +1120,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/6.1.empl_add.info.html",
-          "hash": "jlEpgWWGnHNak+BwCbQd4g=="
+          "hash": "DnoV6DYiFPY6OIZdEs5mcw=="
         }
       },
       "is_incremental": false,
@@ -1144,7 +1132,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/6.empl_add.info.html",
-          "hash": "XcEyK8rkR7mRIpQxfROZnA=="
+          "hash": "KpBkoIGG/bg/qr0Ukq/tdA=="
         }
       },
       "is_incremental": false,
@@ -1240,61 +1228,6 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "docs/payroll_base/setup/7.salary_1.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/payroll_base/setup/7.salary_1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/payroll_base/setup/7.salary_2.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/payroll_base/setup/7.salary_2.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/payroll_base/setup/7.salary_3.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/payroll_base/setup/7.salary_3.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/payroll_base/setup/7.salary_4.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/payroll_base/setup/7.salary_4.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/payroll_base/setup/7.salary_5.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/payroll_base/setup/7.salary_5.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
       "source_relative_path": "docs/payroll_base/setup/8.salary_hours_1.png",
       "output": {
         "resource": {
@@ -1321,7 +1254,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/8.salary_timing.html",
-          "hash": "uzqsDMJsLbpi0PmLdGFmkA=="
+          "hash": "0jCKsPp02KOLfsUpLNOjTA=="
         }
       },
       "is_incremental": false,
@@ -1333,7 +1266,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/9.salary_absence.html",
-          "hash": "C1dOQbFRfuuMPJUCTavnCA=="
+          "hash": "Ieo7eSfoguJPsezl8CY+gQ=="
         }
       },
       "is_incremental": false,
@@ -1781,7 +1714,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 42,
+          "total_file_count": 41,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
