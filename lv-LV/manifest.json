@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "d:/a/1/s/lv-LV",
+  "source_base_path": "D:/a/1/s/lv-LV",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/faq.html",
-          "hash": "Y4k1WDsPpJn1xjiHzbNgyQ=="
+          "hash": "PrHjThT21dOlNxlGxpWBpQ=="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/0.conf_pack.html",
-          "hash": "oyu/1nN68lgJI0ThhQ+9Rg=="
+          "hash": "ja2FSTVUljZXtM0qBXgxqw=="
         }
       },
       "is_incremental": false,
@@ -545,6 +545,17 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/15.empl_termin_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/15.empl_termin_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "docs/payroll_base/setup/15.empl_termination.md",
       "output": {
@@ -586,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/2.payroll_acc.html",
-          "hash": "rHzBxHIuTI/S6Ghyla1zlQ=="
+          "hash": "gxorPHdnh/Fxoz1uPZm+sQ=="
         }
       },
       "is_incremental": false,
@@ -932,7 +943,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/4.empl_card.html",
-          "hash": "uND7QuEzc8BcAQFqn1HSzA=="
+          "hash": "Ays1nqBmTYU4G0EjjOWgSg=="
         }
       },
       "is_incremental": false,
@@ -1121,7 +1132,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/6.1.empl_add.info.html",
-          "hash": "0G8OuJhCI/6jzVIx2L4FJg=="
+          "hash": "jlEpgWWGnHNak+BwCbQd4g=="
         }
       },
       "is_incremental": false,
@@ -1133,7 +1144,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/6.empl_add.info.html",
-          "hash": "mxcLY8w/0Kg6W5PW5DERCQ=="
+          "hash": "XcEyK8rkR7mRIpQxfROZnA=="
         }
       },
       "is_incremental": false,
@@ -1499,6 +1510,17 @@
       "output": {
         "resource": {
           "relative_path": "docs/payroll_base/setup/count9.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/faq_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/faq_1.png"
         }
       },
       "is_incremental": false,
