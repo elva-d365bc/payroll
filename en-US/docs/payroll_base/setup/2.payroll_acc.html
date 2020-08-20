@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Algu uzst&#257;d&#299;jumi | Latvian Payroll </title>
+    <title>Payroll setup | Latvian Payroll </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Algu uzst&#257;d&#299;jumi | Latvian Payroll ">
+    <meta name="title" content="Payroll setup | Latvian Payroll ">
     <meta name="generator" content="docfx 2.56.2.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
@@ -77,302 +77,302 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="algu-uzstādījumi">Algu uzstādījumi</h1>
+<h1 id="payroll-setup">Payroll setup</h1>
 
-<p>Ielādējot konfigurācijas pakotni standarta uzstādījumi jau ir aizpildīti, tomēr rekomendējam pārskatīt visus uzstādījumus atbilstoši jūsu uzņēmuma vajadzībām.</p>
-<h3 id="cilne-vispārīgā-informācija">Cilne: <em>Vispārīgā informācija</em></h3>
+<p>When you apply the configuration package, the default settings are already complete, but we recommend that you review all the settings to suit your business needs.</p>
+<h3 id="tab-general">Tab: <em>General</em></h3>
 <p><img src="2.payroll_acc_1.png" alt="alt"></p>
 <table>
 <thead>
 <tr>
-<th>Lauka nosaukums</th>
-<th>Apraksts</th>
+<th>Field name</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Algas valūtas kods</td>
-<td>Norāda algas valūtas kodu. Gadījumā, ja algas tiek rēķinātas vietējā valūtā, tad lauks nav jāaizpilda.</td>
+<td>Salary Currency Code</td>
+<td>Specifies the payroll currency code. If salaries are calculated in local currency, leave the field blank.</td>
 </tr>
 <tr>
-<td>Algas izmaksas datums</td>
-<td>Norāda algas izmaksas datumu, kurš parādās algas saraksta virsrakstā un EDS atskaitē Ziņojums par VSOAI.</td>
+<td>Salary Pay Date</td>
+<td>Specifies the payout date that appears on the payroll header and in the VSOAI report for State Revenue Service.</td>
 </tr>
 <tr>
-<td>Avansa izmaksas datums</td>
-<td>Norāda avansa izmaksas datumu, kurš parādās avansa saraksta  virsrakstā.</td>
+<td>Advance Pay Date</td>
+<td>Specifies the advance payment date that appears on the advance list header.</td>
 </tr>
 <tr>
-<td>Svētku un brīvdienu apmaksas koeficients</td>
-<td>Koeficientu izmanto, lai aprēķinātu piemaksu par darba stundām svētku dienās un brīvdienās.</td>
+<td>Bank Holiday Coef</td>
+<td>The coefficient is used to calculate the allowance for working hours on public holidays and holidays.</td>
 </tr>
 <tr>
-<td>Nakts darba apmaksas koeficients</td>
-<td>Koeficientu izmanto, lai aprēķinātu piemaksu par nakts darba stundām.</td>
+<td>Night Pay Coef</td>
+<td>The coefficient is used to calculate the allowance for night work hours.</td>
 </tr>
 <tr>
-<td>Virsstundu apmaksas koeficients</td>
-<td>Koeficientu izmanto, lai aprēķinātu piemaksu par nostrādātajām virsstundām.</td>
+<td>Overtime Coef</td>
+<td>The coefficient is used to calculate the bonus for worked overtime.</td>
 </tr>
 <tr>
-<td>IIN 1. līmeņa ienākumu limits</td>
-<td>1. līmeņa limits.</td>
+<td>Income Tax Lvl 1 Income Limit</td>
+<td>Level 1 limit.</td>
 </tr>
 <tr>
-<td>IIN 2. līmeņa ienākumu limits</td>
-<td>2. līmeņa limits darbiniekiem, kuriem A1 sertifikāts.</td>
+<td>Income Tax Lvl 2 Income Limit</td>
+<td>Level 2 limit, for employees with A1 certificate.</td>
 </tr>
 <tr>
-<td>IIN globālais bāzes kods</td>
-<td>Tiek izmantots atvieglojumu pārejai uz citu līmeni.</td>
+<td>Income Tax Global Base Code</td>
+<td>Used to facilitate the transition to another level.</td>
 </tr>
 <tr>
-<td>Nepārbaudīt attaisnotās promb. 12M vid. izpeļņā</td>
-<td>Šī pazīme darbojas, ja ielikta otra pazīme “Nepilniem periodiem lietot tekošo mēnesi vid. izpeļņai”. Ja pazīme nav ielikta, tad tekošais mēnesis netiek paņemts, ja attaisnotās prombūtnes ilgums ir mazāk par 12 mēnešiem, bet gadījumā ja prombūtnes ilgums ir vairāk par 12 mēnešiem, tekošais mēnesis tiks iekļauts vidējās izpeļņas aprēķinā.</td>
+<td>No Justif Absence 12M Check for Average</td>
+<td>This option works if the second feature “Use Curr. Month in Avg. Gain if Period not Full&quot;. If the attribute is not inserted, the current month is not taken if the duration of the eligible absence is less than 12 months, but if the duration of the absence is more than 12 months, the current month will be included in the calculation of average earnings.</td>
 </tr>
 <tr>
-<td>Nepilniem periodiem lietot tekošo mēnesi vid. izpeļņai</td>
-<td>Ja ir ielikta atzīme šajā laukā, tad vidējās izpeļņas aprēķinam Sistēma vispirms pārbauda iepriekšējos 6 kalendāros mēnešus. Ja iepriekšējos 6 kalendāros mēnešos ir bijušas darba stundas, tad sistēma pārbauda pirmo kalendāro mēnesi (no šī 6 mēnešu perioda). Ja pirmajā mēnesī nav bijušas stundas – sistēma uzskata, ka tas ir nepilns periods un vidējās izpeļņas aprēķinam izmanto arī tekošo mēnesi. Ja pirmajā mēnesī ir bijušas stundas – vidējās izpeļņas aprēķinam tiek izmantoti iepriekšējie 6 kalendārie mēneši. Ja iepriekšējos 6 kalendāra mēnešos nav bijušas darba stundas, tad sistēma pārbauda iepriekšējos 12 kalendāra mēnešus. Ja iepriekšējos 12 kalendāros mēnešos ir bijušas darba stundas, tad Sistēma pārbauda pirmo kalendāro mēnesi (no šī 12 mēnešu perioda). Ja pirmajā mēnesī nav bijušas stundas – Sistēma uzskata, ka tas ir nepilns periods un vidējās izpeļņas aprēķinam izmanto arī tekošo mēnesi. Ja pirmajā mēnesī ir bijušas stundas – vidējās izpeļņas aprēķinam tiek izmantoti iepriekšējie 12 kalendārie mēneši. Ja iepriekšējos 12 kalendāra mēnešos nav bijušas darba stundas, tad Sistēma vidējās izpeļņas aprēķinam izmanto tikai tekošā mēneša datus. Ja nav bijušas darba stundas iepriekšējos 12 kalendāra mēnešos, kā arī tekošajā mēnesī – vidējās izpeļņas aprēķinam tiks izmantota iepriekšējo 6 kalendāra mēnešu minimālā alga.</td>
+<td>Use Curr. Month in Avg. Gain if Period not Full</td>
+<td>If this is activated, the System will first check the previous 6 calendar months to calculate the average earnings. If there have been working hours in the previous 6 calendar months, the system checks the first calendar month (from this 6-month period). If there were no hours in the first month - the system considers this to be an incomplete period and the current month is also used to calculate the average earnings. If there have been hours in the first month - the previous 6 calendar months are used to calculate the average earnings. If there have been no working hours in the previous 6 calendar months, the system checks the previous 12 calendar months. If there have been working hours in the previous 12 calendar months, the System checks the first calendar month (from this 12-month period). If there were no hours in the first month - the System considers that this is an incomplete period and the current month is also used to calculate the average earnings. If there have been hours in the first month - the previous 12 calendar months are used to calculate the average earnings. If there have been no working hours in the previous 12 calendar months, then the System uses only the data of the current month to calculate the average earnings. If there have been no working hours in the previous 12 calendar months, as well as in the current month - the minimum wage of the previous 6 calendar months will be used to calculate the average earnings.</td>
 </tr>
 <tr>
-<td>Vidējās apmaksas precizitāte</td>
-<td>Norāda precizitāti (zīmes aiz komata), ar kādu vidējā izpeļņa tiks izmantota aprēķinos.</td>
+<td>Average Gain Precision</td>
+<td>Indicates the precision (decimal point) with which the average earnings will be used in the calculations.</td>
 </tr>
 <tr>
-<td>Noklusētais kalendārs</td>
-<td>Valsts noteiktais kalendārs 5 darba dienu nedēļai.</td>
+<td>Default Calendar</td>
+<td>National calendar for week of 5 workdays.</td>
 </tr>
 <tr>
-<td>Noklusētais kalendārs 6DDN</td>
-<td>Valsts noteiktais kalendārs 6 darba dienu nedēļai.</td>
+<td>Default Calendar 6DDN</td>
+<td>National calendar for week of 6 workdays.</td>
 </tr>
 <tr>
-<td>Darba dev. soc. nod. konta tips</td>
-<td>Norāda konta tipu, kurā tiks grāmatots aprēķinātais darba devēja sociālais nodoklis.</td>
+<td>Employers Soc. Tax Acc. Type</td>
+<td>Specifies the account type to which the calculated employer social tax will be posted.</td>
 </tr>
 <tr>
-<td>Darba dev. soc. nod. konta Nr.</td>
-<td>Norāda kontu, kurā tiks grāmatots aprēķinātais darba devēja sociālais nodoklis.</td>
+<td>Employers Soc. Tax Acc. No.</td>
+<td>Specifies the account to which the calculated employer's social tax will be posted.</td>
 </tr>
 <tr>
-<td>Automātiski veidot amatu karti</td>
-<td>Ja ir atzīme šajā laukā, tad veidojot jaunu darbinieku, automātiski veidosies arī amata karte.</td>
+<td>Automatically Create Employee Position</td>
+<td>If there is a check mark in this field, then when creating a new employee, a position card will be created automatically.</td>
 </tr>
 <tr>
-<td>Bankas veidnes nosaukums</td>
-<td>Norāda žurnālu, caur kuru tiks veikti algas maksājumi no bankas konta.</td>
+<td>Bank Journal Template Name</td>
+<td>Indicates the journal through which salary payments will be made from the bank account.</td>
 </tr>
 <tr>
-<td>Bērnu kopšanas prombūtnes filtrs</td>
-<td>Atbilstošais prombūtnes kods.</td>
+<td>Child Care Absence Filter</td>
+<td>The corresponding absence code.</td>
 </tr>
 <tr>
-<td>Vidējās izpeļņas prombūtnes kods</td>
-<td>Prombūtnes kods vidējai izpeļņai.</td>
+<td>Average Abs. Code For Report</td>
+<td>Absence code for average earnings.</td>
 </tr>
 <tr>
-<td>Prombūtnes korekcijas kods</td>
-<td>Kods, ar kādu atrādās Algu pārrēķina rindas Prombūtnes reģistrācijā.</td>
+<td>Absence Code for Correction</td>
+<td>Code with which payroll recalculation lines appear in the Absence register.</td>
 </tr>
 <tr>
-<td>Atvaļ. dienu tips</td>
-<td>Norāda, kā uzskaita atvaļinājuma dienas - Darba dienās vai Kalendārajās dienās.</td>
+<td>Vacation Day Type</td>
+<td>Indicates how the holidays are counted - Working days or Calendar days.</td>
 </tr>
 <tr>
-<td>Atvaļ. dienu skaits vienā periodā</td>
-<td>Norāda atvaļinājuma dienu skaitu, kas pienākas katram darbiniekam vienā periodā.</td>
+<td>Vacation Days per one Period</td>
+<td>Specifies the number of vacation days due per employee per period.</td>
 </tr>
 <tr>
-<td>Atvaļ. apmaksājamo dienu skaits vienā periodā</td>
-<td>Norāda apmaksājamo atvaļinājuma dienu skaitu, kas pienākas katram darbiniekam vienā periodā.</td>
+<td>Vacation Paid Days</td>
+<td>Specifies the number of paid vacation days due to each employee per period.</td>
 </tr>
 <tr>
-<td>Noklusētais stundu sk. atvaļ./vid.izp. aprēķiniem</td>
-<td>Norāda noklusēto vienas dienas stundu skaitu, kurš tiek izmantots kompensācijas aprēķinos, kā arī vid. izpeļņā.</td>
+<td>Default Hour Qty. For Vacation/Average Calculation</td>
+<td>Indicate the default number of hours per day used in the compensation calculation as well as the average earnings.</td>
 </tr>
 <tr>
-<td>Sūtīt algas lapiņas caur</td>
-<td>Norāda vedu, kā tiks sūtītas algu lapiņas – Outlook vai SMTP protokols. SMTP gadījumā aizpilda sekojošos laukus.</td>
+<td>Pay Slip Send Mail By</td>
+<td>Indicates how to send salary slips - Outlook or SMTP protocol. In the case of SMTP, fill in the following fields.</td>
 </tr>
 <tr>
-<td>Algas lapiņas nosūtītāja vārds</td>
-<td>Norāda vārdu, kas izsūta algu lapiņas.</td>
+<td>Pay Slip Sender Name</td>
+<td>Indicates the name that sends out pay slips.</td>
 </tr>
 <tr>
-<td>Algas lapiņas nosūtītāja e-pasts</td>
-<td>Norāda e-pastu, caur kuru algu lapiņas tiek izsūtītas.</td>
+<td>Pay Slip Sender E-Mail</td>
+<td>Specifies the e-mail through which payroll notes are sent.</td>
 </tr>
 <tr>
-<td>Algas lomas ID</td>
-<td>Norāda to algas lomu, kura dod tiesības redzēt visu informāciju darbinieka kartiņā. Norāda tikai tajā gadījumā, ja nepieciešams lietotāju nodalījums ar pilnu un daļēju piekļuvi.</td>
+<td>Payroll Role ID</td>
+<td>Indicate the role of the salary that gives the right to see all the information in the employee's card. Indicated only if a user partition with full and partial access is required.</td>
 </tr>
 <tr>
-<td>Nākamā perioda apmaksas atvilkums</td>
-<td>Komponente, kas tiek lietota storno risinājumā. Gadījumā, ja no algas saraksta jau veikta izmaksa, tad tekošā mēneša nākamajā algu sarakstā šī izmaksa tiks uzskaitīta zem noradīta algas komponentes koda.</td>
+<td>Next period Deduction Component</td>
+<td>Component used in storno transactions. In case a payment has already been made from the salary list, then in the next salary list of the current month this payment will be listed under the indicated salary component code.</td>
 </tr>
 <tr>
-<td>Nelietot sistēmas komp. reģistrus</td>
-<td>Norāde, ka algu aprēķinos netiks lietoti sistēmas radītie komponenšu reģistri. Gadījumā, ja ir nepieciešamas korekcijas, un ielikts ķeksis “Nelietot” , aprēķinot, tiek paradīti paziņojumi par korekcijām, bet reģistrs netiks veidots.</td>
+<td>No System Component Registers</td>
+<td>Indicates if you do not want to use system-generated Component Register entries in payroll calculations. In case adjustments are required and the &quot;Do not use&quot; tick is enabled, notifications of adjustments are displayed during the calculation, but the register entries will not be created.</td>
 </tr>
 <tr>
-<td>Atļaut detalizētu maksājumu grāmatošanu</td>
-<td>Atzīme šajā laukā norāda uz to, ka algu maksājums tiks grāmatots detalizēti, nevis grupēts viss vienā summā; algu maksājumus eksportē uz maksājumu žurnālu un lietotājs var iegrāmatot ar standarta grāmatojumu par katru darbinieku atsevišķi. Tādā gadījumā  VG var redzēt, cik katrs saņem. Tādēļ tika uztaisīta otra grāmatošanas funkcija algām, kura var sagrupēt pa dimensijām un tad iegrāmatot maksājumus. Lai lietotājs nevarētu izmantot algu maksājumiem standarta grāmatošanu pa katru žurnāla rindu, ir šis uzstādījums, kas to aizliedz.</td>
+<td>Allow Detailed Payment Posting</td>
+<td>A check mark in this field indicates that the salary payment will be posted in detail, rather than grouping everything in one amount. Salary payments are exported to the payment journal and can be posted by the user with standard posting for each employee individually. In this case, in the general ledger can be seen how much each employee receives. Therefore, a second accounting function is provided for salaries, which can be grouped by dimension and then booked into payments.</td>
 </tr>
 <tr>
-<td>Nepārnest nepiemērotos atviegl.</td>
-<td>Norāde, ka nepiemērotie atvieglojumi netiks pārnesti uz nākošo mēnešu algu aprēķiniem;  Nepiemērotie atvieglojumi tiek pārnesti caru komponenšu reģistru, kas tiek izveidots aprēķina brīdī. Ja aprēķina brīdī bija pazīme, ka nevajag pārnest nepiemērotos atvieglojumus, tad arī nebūs komponenšu reģistra ieraksta un nākamajā mēnesī tie netiks ņemti vērā.</td>
+<td>No Uncalc. Relief Transfer</td>
+<td>Indicate if you do not want that unapplied reliefs will be carried over to the following months' salary calculations.  Unapplied reliefs are transferred through the entries in Component Register, which is created at the time of calculation. If at the time of the calculation there was an indication that the unapplied reliefs should not be carried over, then there will be no entry in the Component Register and they will not be taken into account next month.</td>
 </tr>
 <tr>
-<td>Struktūrvienības dimensijas kods</td>
-<td>Norāda noklusēto dimensijas kodu</td>
+<td>Department Dimension Code</td>
+<td>Specifies the default dimension code</td>
 </tr>
 </tbody>
 </table>
-<h3 id="cilne-numerācija">Cilne: <em>Numerācija</em></h3>
+<h3 id="tab-numbering">Tab: <em>Numbering</em></h3>
 <p><img src="2.payroll_acc_2.png" alt="alt"></p>
 <table>
 <thead>
 <tr>
-<th>Lauka nosaukums</th>
-<th>Apraksts</th>
+<th>Field name</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Algas sarakstu numuri</td>
-<td>Norāda algu sarakstu Nr. sēriju.</td>
+<td>Salary Nos.</td>
+<td>Specifies the salary list number series.</td>
 </tr>
 <tr>
-<td>Starpizmaksas sarakstu numuri</td>
-<td>Norāda starpizmaksas Nr. sēriju.</td>
+<td>Prepayment Nos.</td>
+<td>Specifies the prepayment number series.</td>
 </tr>
 <tr>
-<td>Avansu sarakstu numuri</td>
-<td>Norāda avansu sarakstu  Nr. sēriju.</td>
+<td>Advance Nos.</td>
+<td>Specifies the advance payment number series.</td>
 </tr>
 <tr>
-<td>Storno sarakstu numuri</td>
-<td>Norāda storno sarakstu Nr. sēriju.</td>
+<td>Storno Nos.</td>
+<td>Specifies the storno list number series.</td>
 </tr>
 <tr>
-<td>Darbinieka amatu numuri</td>
-<td>Norāda darbinieka amatu Nr. sēriju.</td>
+<td>Employee Position Nos.</td>
+<td>Specifies the employee position number series.</td>
 </tr>
 <tr>
-<td>Komponenšu reģistru numuri</td>
-<td>Norāda algas komponenšu reģistra Nr. sēriju.</td>
+<td>Component Register Nos.</td>
+<td>Specifies the Component register number series.</td>
 </tr>
 <tr>
-<td>Sistēmas komponenšu reģistru numuri</td>
-<td>Norāda sistēmas komponenšu reģistru Nr. sēriju.</td>
+<td>System Component Register Nos.</td>
+<td>Specifies the number series for system Component register.</td>
 </tr>
 <tr>
-<td>Amatu numuri</td>
-<td>Norāda sistēmas amatu reģistra Nr. sēriju.</td>
+<td>Position Nos.</td>
+<td>Specifies the number series for system position register.</td>
 </tr>
 <tr>
-<td>Kases maksājumu numuri</td>
-<td>Norāda kases maksājumu Nr. sēriju.</td>
+<td>Bank Payment Nos.</td>
+<td>Specifies the series of bank salary payment numbers.</td>
 </tr>
 <tr>
-<td>Bankas maksājumu numuri</td>
-<td>Norāda bankas algu maksājumu Nr. sēriju.</td>
-</tr>
-<tr>
-<td>PFPIS numuri</td>
-<td>Norāda Paziņojuma par fiziskai personai izmaksātām summām dokumentu nr. sēriju.</td>
+<td>PFPIS Nos.</td>
+<td>Specifies the number series of the report document for State Revenue Services' &quot; The amounts disbursed to the notice of a natural person&quot; (PFPIS).</td>
 </tr>
 </tbody>
 </table>
-<h3 id="cilne-komponentes">Cilne: <em>Komponentes</em></h3>
+<h3 id="tab-components">Tab: <em>Components</em></h3>
 <p><img src="2.payroll_acc_3.png" alt="alt"></p>
 <table>
 <thead>
 <tr>
-<th>Lauka nosaukums</th>
-<th>Apraksts</th>
+<th>Field name</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Avansa atvilkuma komponentes kods</td>
-<td>Norādītā komponente no avansu saraksta ievilksies algu sarakstā kā atvilkums.</td>
+<td>Advance Payroll Component Code</td>
+<td>The specified component will appear on the salary list as a deduction from the advance list.</td>
 </tr>
 <tr>
-<td>Starpizmaksu atvilkuma komponentes kods</td>
-<td>Norādītā komponente no Starpizmaksu saraksta ievilksies algu sarakstā kā atvilkums.</td>
+<td>Prepay Payroll Component Code</td>
+<td>The specified component will appear in the salary list as a deduction from the prepayment list.</td>
 </tr>
 <tr>
-<td>Minimālās algas komponentes kods</td>
-<td>Norāda minimālās algas komponenti.</td>
+<td>Minimum Salary Component Code</td>
+<td>Specifies the minimum salary component.</td>
 </tr>
 <tr>
-<td>Negatīvas izmaksas komponentes kods</td>
-<td>Norāda negatīvās izmaksas komponenti.</td>
+<td>Negative PayOut Component Code</td>
+<td>Specifies the negative payout component.</td>
 </tr>
 </tbody>
 </table>
-<h3 id="cilne-atskaites">Cilne: <em>Atskaites</em></h3>
+<h3 id="tab-reports">Tab: <em>Reports</em></h3>
 <p><img src="2.payroll_acc_4.png" alt="alt"></p>
 <table>
 <thead>
 <tr>
-<th>Lauka nosaukums</th>
-<th>Apraksts</th>
+<th>Field name</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Vadītāja Nr.</td>
-<td>Norāda personu, kas parakstīsies algu atskaitēs kā vadītājs.</td>
+<td>Manager No.</td>
+<td>Indicates the person who will sign the salary statements as manager.</td>
 </tr>
 <tr>
-<td>Ziņu koda pārbaudes iesl.</td>
-<td>Pārbauda ziņu kodu</td>
+<td>Status Code Enabled</td>
+<td>If this function is enabled, when filling in the date of recruitment or dismissal in the employee card, the system will automatically offer to enter the employee status code in the list <em>Status codes</em>, from which information for SRS report <em>Information on employees</em> is obtained.</td>
 </tr>
 <tr>
-<td>Izpildītāja Nr.</td>
-<td>Norāda personu, kas parakstīsies algu atskaitēs kā izpildītājs.</td>
+<td>Executor No.</td>
+<td>Indicates the person who will sign the salary statements as executor.</td>
 </tr>
 <tr>
-<td>Iedz. ien. nodoklis aprēķina periodā</td>
-<td>Norāda, ka atskaitē “Ziņojums par VSAOIe” tiek uzrādīts tekošā perioda iedzīvotāju ienākuma nodoklis.</td>
+<td>Income Tax in Calculation Period</td>
+<td>Indicates that SRS report “The employer's report on payed social and income tax” presents the personal income tax for the current period.</td>
 </tr>
 <tr>
-<td>Neiekļaut iedz. ien. nodokļa precizējumus</td>
-<td>Ķeksis strādā tikai gadījumā, ja nav ielikts ķeksis “Iedz. ien. nodoklis aprēķina periodā”. Gadījumā, ja ķeksis “Neiekļaut IIN precizējumus” ir ielikts, VSAOI atskaitē IIN laukā tiks atspoguļota iepriekšējā aprēķina perioda IIN summa. Gadījumā, ja ķeksis “Neiekļaut IIN precizējumus” nav ielikts, tad IIN summā tiks iekļauta iepriekšējā aprēķina perioda IIN summa un tekošā mēneša precizējumi par iepriekšējo periodu.</td>
+<td>Exclude Income Tax Clarif.</td>
+<td>The tick works only if no tick is inserted in “Income Tax in Calculation Period”. In case if “Exclude Income Tax Clarif” is enabled, VSAOI report will reflect the income tax amount of the previous calculation period in the income tax field. In case if “Exclude Income Tax Clarif” is not enabled, then the amount of income tax will include the income tax amount of the previous calculation period and the current monthly updates for the previous period.</td>
 </tr>
 <tr>
-<td>PFPIS noklusētais ienākumu veids</td>
-<td>Tiek izmantots PFPIS gadījumā, ja darbiniekam netika piemēroti atvieglojumi un netika veikts aprēķins, jo darbiniekam bija bezalgas prombūtne. Šajā gadījumā, piemērojot atvieglojumus, tiem tiks piesaistīts noklusētais ienākuma kods.</td>
+<td>PFPIS Default Income Type Code</td>
+<td>It is used in the PFPIS report in case the employee was not granted benefits and no calculation was made because the employee was unpaid in absence. In this case, the default income code will be linked to the gain.</td>
 </tr>
 <tr>
-<td>VSAOI atskaites ienākumu bāzes kods</td>
-<td>Norāda ienākumu bāzi VSAOI atskaitei.</td>
+<td>Soc. Tax Rep. Income Base Code</td>
+<td>Indicates the revenue base for VSAOI report.</td>
 </tr>
 <tr>
-<td>VSAOI atskaites soc. nod. bāzes kods</td>
-<td>Norāda sociālā nodokļa bāzi VSAOI atskaitei.</td>
+<td>Soc. Tax Rep. Soc. Tax Base Code</td>
+<td>Indicates the social tax base for the VSAOI report.</td>
 </tr>
 <tr>
-<td>VSAOI atskaites ienākumu nod. bāzes kods</td>
-<td>Norāda IIN bāzi VSAOI atskaitei.</td>
+<td>Soc. Tax Rep. Income Tax Base Code</td>
+<td>Indicates the income tax base for the VSAOI report.</td>
 </tr>
 <tr>
-<td>VSAOI atskaites riska nod. bāzes kods</td>
-<td>Norāda riska nodevas bāzi VSAOI atskaitei.</td>
+<td>Soc. Tax Rep. Risk Base Code</td>
+<td>Indicates the risk fee base for the VSAOI report.</td>
 </tr>
 <tr>
-<td>VSAOI atskaites pensiju iem. bāzes kods</td>
-<td>Norāda pensiju iemaksas bāzi VSAOI atskaitei.</td>
+<td>Soc. Tax Rep. Pension Base Code</td>
+<td>Indicates the pension contribution base for the VSAOI report.</td>
 </tr>
 <tr>
-<td>VSAOI atskaites solid. nod. bāzes kods</td>
-<td>Norāda  solid. nodokļa bāzi VSAOI atskaitei.</td>
+<td>Soc. Tax Rep. Solid. Tax Base Code</td>
+<td>Specifies the solidarity tax base for the VSAOI report.</td>
 </tr>
 <tr>
-<td>Uzņēmums ir jaunuzņēmums</td>
-<td>Pazīme priekš VSAOI atskaites.</td>
+<td>Company is a Startup</td>
+<td>Attribute for VSAOI report.</td>
+</tr>
+<tr>
+<td>Stat. Group Change Status Code</td>
+<td>Status code for reports in case of position change.</td>
 </tr>
 </tbody>
 </table>

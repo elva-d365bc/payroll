@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Promb&#363;tes iemesli | Latvian Payroll </title>
+    <title>Causes of absence | Latvian Payroll </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Promb&#363;tes iemesli | Latvian Payroll ">
+    <meta name="title" content="Causes of absence | Latvian Payroll ">
     <meta name="generator" content="docfx 2.56.2.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
@@ -77,141 +77,141 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="prombūtes-iemesli">Prombūtes iemesli</h1>
+<h1 id="causes-of-absence">Causes of absence</h1>
 
-<p>Lai reģistrētu prombūtni, nepieciešams <em>Neierašānās iemesla kods</em>. Visi neierašānās iemeslu kodi tiek sākotnēji importēti sistēmā ar konfigurācijas pakotnes starpniecību un tie ir akopoti sarakstā <em>Prombūtnes iemesli</em>. Koda kartiņu var atvērt ieklikšķinot nepieciešamā koda rindiņā un nospiežot rīkjoslā uz pogām <em>Darbības - Jauns dokuments - Karte</em>.</p>
-<p><strong>Prombūtņu iemesla kodus un to uzstādījumus ieteicams patstāvīgi nemainīt</strong>.</p>
+<p>To register an absence, causes of absence codes are necessary. All reason codes are initially imported into the system via the configuration package and are listed <em>Causes of absence</em>. The code card can be opened by clicking on the required line of code and pressing the buttons on the toolbar <em>Actions - New document - Card</em>.</p>
+<p><strong>It is not recommended to do any changes to the reason codes and their settings</strong>.</p>
 <p><img src="3.payroll_calc_14.png" alt="alt"></p>
-<h2 id="cilne-visp-info">Cilne <em>Visp. info</em></h2>
+<h2 id="tab-general">Tab <em>General</em></h2>
 <table>
 <thead>
 <tr>
-<th>Lauka nosaukums</th>
-<th>Apraksts</th>
+<th>Field name</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Kods</td>
-<td>Brīvi definēts prombūtnes kods.</td>
+<td>Code</td>
+<td>Freely defined absence code.</td>
 </tr>
 <tr>
-<td>Apraksts</td>
-<td>Prombūtnes apraksts.</td>
+<td>Description</td>
+<td>Description of absence.</td>
 </tr>
 <tr>
-<td>Mērvienības kods</td>
-<td>Izvēlas no mērvienību klasifikatora.</td>
+<td>Unit of Measure Code</td>
+<td>Selects from the list.</td>
 </tr>
 <tr>
-<td>Kopā neierašānās (bāze)</td>
-<td>Sistēma uzrāda, cik kopā ir reģistrēta šī prombūtne. Ņemot vērā ka tas ir standarta Microsoft lauks, kurš nav uzturēts, vienmēr rāda nulli.</td>
+<td>Total Absence (Base)</td>
+<td>The system shows how many times this absence is registered. Taking into account that this is a standard Microsoft field that is not maintained, it always shows zero.</td>
 </tr>
 </tbody>
 </table>
-<h2 id="cilne-algas">Cilne <em>Algas</em></h2>
+<h2 id="tab-payroll">Tab <em>Payroll</em></h2>
 <table>
 <thead>
 <tr>
-<th>Lauka nosaukums</th>
-<th>Apraksts</th>
+<th>Field name</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Neattaisnota prombūtne</td>
-<td>Neattaisnotas prombūtnes pazīme.</td>
+<td>Unjustified Absence</td>
+<td>Sign of unjustified absence.</td>
 </tr>
 <tr>
-<td>Algas aprēķina veids</td>
-<td>Izvēlas no saraksta, kādā  veidā tiek aprēķināta prombūtne: <br>1. Vidējā apmaksa – aprēķina periodu vispirms ņem iepriekšējos 6 mēn., ja nav, tad iepriekšējos 12 mēn. Ja arī nav, tad programma pārbauda Algu uzstādījumos, vai ir atzīme laukā Lietot tekošo mēnesi vid. apmaksai. Ja šajā laukā nav atzīmes, tad rēķina vidējo no minimālās algas;<br>2.	Saglabāta alga (Cita komponente) – par izvēlēto periodu saglabās aprēķināto pamatalgu, summu izdalot citā algas komponentē; <br>3. Saglabāta alga –  par izvēlēto periodu nekas nemainās pamatalgas aprēķinā (piem: attaisnota prombūtne); <br> 4. Iepr. apmaksa – izmaksā pamatalgu Starpizmaksās par izvēlēto periodu (atvaļinājums uz priekšu); <br> 5. Bez algas – par izvēlēto periodu neaprēķina algu (piem.: bezalgas atvaļinājums, neattaisnota neierašanās); <br> 6. Bez atvieglojumiem – Neaprēķina algu un atvieglojumus (piem.: B lapas); <br> 7.	Tukšums – ignorē algās.</td>
+<td>Calculate in Payroll as</td>
+<td>Selects from the list how the absence is calculated: <br>1. Average – the calculation period is taken first in the previous 6 months, if not, then in the previous 12 months. If not, the program checks <em>Payroll Setup</em>, is there a check mark in the field <em>Use Curr. Month in Avg. Gain if Period not Full</em>. If this field is not checked, then the average of the minimum wage is calculated;<br>2.	Keep salary separated – the calculated basic salary will be retained for the selected period, the amount being divided into another salary component; <br>3. Keep Salary –  for the selected period nothing changes in the calculation of the basic salary (for example: justified absence); <br> 4. Prepayment – pays basic salary as Prepayment for the selected period (vacation ahead); <br> 5. No Salary – no salary is calculated for the selected period (for example: unpaid vacation, unjustified absence); <br> 6. Without Relief – Does not calculate salary and benefits (for example: sick leave B); <br> 7.	Tukšums – overrides in the payroll calculation.</td>
 </tr>
 <tr>
-<td>Algas komponentes kods</td>
-<td>Norāda atbilstošo algas komponenti.</td>
+<td>Payroll Component Code</td>
+<td>Indicate the corresponding salary component.</td>
 </tr>
 <tr>
-<td>Nākamā perioda algas komp. kods</td>
-<td>Norāda komponenti, ja samaksa par nākamo periodu tiek izdalīta citā komponentē.</td>
+<td>Next Period Payroll Comp. Code</td>
+<td>Indicate the component if the payment for the next period is allocated to another component.</td>
 </tr>
 <tr>
-<td>Kalendāro dienu ierobežojums</td>
-<td>Norāda prombūtnes iemesla dienu skaitu (piem. slimības lapas, komandējumi), lai brīdinātu par ierobežojumu pārsniegšanu.</td>
+<td>Calendar Day Limit</td>
+<td>Indicates the number of days of cause of absence (for example, sick leaves, business trips), to warn of exceeding the limits.</td>
 </tr>
 <tr>
-<td>Samazināta likme</td>
-<td>Norāda samazinātos likmes pa dienām. (Piem: slimības lapas kādā veidā tiek apmaksātas). Klikšķiniet uz lauka linku, lai iestatītu. <br><img src="9.salary_absence_4.1.png" alt="alt"></td>
+<td>Reduced Pay</td>
+<td>Norāda samazinātās likmes pa dienām (for example.:  how sick leave is paid). Click on the field link to set. <br><img src="9.salary_absence_4.1.png" alt="alt"></td>
 </tr>
 <tr>
-<td>Piespiedu kalendāra kods</td>
-<td>Izvēlas noklusēto kalendāru, pēc kura tiks veikts aprēķins konkrētai prombūtnei. Atvaļinājumiem ir savs noklusētais kalendārs.</td>
+<td>Forced Calendar Code</td>
+<td>Selects the default calendar according to which the calculation for a specific absence will be performed. Vacations have their own default calendar.</td>
 </tr>
 <tr>
-<td>Piespiedu kalendāra kods 6DDN</td>
-<td>Izvēlas noklusēto kalendāru, pēc kura tiks veikts aprēķins konkrētai prombūtnei pēc sešu darba dienu kalendāra.</td>
+<td>Forced Calendar Code 6DDN</td>
+<td>Selects the default calendar to calculate for a specific absence according to a six-day calendar.</td>
 </tr>
 <tr>
-<td>Lietot kalendārās dienas</td>
-<td>Norāda prombūtnes aprēķina veidu pa dienām (periods): <br>-	Darba diena; <br> -	Kalendārā diena; <br>-	Ar roku  - dienu skaits nav atkarīgs no perioda.</td>
+<td>Day Type</td>
+<td>Indicates the type of absence calculation by days (periods): <br>-	Work Day; <br> -	Calendar Day; <br>-	Manual  - the number of days does not depend on the period.</td>
 </tr>
 <tr>
-<td>Atvieglojumi aprēķina periodā</td>
-<td>Atzīme laukā norāda, ka atvieglojumi būs šajā mēnesī. Ja atzīmes nav, tad tie tiks pārnesti arī uz priekšu. (piem.: gari atvaļinājumi skolotājiem).</td>
+<td>Relief in Calc. Period</td>
+<td>A checkmark in the field indicates that the relief will be calculated this month. If there is no check mark, it will be carried forward. (for example: long vacations for teachers).</td>
 </tr>
 <tr>
-<td>Iekļaut faktiskajā darba laikā</td>
-<td>Ja ir atzīme šajā laukā, tad  tiek uztvertas kā faktiski nostrādātās dienas (piem. komandējums).</td>
+<td>Include in Actual Worktime</td>
+<td>If there is a check mark, then the days are considered as actually worked (for example: a business trip).</td>
 </tr>
 <tr>
-<td>Aprēķina prioritāte</td>
-<td>Norāda prombūtnes iemesla vietu algas aprēķināšanas darbību ķēdē - jo mazāks skaitlis, jo augstāka prioritāte. Tās var norādīt gan algas komponentēm, gan arī prombūtnes iemesliem. Ja algas komponente nāk no prombūtnes ieraksta (atval. komp.), tad prioritāte tiek ņemta no prombūtnes iemesla.</td>
+<td>Calculation Priority</td>
+<td>Indicates the sequence number of the cause of absence code in the chain of salary calculation activities - the lower the number, the higher the priority. Priority can be given to both - salary components and reasons for absence. If the salary component comes from an absence record (for example: compensation of unused vacation.), then priority is taken from the cause of absence.</td>
 </tr>
 <tr>
-<td>Vidējā izpeļņa pa stundām</td>
-<td>Pastāv iespēja izvēlēties: tukšums, tikai SDL ( summētajam darba laikam), visiem..</td>
+<td>Average By Hours</td>
+<td>You can choose between: <br>leave blank, <br>Only SDL ( for the totaled working time), <br>All.</td>
 </tr>
 <tr>
-<td>Grāmatot uz nākamajiem periodiem</td>
-<td>Ķeksis tiek ielikts gadījumā, ja pārejošās prombūtnes nākamā perioda daļa tiek grāmatota uz nākamā perioda izdevumiem.</td>
+<td>Post Next Periods</td>
+<td>A check mark is placed if part of the next period of the temporary absence is booked to the expenses of the next period.</td>
 </tr>
 <tr>
-<td>G/U Kods</td>
-<td>Norāda brīvi izvēlētu kodu, kas būs apzīmējums šim prombūtnes veidam tabeles izdrukā.</td>
+<td>Graph Code</td>
+<td>Indicates a freely chosen code that will be used to indicate this type of absence in the schedule printouts.</td>
 </tr>
 <tr>
-<td>Krāsa tabeles izdrukā</td>
-<td>Izvēlas krāsu, ar kādu marķētas prombūtnes dienas tabeles izdrukā.</td>
+<td>Schedule Printout Colour</td>
+<td>Selects the color in which the absence days are marked in the schedule printout.</td>
 </tr>
 <tr>
-<td>Brīvdiena saglabājot darba algu</td>
-<td>Tiek izmantota, ja darbiniekam iedota brīvdiena, kura jāapmaksā pēc principa  “saglabājot darba algu”, bet neiekļaut faktiskajā laikā (piemēram, donora dienas).</td>
+<td>Day Off Saved Salary</td>
+<td>Used when an employee is given a holiday that must be paid according to the principle  “Keep salary”, but not included in real time (for example: blood donor days).</td>
 </tr>
 <tr>
-<td>Prombūtnes sāk. ziņu kods</td>
-<td>Norāda ziņu kodu, kāds tiks atspoguļots atskaitē  Ziņas par darba ņēmējiem saistībā ar prombūtnes sākumu. Darbinieka ziņu kods sistēmā aizpildīsies pēc prombūtnes sākuma datuma ievadīšanas.</td>
+<td>Absence Start Status Code</td>
+<td>Specifies the status code that will be displayed in the report <em>Information on employees</em> (Employee social sign codes) in connection with the beginning of the absence. The employee status code will be filled in the system after entering the start date of the absence.</td>
 </tr>
 <tr>
-<td>Darba atsākšanas ziņu kods</td>
-<td>Norāda ziņu kodu, kāds tiks atspoguļots atskaitē  Ziņas par darba ņēmējiem saistībā ar prombūtnes beigām. Darbinieka ziņu kods sistēmā aizpildīsies pēc prombūtnes beigu datuma ievadīšanas.</td>
+<td>Work Restart Status Code</td>
+<td>Specifies the status code that will be displayed in the report <em>Information on employees</em> (Employee social sign codes) in connection with the end of the absence. The employee status code will be filled in the system after entering the end date of the absence.</td>
 </tr>
 </tbody>
 </table>
-<h2 id="cilne-atvaļinājumi">Cilne <em>Atvaļinājumi</em></h2>
+<h2 id="tab-vacations">Tab <em>Vacations</em></h2>
 <table>
 <thead>
 <tr>
-<th>Lauka nosaukums</th>
-<th>Apraksts</th>
+<th>Field name</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Ietekme uz atvaļinājumu</td>
-<td>Norāda prombūtnes ietekmi uz ikgadējo atvaļinājumu atlikumu.</td>
+<td>Influence on Vacation</td>
+<td>Indicate the effect of the absence on the balance of annual leave.</td>
 </tr>
 <tr>
-<td>Atvaļinājuma kompensācija</td>
-<td>Atvaļinājuma kompensācijas pazīme. Pielietota Alvaļinājuma kompensācijas koda kartiņā.</td>
+<td>Vacation Compensation</td>
+<td>Vacation compensation feature. Used in the Vacation Compensation Code Card.</td>
 </tr>
 </tbody>
 </table>
