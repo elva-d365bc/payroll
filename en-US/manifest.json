@@ -545,6 +545,17 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/15.empl_termin_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/15.empl_termin_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "docs/payroll_base/setup/15.empl_termination.md",
       "output": {
@@ -574,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/2.2.payroll_acc.html",
-          "hash": "lmAiltvnWBi0SSAuPsJ6/g=="
+          "hash": "KXv4/WwQ6w70lYVd5F1SSw=="
         }
       },
       "is_incremental": false,
@@ -743,7 +754,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/3.calendars.html",
-          "hash": "AW3vBtA+Fqc8xXClUc1MRw=="
+          "hash": "Nqvvek6zPJLphWOxCCswGg=="
         }
       },
       "is_incremental": false,
@@ -755,7 +766,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/3.payroll_calc.html",
-          "hash": "QLUsw+2fuT2tYM0CV29ZQg=="
+          "hash": "qQZ3Vl69ln5J5/LWneeaOA=="
         }
       },
       "is_incremental": false,
@@ -932,7 +943,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/4.empl_card.html",
-          "hash": "Vyk6cJ9DWauqsePx0bEV6Q=="
+          "hash": "NEJOzuI5htl6uOQUDGVZHA=="
         }
       },
       "is_incremental": false,
@@ -999,7 +1010,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/5.empl_info.html",
-          "hash": "l1pQk1Ks2KLX8PMRaFJW0A=="
+          "hash": "pl+/d8Hphl6BSwUl4v74Qw=="
         }
       },
       "is_incremental": false,
@@ -1133,7 +1144,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/6.empl_add.info.html",
-          "hash": "lBiAsQOnOmxO4X+/fsHaJw=="
+          "hash": "brR+JMVRbiK9x6Dp9f9YOQ=="
         }
       },
       "is_incremental": false,

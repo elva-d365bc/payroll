@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Uz&#326;&#275;muma uzst&#257;d&#299;jumi | Latvian Payroll </title>
+    <title>Company Setup | Latvian Payroll </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Uz&#326;&#275;muma uzst&#257;d&#299;jumi | Latvian Payroll ">
+    <meta name="title" content="Company Setup | Latvian Payroll ">
     <meta name="generator" content="docfx 2.56.2.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
@@ -77,163 +77,163 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="uzņēmuma-uzstādījumi">Uzņēmuma uzstādījumi</h1>
+<h1 id="company-setup">Company Setup</h1>
 
-<p>Lai varētu sākt ērti, bez aizķeršanās vadīt datus darbinieka kartiņā, ir ieteicams sākotnēji veikt zemāk uzskaitītos uzstādījumus, kas būs nepieciešami darbinieku kartiņas lauku aizpildīšanai:</p>
+<p>In order to start enter the data in the employee card easily, without a hitch, it is recommended that you initially perform the settings listed below, which will be required to fill in the fields on the employee card:</p>
 <ul>
-<li>jāizveido uzņēmuma struktūrvienības;</li>
-<li>jāizveido darbinieku amatu saraksts;</li>
-<li>jānosaka algu dimensijas;</li>
-<li>jāuzstāda darba laika kalendāri, saskaņā ar ko strādās darbinieki</li>
+<li>create a list of departments ;</li>
+<li>create a list of employee positions;</li>
+<li>define the payroll dimensions;</li>
+<li>set up calendars according to which salaries will be calculated</li>
 </ul>
-<h2 id="struktūrvienības">Struktūrvienības</h2>
-<p>Sistēmā iespējams uzturēt strukturētu informāciju par uzņēmuma struktūrvienībām. Informācija būs gan aktuālā, gan arī vēsturiskā, jo struktūrvienības sistēmā netiek dzēstas, bet gan slēgtas.</p>
-<p>Lai nodrošinātu struktūrvienību hierarhiju, tiek kombinētas kārtošanas un atkāpju metodes. Tātad viena struktūrvienība ir pakļauta otrai struktūrvienībai, ja tā atrodas pēc galvenās struktūrvienības un ir ar vienu līmeni lielāku atkāpi. Atkarībā no struktūrvienību atkāpju dziļuma un struktūrvienību skaita, sastāda struktūrvienības kodu. Struktūrvienības atkāpes tiek veidotas ar funkciju <img src="count1.png" alt="alt">, <img src="count3.png" alt="alt"> un <img src="count4.png" alt="alt"> palīdzību Struktūrvienības rīkjoslā.</p>
-<p>Struktūrvienībām var piesaistīt dimensijas, klikšķinot uz pogas <em>Dimensijas</em> (<img src="count2.png" alt="alt">)</p>
+<h2 id="departments">Departments</h2>
+<p>In the system, you can maintain structured information about the departments. The information will be both current and historical, because the structural units in the system are not deleted, but closed.</p>
+<p>To ensure the departmental hierarchy, sorting and indent methods are combined. Thus, one department is subordinate to another if it is after the main unit and has one level more indention. Depending on the depth of department indention and the number of departments, a department code shall be drawn up. Departmental indentions are created through functions <img src="count1.png" alt="alt">, <img src="count3.png" alt="alt"> and <img src="count4.png" alt="alt">.</p>
+<p>You can link dimensions to departments by clicking the button <em>Dimensions</em> (<img src="count2.png" alt="alt">)</p>
 <p><img src="2.payroll_acc_9.png" alt="alt"></p>
 <table>
 <thead>
 <tr>
-<th>Lauka nosaukums</th>
-<th>Apraksts</th>
+<th>Field name</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Kods</td>
-<td>Struktūrvienības kods, ko definē lietotājs.</td>
+<td>Code</td>
+<td>Department code defined by the user.</td>
 </tr>
 <tr>
-<td>Nosaukums</td>
-<td>Struktūrvienības nosaukums.</td>
+<td>Description</td>
+<td>Department name.</td>
 </tr>
 <tr>
-<td>Adrese</td>
-<td>Adrese, kur atdodas struktūrvienība.</td>
+<td>Address</td>
+<td>Address where the department is located.</td>
 </tr>
 <tr>
-<td>Izveidošanas datums</td>
-<td>Datums, kad struktūrvienība ir izveidota.</td>
+<td>Date Created</td>
+<td>Date when the department was created.</td>
 </tr>
 <tr>
-<td>Slēgšanas datums</td>
-<td>Datums, kad struktūrvienība ir slēgta.</td>
+<td>Date Closed</td>
+<td>Date when the department is closed.</td>
 </tr>
 <tr>
-<td>Pakļautība hierarhijā kods</td>
-<td>Struktūrvienības kods, kurai struktūrvienība ir pakļauta.</td>
+<td>Parent Department code</td>
+<td>Department code to which the department is subject.</td>
 </tr>
 <tr>
-<td>Vadītāja amata kods</td>
-<td>Atbilstošais vadītājā amata kods no saraksta <em>Amati</em>.</td>
+<td>Managfer Position Code</td>
+<td>The corresponding manager position code from the list <em>Positions</em>.</td>
 </tr>
 <tr>
-<td>Dimensijas vērtības kods</td>
-<td>Struktūrvienības dimensijas vērtības kods no standarta algu dimensiju klasifikatora.</td>
+<td>Department Dim. Value Code</td>
+<td>Department dimension value code from standard payroll dimension classifier.</td>
 </tr>
 </tbody>
 </table>
-<h2 id="amati">Amati</h2>
-<p>Visi uzņēmumā lietotie amati tiek apkopoti sarakstā <em>Amati</em>. Katram amatam ir jāizveido atsevišķa Amata kartiņa.</p>
-<p>Ja sistēmā tiek labota informācija par profesijas kodu un struktūrvienības kodu, tad, lai šīs izmaiņas parādītos arī darbinieka kartiņā, amata kartē ir jāaktivizē funkcija <em>Atjaunot darbinieku amatus</em>, klikšķinot uz <em>Apstrādāt</em> (<img src="count1.png" alt="alt">) un <em>Atjaunot darbinieku amatus</em> (<img src="count2.png" alt="alt">).</p>
-<p>Amata kartiņai var piesaistīt dimensijas, klikšķinot uz <em>Naviģēt</em> (<img src="count3.png" alt="alt">) un izvēloties funkciju <em>Dimensijas</em>.</p>
+<h2 id="positions">Positions</h2>
+<p>All positions used in the company are listed in <em>Positions</em>. A separate Job Card must be created for each position.</p>
+<p>If the information about the profession code and department code is corrected in the system, then in order for these changes to appear in the employee card, the data update function shall be activated in the position card, by clicking on <em>Process</em> (<img src="count1.png" alt="alt">) and <em>Update Employee Positions</em> (<img src="count2.png" alt="alt">).</p>
+<p>You can add dimensions to the position by clicking <em>Navigatet</em> (<img src="count3.png" alt="alt">) and choose the function <em>Dimensions</em>.</p>
 <p><img src="2.payroll_acc_8.png" alt="alt"></p>
 <table>
 <thead>
 <tr>
-<th>Lauka nosaukums</th>
-<th>Apraksts</th>
+<th>Field name</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Kods</td>
-<td>Jaunās amata vietas kods.</td>
+<td>Code</td>
+<td>New position's code.</td>
 </tr>
 <tr>
-<td>Nosaukums</td>
-<td>Amata nosaukums.</td>
+<td>Description</td>
+<td>Positions title.</td>
 </tr>
 <tr>
-<td>Profesijas kods</td>
-<td>Kods no <em>Darbinieku statistikas grupas</em>.</td>
+<td>Profession Code</td>
+<td>Code from <em>Employee Statistic Groups</em>.</td>
 </tr>
 <tr>
-<td>Struktūrvienības kods</td>
-<td>Kods no <em>Struktūrvienības</em> saraksta.</td>
+<td>Department Code</td>
+<td>Code from <em>Departments</em>.</td>
 </tr>
 <tr>
-<td>Struktūrvienības apraksts</td>
-<td>Apraksts no <em>Struktūrvienības</em> saraksta.</td>
+<td>Department Description</td>
+<td>Description from <em>Departments</em>.</td>
 </tr>
 <tr>
-<td>Kopējās slodzes</td>
-<td>Slodzes, kas ir paredzētas šim amatam kopā.</td>
+<td>Total Loading</td>
+<td>Total loads that are expected for this position.</td>
 </tr>
 <tr>
-<td>Patreizējās slodzes</td>
-<td>Cik amata slodzes uzņēmumā jau ir aizņemtas.</td>
+<td>Current Loading</td>
+<td>Loads what are currently occupied in the company.</td>
 </tr>
 <tr>
-<td>Patreizējais darbinieku skaits</td>
-<td>Darbinieku skaits, kas ir nodarbināti konkrētā amatā.</td>
+<td>Current Employee Count</td>
+<td>Number of employees employed in a particular position.</td>
 </tr>
 <tr>
-<td>Vakantās slodzes</td>
-<td>Cik slodzes vēl ir vakantas šim amatam.</td>
+<td>Vacant Loading</td>
+<td>How many workloads are still vacant for this position.</td>
 </tr>
 <tr>
-<td>Izveidošanas datums</td>
-<td>Amata izveidošanas datums.</td>
+<td>Date Created</td>
+<td>The date when the position was created.</td>
 </tr>
 <tr>
-<td>Slēgšanas datums</td>
-<td>Amata slēgšanas datums.</td>
+<td>Date Closed</td>
+<td>Position close date.</td>
 </tr>
 <tr>
-<td>Amata alga</td>
-<td>Informatīvs lauks.</td>
+<td>Salary Amount</td>
+<td>Informative field.</td>
 </tr>
 <tr>
-<td>Darba laiks nav nosakāms</td>
-<td>Atzīmē, ja amatam darba laiks nav nosakāms un tiek pakārtots uzņēmuma vajadzībām.</td>
+<td>Work Time Undeterminable</td>
+<td>Note if the job time is undetectable and subordinated to the company's needs.</td>
 </tr>
 </tbody>
 </table>
-<h2 id="algu-dimensiju-uzstādījumi">Algu dimensiju uzstādījumi</h2>
-<p>Šīs funkcionalitātes izmantošana nav obligāta sekmīgas sistēmas darbības nodrošināšanai.</p>
-<p><em>Algu dimensiju uzstādījumos</em> norāda tās dimensijas, kuras tiks izmantotas algu aprēķinus. Pārējās sistēmā pieejamās dimensijas tiks ignorētas.</p>
+<h2 id="payroll-dimension-setup">Payroll Dimension Setup</h2>
+<p>The use of this functionality is not mandatory for the successful operation of the system.</p>
+<p>In the <em>Payroll Dimension Setup</em> indicate the dimensions that will be used in the salary calculations. The other dimensions available in the system will be ignored.</p>
 <p><img src="2.payroll_acc_5.png" alt="alt"></p>
 <table>
 <thead>
 <tr>
-<th>Lauka nosaukums</th>
-<th>Apraksts</th>
+<th>Field name</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Dimensijas kods</td>
-<td>Izvēlas dimensiju no saraksta, kura tiks lietota algas aprēķinos.</td>
+<td>Dimension code</td>
+<td>Selects a dimension from the list that will be used in the salary calculation.</td>
 </tr>
 <tr>
-<td>Vērtības izcelsme</td>
-<td>Norāda līmeni, no kurienes tiks ņemta dimensijas vērtība:<br>a)	Avots – Prombūtnes reģistrācija, Darba algas komponentes, Algas komponenšu reģistrs; <br>b)	Algas komponente –  Norādītais dimensijas kods tiek ņemts no algas komponentes; <br>c)	Darbinieka amats – Norādītais dimensijas kods tiek ņemts no Darbinieku amata; <br>d)	Darbinieks – Augstākais līmenis, norādītais dimensijas kods tiek ņemts no darbinieka kartes.</td>
+<td>Value From</td>
+<td>Specifies the level from which the dimension value will be taken:<br>a)	Source – the specified dimension code is taken from the Absence Registration, Payroll components, Payroll components registry; <br>b)	Payroll component –  The specified dimension code is taken from the payroll component; <br>c)	Employee Position – The specified dimension code is taken from the employee position; <br>d)	Employee – The highest level, the specified dimension code is taken from the employee card.</td>
 </tr>
 <tr>
-<td>Nelietot hierarhiju</td>
-<td>Ja nav atzīme šajā laukā, tad norādītais dimensijas kods tiek meklēts augstākos līmeņos. Ja ir atzīme, tad tikai izvēlētajā līmenī.</td>
+<td>Don't Use Hierarchy</td>
+<td>If there is no check mark in this field, the specified dimension code is searched at higher levels. If there is a check mark, then only at the selected level.</td>
 </tr>
 <tr>
-<td>Pieļaut tukšu vērtību</td>
-<td>Pārbauda, vai pēc iepriekš norādītajiem uzstādījumiem dimensijas vērtība nav tukša vērtība. Ja ir atzīme šajā laukā, tad programma <strong>nedod kļūdas paziņojumu, ja</strong> nevienā no līmeņiem (konkrētā līmenī, ja ir atzīme laukā nelietot hierarhiju) <strong>dimensija nav atrasta</strong>.</td>
+<td>Blank Value Allowed</td>
+<td>Checks that the dimension value is not an empty value after the above settings. If there is a check mark in this field, the system <strong>does not make an error message if</strong> in any level (at a specific level if there is a check mark in the do not use hierarchy field) <strong>dimension is not found</strong>.</td>
 </tr>
 </tbody>
 </table>
-<p>Sistēma piedāvā iespēju pievienot pie struktūrvienības, amata n-tās dimensijas. Ja pie struktūrvienības norāda dimensiju vērtības un pie attiecīgās struktūrvienības amata norāda vēl citu dimensiju vērtības, tad pie darbinieka amata parāda visas (gan tās, kas bija norādītas pie struktūrvienības, gan tās, kas bija norādītas pie amata).</p>
+<p>The system offers the ability to add numerous dimensions to the departments and the positions. If dimension values are indicated at the department and other dimension values are indicated at the relevant position, all (both those indicated to the department and those indicated to the position) will be shown at the position card of the employee.</p>
 <div class="TIP">
 <h5>Tip</h5>
-<p><strong>Nav ieteicams norādīt vienas un tās pašas dimensijas, bet ar atšķirīgām vērtībām gan pie struktūrvienības, gan amata</strong>.</p>
+<p><strong>We do not recommend to specify the same dimensions, but with different values for both - the department and the position</strong>.</p>
 </div>
 </article>
           </div>

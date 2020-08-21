@@ -109,51 +109,51 @@
 </tr>
 <tr>
 <td>Priority</td>
-<td>Norāda konkrētās komponentes vietu algas aprēķināšanas darbību ķēdē – jo mazāks skaitlis, jo augstāka prioritāte. Tādējādi šī komponente ātrāk tiks iesaistīta algas aprēķinā. Veidojot jaunu algas  komponenti, prioritāte iekrīt automātiski, <strong>vēlams pašiem bez vajadzības nemainīt</strong>.</td>
+<td>Specifies the priority of the component in the payroll calculation process – the smaller the number, the higher the priority. Thus, this component will be included in the salary calculation sooner. Priority falls automatically when you create a new payroll component, <strong>it is not advised to change on your own</strong>.</td>
 </tr>
 <tr>
 <td>Calculation Method</td>
-<td>Jāizvēlas, kā komponente tiks rēķināta – Proporcionāli nostrādātām dienām, Proporcionāli nostrādātām stundām, Proporcionāli kalendārām dienām, Stundu, Dienu, Gabaldarbs, Neapliekamais limits (uzkrājošs), Neapliekamais limits (neuzkrājošs), Avanss.</td>
+<td>Choose from the list how the component will be calculated</td>
 </tr>
 <tr>
 <td>Quantity Type</td>
-<td>Nepieciešams noradīt kādas mērvienības jāizmanto, aprēķinot virsstundas tabelē.</td>
+<td>It is necessary to specify which units of measure to be used when calculating overtime in the timesheet.</td>
 </tr>
 <tr>
 <td>Valid Until</td>
-<td>Līdz kādam datumam komponente ir spēkā.</td>
+<td>Until what date the component is in effect.</td>
 </tr>
 <tr>
 <td>Validity Explanation</td>
-<td>Brīvi definējams teksts, kurš tiks atspoguļots, aprēķinot algas, kļūdas paziņojumā gadījumā, ja komponente jau nav spēkā.</td>
+<td>Freely definable text that will be reflected in the calculation of salaries in the error message in case the component is not already in force.</td>
 </tr>
 <tr>
 <td>Social Status Code</td>
-<td>Norāda pie sociālā nodokļa komponentes atbilstošu sociālā statusa kodu.</td>
+<td>Provide a social status code for the social tax component.</td>
 </tr>
 <tr>
 <td>Default Component</td>
-<td>Atzīme, vai šī komponente aizpildās automātiski, veidojot algas komponentes darbinieka kartiņā.</td>
+<td>Enable if this component fills in automatically when you create payroll components on the employee card.</td>
 </tr>
 <tr>
 <td>Dependant Count</td>
-<td>Tiek aizpildīts pie atvieglojumu par apgādājamajiem komponentes – ieliek atbilstošo apgādājamo skaitu.</td>
+<td>Is filled in case it is a relief component regarding dependants  – inserts the appropriate number of dependants.</td>
 </tr>
 <tr>
 <td>Disability Group</td>
-<td>Tiek aizpildīts pie atvieglojumu par invaliditāti komponentes – aizpilda atbilstošu grupu.</td>
+<td>Is filled in case it is a relief component regarding disability – fills in the appropriate disability group.</td>
 </tr>
 <tr>
 <td>Global Dimension 1 Code</td>
-<td>Ja nepieciešams, norāda 1. globālo dimensiju algas komponentei.</td>
+<td>If necessary, indicate the 1st global dimension for the salary component.</td>
 </tr>
 <tr>
 <td>Global Dimension 2 Code</td>
-<td>Ja nepieciešams, norāda 1. globālo dimensiju algas komponentei.</td>
+<td>If necessary, indicate the 2nd global dimension for the salary component.</td>
 </tr>
 <tr>
 <td>Hide in Pay Slip</td>
-<td>Norāda, ka informācija par šo algas komponenti netiks drukāta algas lapiņā.</td>
+<td>Enable if the information about this payroll component will not be printed in the pay slip.</td>
 </tr>
 </tbody>
 </table>
@@ -168,80 +168,80 @@
 </thead>
 <tbody>
 <tr>
-<td>Neto summa</td>
-<td>Ievieto atzīmi, ja aprēķinā tiek izmantota neto summa. <strong>Gadījumā, ja neto komponentei ir reģistrēta summa ar mīnuss zīmi, šī summa tiks uzskatīta par bruto summu</strong>.</td>
+<td>Net Amount</td>
+<td>Enable if the net amount is used in the calculation. <strong>If the net component has an amount with a negative sign, this amount will be considered as a gross amount</strong>.</td>
 </tr>
 <tr>
-<td>Virsstundu algas komponente</td>
-<td>Norāda piesaistīto Virsstundu algas komponenti.</td>
+<td>Overtime Component Code</td>
+<td>Specifies the attached Overtime payroll component.</td>
 </tr>
 <tr>
-<td>Svētku stundu algas komponente</td>
-<td>Norāda piesaistīto Svētku stundu algas komponenti.</td>
+<td>Bank Holiday Component Code</td>
+<td>Specifies the attached Bank Holiday Hour payroll component.</td>
 </tr>
 <tr>
-<td>Nakts stundu algas komponente</td>
-<td>Norāda, piesaistīto Nakts stundu algas komponenti.</td>
+<td>Night Pay Component Code</td>
+<td>Specifies the associated Night Hour Payroll components.</td>
 </tr>
 <tr>
-<td>Kompensējamo stundu komponentes kods</td>
-<td>Norāda algas komponenti, kura tiek izmantota algas aprēķinā, kompensējot svētku stundas, kuras iekrīt darbiniekam normālajā darba laikā un šajā dienā darbinieks neveica darbu.</td>
+<td>Compensated Hour Comp. Code</td>
+<td>Specifies the payroll component that is used in the payroll calculation to compensate the bank holiday hours that fall during normal working hours and the employee did not work on that day.</td>
 </tr>
 <tr>
-<td>Gada limita pārsniegtās summas komp. kods</td>
-<td>Norāda algas komponentes kodu, kurš tiks izmantots algu aprēķinā gadījumā, ja pārsniegts šīs komponentes limits.</td>
+<td>Over Annual Limit Comp. Code</td>
+<td>Specifies the payroll component code that will be used in the payroll calculation if the limit for this component is exceeded.</td>
 </tr>
 <tr>
-<td>Atvieglojumu pieejama summa</td>
-<td>Bāze, kura definē atvieglojumu summu dotai komponentei.</td>
+<td>Relief Available Amount Base</td>
+<td>Base that defines the amount of relief for a given component.</td>
 </tr>
 <tr>
-<td>Nepiemēr. atviegloj. komponentes kods</td>
-<td>Norāda algas komponentes kodu, kurš tiks piemērots nepiemēroto atvieglojumu pārnešanai uz nākošo mēnešu algu aprēķiniem.</td>
+<td>Uncalc. Relief Comp. Code</td>
+<td>Specifies the payroll component code that will be applied to transfer uncalculated reliefs to salary calculations for the next months.</td>
 </tr>
 <tr>
-<td>IIN 2. līmeņa komponentes kods</td>
-<td>2. līmeņa IIN bāzes kods.</td>
+<td>Income Tax Lvl2 Component Code</td>
+<td>Income Tax level 2 Base Code</td>
 </tr>
 <tr>
-<td>IIN 3. līmeņa komponentes kods</td>
-<td>3. līmeņa IIN bāzes kods.</td>
+<td>Income Tax Lvl3 Component Code</td>
+<td>Income Tax level 3 Base Code.</td>
 </tr>
 <tr>
-<td>Vienmēr lietot aprēķina periodu</td>
-<td>Norāda, ja ir nepieciešams IIN aprēķinam lietot tekošo aprēķina periodu.</td>
+<td>Always Use Calculation Period</td>
+<td>Enable if it is necessary to use the current calculation period for income tax calculation.</td>
 </tr>
 <tr>
-<td>Dalīt atbilstoši saistītajām komponentēm</td>
-<td>Komponentes veidojas no uzstādījumiem (bāzes summām) un dalās atbilstoši komponentēm, kuras ir bāzes summās.</td>
+<td>Split To Related Components</td>
+<td>Enable if components are formed from setup (base amounts) and are divided according to the components that are in the base amounts.</td>
 </tr>
 <tr>
-<td>Pamatalga</td>
-<td>Norāda kura komponente tiek atzīta kā pamatalgas komponente.</td>
+<td>Base Salary</td>
+<td>Enable if this component is recognized as a base salary component.</td>
 </tr>
 <tr>
-<td>Svētku dienu apmaksa atvaļ. laikā</td>
-<td>ievieto atzīmi pie pamatalgas komponentes, ja vēlas, lai tiktu aprēķināta samaksa par svētku dienām (kuras iekrīt darbinieka darba dienā) atvaļinājuma laikā. Ja atvaļinājuma laikā iekrīt svētku diena, tad sistēma par šīm dienām samazina atvaļinājuma izmantoto dienu skaitu.</td>
+<td>Bank Holiday Pay in Vacation</td>
+<td>Enable at the basic salary component cards if you want that payment for bank holidays (which falls on an employee's work day) to be calculated during vacation. If a bank holiday falls during vacation, the system reduces the number of days taken by the holiday by these days.</td>
 </tr>
 <tr>
-<td>Svētku dienas brīvdienā vidējā apmaksa</td>
-<td>Atzīmējot šo lauku pie pamatalgas komponentes, ja darbinieka brīvdienā “iekrīt” svētku diena, kas pēc valstī noteiktā kalendāra “iekrīt” darba dienā – tad par šo dienu tiek aprēķināta vidējā izpeļņa. Lai par šo dienu aprēķinātu vidējo izpeļņu, darbinieka kartiņā sadaļā <em>Algas komponentes</em> jābūt atzīmei pie <em>Apmaksāt svētku stundas</em>.</td>
+<td>Nonworking Bank Holiday by Average</td>
+<td>Enable at the basic salary component cards if you wan to pay average salary, for a worker's holiday falls on a bank holiday that falls on a working day according to the national calendar.To calculate average earnings per day, the check mark must be at <em>Allow Bank Holiday Hours</em> what is located at employee card's section <em>Employee Payroll components</em>.</td>
 </tr>
 <tr>
-<td>Netiek grāmatota uz V/G</td>
-<td>Norāda, ka atbilstošās komponentes dati netiks grāmatoti uz virsgrāmatu.</td>
+<td>No G/L Posting</td>
+<td>Indicates that the corresponding component data will not be posted to the general ledger.</td>
 </tr>
 <tr>
-<td>Algas norēķinu konts</td>
-<td>Norāda atbilstošo virsgrāmatas kontu, kurā tiks grāmatoti Norēķini par darba algu.</td>
+<td>Salary Account No.</td>
+<td>Indicates the corresponding general ledger account in which Payroll Payments will be posted.</td>
 </tr>
 <tr>
-<td>Grāmatošanas grupas konta zīme</td>
-<td>Norāda grāmatošanas grupas pusi: debets vai kredīts.</td>
+<td>Posting Group Account Sign</td>
+<td>Indicates the side of the posting group: debit or credit.</td>
 </tr>
 <tr>
-<td>Iekļaut nulles summu</td>
-<td>Iespējo, ja jāveido algas rindu ar 0 summu (nav iespējas ieturēt summu, bet pastāv iespēja, ka lietotājs koriģēs atvilkuma summu) Ģenerēt rindu vajag , lai būtu iespēja pārskaitīt naudu trešajām pusēm.</td>
+<td>Include Zero Amount</td>
+<td>Enable if you want to create a payroll line with 0 amount (there is no possibility to deduct the amount, but there is a possibility that the user can adjust the amount of the deduction). It is necessary to generate a queue to be able to transfer money to third parties.</td>
 </tr>
 </tbody>
 </table>
@@ -256,20 +256,20 @@
 </thead>
 <tbody>
 <tr>
-<td>Darbinieka grām. grupas kods</td>
-<td>Izvēlas no saraksta, uz kuru grupu attiecas šī komponente.</td>
+<td>Employee Posting Group Code</td>
+<td>Selects from the list to which group this component applies.</td>
 </tr>
 <tr>
-<td>Konta tips</td>
-<td>Iespējamie varianti : virsgrāmatas konts; piegādātājs vai klients.</td>
+<td>Account Type</td>
+<td>Selects from the list.</td>
 </tr>
 <tr>
-<td>Konta Nr.</td>
-<td>Darba algas konta Nr. izvēlas no saraksta (vai piegādātāju/klientu, ja tips ir piegādātājs/klients).</td>
+<td>Account No.</td>
+<td>Payroll account number is selected from the chart of accounts (or vendor/customer if the type is vendor/customer).</td>
 </tr>
 <tr>
-<td>DDSN Konta Nr.</td>
-<td>Norāda Darba dev.soc.nod. izmaksu Konta Nr. DDSN var grāmatoties dažādos izmaksu kontos, kas norādīti katrai darbinieka grāmatošanas grupai.</td>
+<td>Social Tax Account</td>
+<td>Specifies the Account Number of the Employer's Social Tax (DDSN) Cost.  DDSN can be posted to different cost accounts specified for each employee posting group.</td>
 </tr>
 </tbody>
 </table>
