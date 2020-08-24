@@ -147,7 +147,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/10.salary_comp.register.html",
-          "hash": "IdgOiA6xPh/MLvZ6hRTwpA=="
+          "hash": "sVXP50tt++m4A8SqbLUJtg=="
         }
       },
       "is_incremental": false,
@@ -1144,7 +1144,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/6.empl_add.info.html",
-          "hash": "brR+JMVRbiK9x6Dp9f9YOQ=="
+          "hash": "j0e7t+UTIAxiXKl9fH3TJw=="
         }
       },
       "is_incremental": false,
@@ -1321,7 +1321,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/8.salary_timing.html",
-          "hash": "JouoyDMjC7CY8sBUw4jiSQ=="
+          "hash": "mw4LqCDjYR0Bj50xLLCyDA=="
         }
       },
       "is_incremental": false,
@@ -1333,7 +1333,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/9.salary_absence.html",
-          "hash": "to8JA4yhrf5eIMJJIHNyZw=="
+          "hash": "18xLXMPzzmabQ4LEvdIhHQ=="
         }
       },
       "is_incremental": false,
