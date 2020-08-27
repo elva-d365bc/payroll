@@ -147,7 +147,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/10.salary_comp.register.html",
-          "hash": "sVXP50tt++m4A8SqbLUJtg=="
+          "hash": "d9K1hqcCu2doxjck71jLog=="
         }
       },
       "is_incremental": false,
@@ -247,7 +247,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/11.salary_calc.html",
-          "hash": "xxulVOwSi2F19Gxio4yt1Q=="
+          "hash": "wjyvwxv71wbMD/j13Emsnw=="
         }
       },
       "is_incremental": false,
@@ -292,7 +292,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/12.salary_pay.html",
-          "hash": "ODXRqgQ/lEzg5Inzo/JIZQ=="
+          "hash": "2i+JGWdtLzVIcE7sXlrtwg=="
         }
       },
       "is_incremental": false,
@@ -381,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/13.salary_recalc.html",
-          "hash": "ppMQnb2GwaVWmI2eo8XBYQ=="
+          "hash": "gmVZ8TJwSwOBPHcStDhmGg=="
         }
       },
       "is_incremental": false,
@@ -1132,7 +1132,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/6.1.empl_add.info.html",
-          "hash": "F3oaTO41GnRreyq6DklDnQ=="
+          "hash": "sQaTJt57euXNwEE7Ry8R+w=="
         }
       },
       "is_incremental": false,
@@ -1144,7 +1144,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/6.empl_add.info.html",
-          "hash": "j0e7t+UTIAxiXKl9fH3TJw=="
+          "hash": "TtesjJfJLqBS8rs1pXMSTA=="
         }
       },
       "is_incremental": false,
@@ -1233,6 +1233,17 @@
       "output": {
         "resource": {
           "relative_path": "docs/payroll_base/setup/6.empl_add_info8.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/6.empl_add_info9.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/6.empl_add_info9.png"
         }
       },
       "is_incremental": false,
@@ -1333,7 +1344,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_base/setup/9.salary_absence.html",
-          "hash": "18xLXMPzzmabQ4LEvdIhHQ=="
+          "hash": "2c6daHGyI7zgF5Jh+XZ+Yw=="
         }
       },
       "is_incremental": false,
