@@ -16,8 +16,8 @@
   },
   "docs/payroll_base/faq.html": {
     "href": "docs/payroll_base/faq.html",
-    "title": "BUJ | Latvian Payroll",
-    "keywords": "BUJ 1. Veicu algas aprēķinu darbiniekiem, bet aizmirsu nomainīt sociālā statusa kodu vienam darbiniekam. Kā izlabot? Nomaina sociālā statusa kodu darbinieka kartiņā un izlabo darbinieka algas komponentēs nodokļu informāciju. Veic aprēķinu ar pazīmi “veidot storno, ja pastāv aprēķins šajā mēnesī” par mēnesi, kurā nepieciešami labojumi."
+    "title": "Frequently Asked Questions | Latvian Payroll",
+    "keywords": "Frequently Asked Questions 1. I made a salary list, but for one employee forgot to change the social status code. How to fix it? Change the social status code on the employee card and correct the tax information in employee payroll components. Perform the Insert New Lines in salary list enabling the button Create correction line, if exist payroll for this month for the month in which corrections are required. 2. The employee goes on vacation and asks for vacation pay. I made a prepayment header, but the payable amount also includes the amount of the premium that was entered through the Component Register. How to prepare a prepayment only for vacation pay? To pay only the holiday pay, you must use the Filters tab in the prepayment header card, where you can select from the list the appropriate vacation code in the field Absence Code Filter , in the field Absence Start Period Filter indicates the period (if there are several absences with the same code during the period) and enables the button Skip Reg. Comp. 3. An employee has been granted a one-time bonus. How better to enter this? A one-time benefit (also deduction) is recommended to enter in the Component Registers . Benefits (also deductions), what are repeated for several months, is recommended to enter in employee Payroll Components in the Employee card."
   },
   "docs/payroll_base/overview.html": {
     "href": "docs/payroll_base/overview.html",
