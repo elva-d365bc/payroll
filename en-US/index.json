@@ -22,7 +22,7 @@
   "docs/payroll_base/overview.html": {
     "href": "docs/payroll_base/overview.html",
     "title": "| Latvian Payroll",
-    "keywords": "Dynamics 365 Business Central Latvian Payroll Base is an application fully integrated with Dynamics 365 Business Central. The application provides standard functionality for salary calculation in accordance with the requirements of Latvian legislation."
+    "keywords": "Dynamics 365 Business Central Latvian Payroll Base is an application fully integrated with Dynamics 365 Business Central. The application provides standard functionality for salary calculation in accordance with the requirements of Latvian legislation. The application allows users to: calculate salaries create individual working time and holiday calendars register absences make vacation accruals Set periodic and one time benefits and deductions administer the writ of execution and payment of injunctions to third parties to prepare payment orders for Latvian commercial banks send salary slips by e-mail maintain information on employee qualifications maintain information about employees' relatives and alternative addresses add attachments of any format to employee registers Prepare reports for upload to EDS: Information on employees The employer's report on payed social and income tax The amounts disbursed to the notice of a natural person (Summary) IeIeN overview of the costs to non-residents"
   },
   "docs/payroll_base/setup/0.conf_pack.html": {
     "href": "docs/payroll_base/setup/0.conf_pack.html",
