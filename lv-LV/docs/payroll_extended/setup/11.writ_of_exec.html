@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Uzst&#257;d&#299;jumi | Latvian Payroll </title>
+    <title> | Latvian Payroll </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Uzst&#257;d&#299;jumi | Latvian Payroll ">
+    <meta name="title" content=" | Latvian Payroll ">
     <meta name="generator" content="docfx 2.56.2.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
@@ -77,120 +77,66 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="uzstādījumi">Uzstādījumi</h1>
 
-<p>Lai Dynamics 365 Business Central Latvian Payroll Base varētu sekmīgi funkcionēt atbilstoši jūsu uzņēmuma prasībām, ir pieejami zemāk minētie uzstādījumi.</p>
-<p>Pamatuzstādījumi tiek importēti ar konfigurācijas pakotni, tomēr papildus ir jāpārbauda/ jāaizpilda turpmāk aprakstītie uzstādījumu, lai nodrošinātu un verificētu precīzu sistēmas pielāgošanu Jūsu uzņēmuma vajadzībām.</p>
+<p>Atvilkumiem - darbinieka algas komponentēm pastāv iespēja norādīt sekojošo informāciju:</p>
+<p><img src="3.1.general_info_10.png" alt="alt"></p>
+<p><em>Konkrētajā piemērā ir ieturēti 20 % no bāzes ALIM (alga pēc nodokļu ieturēšanas) izmantojot algas komponenti Nr.740, kur minimālais ieturējums 250 EUR mēnesī, un par iepriekšējiem periodiem ir veikti ieturējumi 2000 EUR apmērā. Ieturējumam limita nav.</em></p>
+<p>Lai iestatītu izpildraksta ieturējumu, jāaizpilda sekojoši lauki:</p>
 <table>
 <thead>
 <tr>
-<th>Uzstādījumu nosaukums</th>
-<th>Ar pakotni importēts</th>
-<th>Lietotāja izveidots</th>
-<th>Lietotājs rediģē</th>
-<th>Lietotājam patstāvīgi nav ieteicams rediģēt</th>
-<th>Komentārs</th>
+<th>Lauka nosaukums</th>
+<th>Apraksts</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Algas uzstādījumi</td>
-<td>Jā</td>
-<td>-</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Uzstādījumi aprakstīti nodaļā &quot;Algu uzstādījumi&quot;</em>.</td>
+<td>Kods</td>
+<td>Izvēlēties algas komponenti. Atkarībā no algas komponentes uzstādījumiem tiek aprēķināta ieturējuma summa.</td>
 </tr>
 <tr>
-<td>Algas komponentes</td>
-<td>Jā</td>
-<td>-</td>
-<td>(Jā)*</td>
-<td>Jā</td>
-<td>* <em>Vērtība cilnē &quot;Uzstādījumi&quot; ir jāaktualizē atbilstoši izmaiņām likumdošanā. <br> Uzstādījumi aprakstīti nodaļā &quot;Algas komponentes&quot;.</em></td>
+<td>No datuma/ Līdz datumam</td>
+<td>Ja zināms, norādiet datumus, kādā periodā jāveic ieturējums.</td>
 </tr>
 <tr>
-<td>Bāzes</td>
-<td>Jā</td>
-<td>-</td>
-<td>(Jā)*</td>
-<td>Jā</td>
-<td>* <em>Atsevišķos gadījumos lietotājs pats var koriģēt vidējās izpeļņas aprēķinu un ieturējumus par izpildrakstiem. <br> Uzstādījumi aprakstīti nodaļā &quot;Bāzes&quot;.</em></td>
+<td>Vērtība</td>
+<td>Aizpilda gadījumā, ja ir zināma konkrēta summa, kas tiks ieturēta katru mēnesi.</td>
 </tr>
 <tr>
-<td>Darbinieka kontējuma grupas</td>
-<td>Jā</td>
-<td>(Jā)*</td>
-<td>Jā</td>
-<td>-</td>
-<td>* <em>Ar konfigurācijas pakotni tiks importētas standarta kontējuma grupas. Nepieciešamības gadījumā tās var pārsaukt, vai pievienot jaunas. <br> Uzstādījumi aprakstīti nodaļā &quot;Darbinieku kontējuma grupas&quot;</em>.</td>
+<td>Kopējais limits</td>
+<td>Norāda kopējo parāda summu pēc izpildraksta.</td>
 </tr>
 <tr>
-<td>Darbinieku grāmatošanas uzstādījumi</td>
-<td>Jā</td>
-<td>(Jā)*</td>
-<td>Jā</td>
-<td>-</td>
-<td>* <em>Ar konfigurācijas pakotni tiks importēti grāmatošanas uzstādījumi, bet papildus darbinieku kontējuma grupu pievienošanas gadījumā, grāmatojumu uzstādījumu rindas ir jāpapildina. Uzstādījumi aprakstīti nodaļā &quot;Darbinieku kontējuma grupas&quot;</em>.</td>
+<td>Aprēķinātā summa</td>
+<td>Informatīvs lauks. Sistēma šeit atspoguļo kopējo ieturēto summa šim konkrētajam izpildrakstam (no visiem algu sarakstiem kopējā summa).</td>
 </tr>
 <tr>
-<td>Algu dimensiju uzstādījumi</td>
-<td>-</td>
-<td>Jā</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Nav obligāta prasība. Uzstādījumi aprakstīti nodaļā &quot;Uzņēmuma uzstādījumi&quot;</em>.</td>
+<td>Mēneša limits</td>
+<td>Norāda mēneša minimālo limitu.</td>
 </tr>
 <tr>
-<td>Darba laika kalendāri</td>
-<td>Jā</td>
-<td>-</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Ja nepieciešams, var papildus izveidot jaunus kalendārus. Cilnē &quot;Kalendāra izmaiņu apakšforma&quot; jāpapildina ar darba dienu datumiem, kad darba laiks ir saīsināts. Uzstādījumi aprakstīti nodaļā &quot;Kalendāri&quot;</em>.</td>
+<td>Izmaksas minimālais limits</td>
+<td>Norāda darbinieka algas izmaksas minimālo limitu. Šajā gadījumā obligāti jābūt aizpildītai izmaksas bāzei.</td>
 </tr>
 <tr>
-<td>Svētku dienu kalendāri</td>
-<td>Jā</td>
-<td>-</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Ja nepieciešams, var papildus izveidot kalendārus. Cilnē &quot;Kalendāra izmaiņu apakšforma&quot; jāpapildina ar to svētku dienu datumiem, kas ir atšķirīgi katru gadu. Uzstādījumi aprakstīti nodaļā &quot;Kalendāri&quot;</em>.</td>
-</tr>
-<tr>
-<td>Prombūtne</td>
-<td>Jā</td>
-<td>-</td>
-<td>-</td>
-<td>Jā</td>
-<td><em>Prombūtņu iemesla kodi jāizskata, un vajadzības gadījumā, jākoriģē vai jāpapildina konsultējoties ar ELVA speciālistu. Uzstādījumi aprakstīti nodaļā &quot;Prombūtnes iemesli&quot;</em>.</td>
-</tr>
-<tr>
-<td>Struktūrvienības</td>
-<td>-</td>
-<td>Jā</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Uzstādījumi aprakstīti nodaļā &quot;Darbinieku uzstādījumi&quot;</em>.</td>
-</tr>
-<tr>
-<td>Amati</td>
-<td>-</td>
-<td>Jā</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Uzstādījumi aprakstīti nodaļā &quot;Uzņēmuma uzstādījumi&quot;</em>.</td>
-</tr>
-<tr>
-<td>Algu banku konti</td>
-<td>Jā</td>
-<td>(Jā)*</td>
-<td>Jā</td>
-<td>-</td>
-<td>* <em>Ar konfigurācijas pakotni tiks importēta kartiņa algu bankas kontam. Ja bankas konti, no kuriem izmaksā algu, ir vairāki, nepieciešams pievienot jaunas bankas kontu kartiņas. <br> Uzstādījumi aprakstīti nodaļā &quot;Algu uzstādījumi&quot;</em>.</td>
+<td>Izmaksas limita bāze</td>
+<td>Norāda limita bāzi, ja ir norādīts izmaksas minimālais limits.</td>
 </tr>
 </tbody>
 </table>
+<p><strong>Iespējamie konfigurācijas varianti:</strong></p>
+<ul>
+<li>Tiek ieturēti 30% no darbiniekam izmaksājamās, bet ne vairāk kā 350 EUR mēnesī. Kopējā ieturamā summa 350 EUR. Parādīts, ka no darbinieka ir jau ieturēta maksimālā summa 350.00 EUR.</li>
+</ul>
+<p><img src="3.1.general_info_11.png" alt="alt"></p>
+<ul>
+<li>Tiek ieturēti 20%, pie nosacījuma, ka ir jānodrošina darbinieka algas izmaksas summa vismaz 370 EUR mēnesī. Kopējā ieturamā summa 350 EUR. Parādīts, ka no darbinieka ir ieturēts 36.00 EUR.</li>
+</ul>
+<p><img src="3.1.general_info_12.png" alt="alt"></p>
+<div class="TIP">
+<h5>Tip</h5>
+<p><strong>Sistēma nenodrošina abus variantus vienlaicīgi - kad tiek lietots <em>Mēneša limits</em> un <em>Izmaksas minimālais limits</em>!</strong></p>
+</div>
 </article>
           </div>
           

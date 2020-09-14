@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Darbinieku karti&#326;a | Latvian Payroll </title>
+    <title>Pamatinform&#257;cijas ievad&#299;&#353;ana | Latvian Payroll </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Darbinieku karti&#326;a | Latvian Payroll ">
+    <meta name="title" content="Pamatinform&#257;cijas ievad&#299;&#353;ana | Latvian Payroll ">
     <meta name="generator" content="docfx 2.56.2.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
@@ -77,7 +77,7 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="darbinieku-kartiņa">Darbinieku kartiņa</h1>
+<h1 id="pamatinformācijas-ievadīšana">Pamatinformācijas ievadīšana</h1>
 
 <p><strong>Obligāti aizpildāmie lauki apraksta tabulu kolonnā <em>Lauka tips</em> ir atzīmēti ar izsaukuma zīmi <em>&quot;!&quot;</em></strong>.</p>
 <h2 id="cilne-visp-info">Cilne: <em>Visp. info</em></h2>
@@ -227,6 +227,11 @@
 <td>Pārdevēja/iepircēja kods</td>
 <td style="text-align: center;"></td>
 <td>Norāda kodu, kas piešķirts darbiniekam, kas ir pārdevējs vai iepircējs.</td>
+</tr>
+<tr>
+<td>Ir arodbiedrībā</td>
+<td style="text-align: center;"></td>
+<td>Iespējo, ja darbinieks ir arodbiedrības biedrs.</td>
 </tr>
 </tbody>
 </table>
@@ -380,12 +385,12 @@
 </tbody>
 </table>
 <h2 id="cilne-darbinieka-amati">Cilne: <em>Darbinieka amati</em></h2>
-<p>Būtiska darbinieka kartiņas daļa!</p>
-<p>Šajā cilnē tiek norādīti tādi aprēķinam vajadzīgie parametri kā darba laika kalendārs, amatā pieņemšanas datums, amata nosaukums.</p>
-<p>Lai darbiniekam piešķirtu amatu, klikšķiniet uz pogām <em>Naviģēt</em> (<img src="count1.png" alt="alt">) - <em>Papildus inf. izveidošana</em> (<img src="count2.png" alt="alt">) - <em>Izveidot jaunu darbinieka amatu</em> (<img src="count3.png" alt="alt">).</p>
-<p><img src="3.1.general_info_7.png" alt="alt"></p>
+<p>Būtiska darbinieka kartiņas daļa. Šajā cilnē tiek norādīti tādi aprēķinam vajadzīgie parametri kā darba laika kalendārs, amatā pieņemšanas datums, atlaišanas datums, amata numurs.
+Amata informācijas aizpildīšana tiek veikta caur darba līgumiem vai personāla rīkojumiem.
+Darbinieka amata Nr. tiek piešķirts automātiski, veidojot jaunu darbinieka kartiņu. Numerācija nepieciešama, lai programma varētu pareizi aprēķināt algu gadījumā, ja darbiniekam mainījies amats. Amata maiņas gadījumā jaunajam amatam automātiski tiek piešķirts jauns Darbinieka amata numurs.</p>
+<p><img src="3.1.general_info_7.1.png" alt="alt"></p>
 <p>Atvērsies jauns logs <em>Darbinieka amata karte</em>.</p>
-<p><img src="3.1.general_info_8.png" alt="alt"></p>
+<p><img src="3.1.general_info_7.png" alt="alt"></p>
 <table>
 <thead>
 <tr>
@@ -446,6 +451,11 @@
 <td>Darbinieka atlaišanas gadījumā šis lauks tiek atzīmēts automātiski, tiklīdz ir izveidots pēdējais algu saraksts.</td>
 </tr>
 <tr>
+<td>Grafiks/ Uzskaite</td>
+<td style="text-align: center;">!</td>
+<td>Aizpildot šo lauku, darbinieka amatam algas aprēķins notiek tikai secīgi pēc grafiku/uzskaites izveidošanas; ja šis lauks nav aizpildīts, tad aprēķins notiek par pamatu ņemot darba laika kalendāru. Izmaiņas veicamas tikai ar stundu reģistra palīdzību.</td>
+</tr>
+<tr>
 <td>Algas tips</td>
 <td style="text-align: center;">!</td>
 <td>Norāda darbinieka darba algas aprēķina tipu (piem., summētais darba laiks, maiņu darbs, 5 dienu darba nedēļa).</td>
@@ -495,26 +505,38 @@
 <td style="text-align: center;"></td>
 <td>Ja nepieciešams, norāda 2. globālo dimensiju.</td>
 </tr>
+<tr>
+<td>Darba līguma Nr.</td>
+<td style="text-align: center;"></td>
+<td>Tiek norādīts darba līguma numurs.</td>
+</tr>
+<tr>
+<td>Personāla rīkojuma Nr.</td>
+<td style="text-align: center;"></td>
+<td>Tiek norādīts personāla rīkojuma numurs.</td>
+</tr>
+<tr>
+<td>Personāla rīkojuma rindas Nr.</td>
+<td style="text-align: center;"></td>
+<td>Tiek norādīts personāla rīkojuma rindas numurs.</td>
+</tr>
 </tbody>
 </table>
 <p>Nepieciešamības gadījumā Darbinieku amata kartiņā ir iespējams arī piešķirt dimensijas apskatītajam darbinieka amatam.</p>
 <h2 id="algas-komponentes"><em>Algas komponentes</em></h2>
 <p>Darba algas komponentēs norāda nodokļu, atvieglojumu un atvilkumu komponentes, kuras jāiekļauj darbinieka darba algas aprēķinā.</p>
-<p>Darbinieka algas komponentes var apskatīt klikšķinot rīkjoslā uz pogām <em>Apstrādāt</em> - <em>Darbinieka algas komponentes</em>.</p>
-<p>Izveidojot jaunu darbinieka kartiņu, pirmo reizi algu komponentes ir jāģenerē automātiski. Lai to izdarītu, rīkjoslā jānoklikšķina uz pogām <em>Naviģēt</em> (<img src="count1.png" alt="alt">) - <em>Papildus inf. izveidošana</em> (<img src="count2.png" alt="alt">) - <em>Izveidot noklusētās darbinieka algas komponentes</em> (<img src="count3.png" alt="alt">).</p>
-<p><img src="3.1.general_info_9.png" alt="alt"></p>
+<p>Algas komponentes tiek izveidotas, grāmatojot darbinieka Darba Līgumu.</p>
+<p>Darbinieka algas komponentes var apskatīt klikšķinot darbinieka kartiņas rīkjoslā uz pogām <em>Apstrādāt</em> - <em>Darbinieka algas komponentes</em>.</p>
+<p><img src="3.1.general_info_7.2.png" alt="alt"></p>
 <p>Algas komponentes ir vieta, kur ir jānorāda pamatalgas komponente, kā arī citas regulāru papildus ienākumu komponentes (piemaksas, prēmijas, bonusus u.tml., kas ir konstantas summas katru mēnesi ilgstošu laika periodu). Izmaksājamo avansa summu norāda avansa komponentē.
 Nepieciešamības gadījumā rindas papildina ar informāciju par atvieglojumiem - Apgādājamie, Invaliditāte, Represētais.</p>
 <div class="TIP">
 <h5>Tip</h5>
-<p><strong>Gadījumā, ja darbinieks iesniedzis nodokļu grāmatiņu darba devējam, jāaizpilda katalogs <em>Saistīta informācija</em>, ko var atrast rīkjoslā klikšķinot uz <em>Naviģēt</em> -<em>Papildus info algu aprēķinam</em>.</strong></p>
+<p><strong>Gadījumā, ja darbinieks iesniedzis nodokļu grāmatiņu darba devējam, jāaizpilda katalogs <em>Saistīta informācija</em>, ko var atrast rīkjoslā klikšķinot uz <em>Naviģēt</em> -<em>Papildus inform. algām</em>.</strong></p>
 </div>
-<p>Komponentēs norāda arī informāciju par ilgstošiem Atvilkumiem (izpildraksti, alimenti, par auto lietošanu, u.tml.). Atvilkumus darbinieku kartiņā atzīmē tikai tajos gadījumos, kad tie ir konstantas summas, kas atkārtojas katru mēnesi. Vienreizēji ieturami atvilkumi reģistrējami <em>Komponenšu reģistrs</em>.</p>
-<h3 id="izpildrakstu-apstrāde">Izpildrakstu apstrāde</h3>
-<p>Izpildraksts ir jāreģistrē darbinieka kartes sadaļā <em>Algas komponentes</em></p>
+<p>Rindas papildina arī ar informāciju par Atvilkumiem. Atvilkumus darbinieku kartiņā atzīmē tikai tajos gadījumos, kad tie ir konstantas summas, kas atkārtojas katru mēnesi.</p>
+<p>Atvilkumiem - darbinieka algas komponentēm pastāv iespēja norādīt sekojošo informāciju:</p>
 <p><img src="3.1.general_info_10.png" alt="alt"></p>
-<p><em>Konkrētajā piemērā ir ieturēti 20 % no bāzes ALIM (alga pēc nodokļu ieturēšanas) izmantojot algas komponenti Nr.740, kur minimālais ieturējums 250 EUR mēnesī, un par iepriekšējiem periodiem ir veikti ieturējumi 2000 EUR apmērā. Ieturējumam limita nav.</em></p>
-<p>Lai iestatītu izpildraksta ieturējumu, jāaizpilda sekojoši lauki:</p>
 <table>
 <thead>
 <tr>
@@ -524,20 +546,8 @@ Nepieciešamības gadījumā rindas papildina ar informāciju par atvieglojumiem
 </thead>
 <tbody>
 <tr>
-<td>Kods</td>
-<td>Izvēlēties algas komponenti. Atkarībā no algas komponentes uzstādījumiem tiek aprēķināta ieturējuma summa.</td>
-</tr>
-<tr>
-<td>No datuma/ Līdz datumam</td>
-<td>Ja zināms, norādiet datumus, kādā periodā jāveic ieturējums.</td>
-</tr>
-<tr>
-<td>Vērtība</td>
-<td>Aizpilda gadījumā, ja ir zināma konkrēta summa, kas tiks ieturēta katru mēnesi.</td>
-</tr>
-<tr>
 <td>Kopējais limits</td>
-<td>Norāda kopējo parāda summu pēc izpildraksta.</td>
+<td>Atvilkumu kopēju summa, tas nozīmē ka sasniedzot šo limitu, vairāk netiks ieturēts.</td>
 </tr>
 <tr>
 <td>Aprēķinātā summa</td>
@@ -545,31 +555,21 @@ Nepieciešamības gadījumā rindas papildina ar informāciju par atvieglojumiem
 </tr>
 <tr>
 <td>Mēneša limits</td>
-<td>Norāda mēneša minimālo limitu.</td>
+<td>Norāda mēneša limitu.</td>
 </tr>
 <tr>
 <td>Izmaksas minimālais limits</td>
-<td>Norāda darbinieka algas izmaksas minimālo limitu. Šajā gadījumā obligāti jābūt aizpildītai izmaksas bāzei.</td>
+<td>Norāda kādai jābūt minimālai izmaksas summai.</td>
 </tr>
 <tr>
 <td>Izmaksas limita bāze</td>
-<td>Norāda limita bāzi, ja ir norādīts izmaksas minimālais limits.</td>
+<td>Norāda kāda ir izmaksas limita bāze.</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Iespējamie konfigurācijas varianti:</strong></p>
-<ul>
-<li>Tiek ieturēti 30% no darbiniekam izmaksājamās, bet ne vairāk kā 350 EUR mēnesī. Kopējā ieturamā summa 350 EUR. Parādīts, ka no darbinieka ir jau ieturēta maksimālā summa 350.00 EUR.</li>
-</ul>
-<p><img src="3.1.general_info_11.png" alt="alt"></p>
-<ul>
-<li>Tiek ieturēti 20%, pie nosacījuma, ka ir jānodrošina darbinieka algas izmaksas summa vismaz 370 EUR mēnesī. Kopējā ieturamā summa 350 EUR. Parādīts, ka no darbinieka ir ieturēts 36.00 EUR.</li>
-</ul>
-<p><img src="3.1.general_info_12.png" alt="alt"></p>
-<div class="TIP">
-<h5>Tip</h5>
-<p><strong>Sistēma nenodrošina abus variantus vienlaicīgi - kad tiek lietots <em>Mēneša limits</em> un <em>Izmaksas minimālais limits</em>!</strong></p>
-</div>
+<p>Jāpievērš uzmanība, ka ja šis ieturējums jāpārskata trešajai personai, tad jāaizpilda informācija, kam pārskaitīt.</p>
+<p>Ja pēc ieturējuma veikšanas summa jāpārskaita citai personai uz citu bankas kontu, tad jāievada atbilstoši visi bankas konta dati darbinieka kartiņā klikšķinot uz pogām <em>Naviģēt</em> - <em>Papildus inform. algām</em> - <em>Pārskaitījumi</em>.</p>
+<p><img src="8.5.payout_3.png" alt="alt"></p>
 </article>
           </div>
           
