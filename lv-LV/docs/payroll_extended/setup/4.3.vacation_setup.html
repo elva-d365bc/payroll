@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Uzst&#257;d&#299;jumi | Latvian Payroll </title>
+    <title>Atva&#316;in&#257;jumu p&#257;rvald&#299;ba | Latvian Payroll </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Uzst&#257;d&#299;jumi | Latvian Payroll ">
+    <meta name="title" content="Atva&#316;in&#257;jumu p&#257;rvald&#299;ba | Latvian Payroll ">
     <meta name="generator" content="docfx 2.56.2.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
@@ -77,120 +77,171 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="uzstādījumi">Uzstādījumi</h1>
+<h1 id="atvaļinājumu-pārvaldība">Atvaļinājumu pārvaldība</h1>
 
-<p>Lai Dynamics 365 Business Central Latvian Payroll Base varētu sekmīgi funkcionēt atbilstoši jūsu uzņēmuma prasībām, ir pieejami zemāk minētie uzstādījumi.</p>
-<p>Pamatuzstādījumi tiek importēti ar konfigurācijas pakotni, tomēr papildus ir jāpārbauda/ jāaizpilda turpmāk aprakstītie uzstādījumu, lai nodrošinātu un verificētu precīzu sistēmas pielāgošanu Jūsu uzņēmuma vajadzībām.</p>
+<h2 id="atvaļinājuma-periodu-uzstādījumi">Atvaļinājuma periodu uzstādījumi</h2>
+<p>Atvaļinājumu uzstādījumi uzstādījumi ( Lomu centrs - <em>Atvaļinājumu periodi</em> - <em>Uzstādījumi</em> - <em>Atvaļ. periodu uzstādījumi</em>) sastāv no sekojošiem laukiem:</p>
+<p><img src="4.3.vacation_setup_1.png" alt="alt"></p>
 <table>
 <thead>
 <tr>
-<th>Uzstādījumu nosaukums</th>
-<th>Ar pakotni importēts</th>
-<th>Lietotāja izveidots</th>
-<th>Lietotājs rediģē</th>
-<th>Lietotājam patstāvīgi nav ieteicams rediģēt</th>
-<th>Komentārs</th>
+<th>Lauka nosaukums</th>
+<th>Apraksts</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Algas uzstādījumi</td>
-<td>Jā</td>
-<td>-</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Uzstādījumi aprakstīti nodaļā &quot;Algu uzstādījumi&quot;</em>.</td>
+<td>Iespējot atvaļinājumu pārvaldību</td>
+<td>Iespējot, ja izmantojat atvaļinājumu pārvaldību.</td>
 </tr>
 <tr>
-<td>Algas komponentes</td>
-<td>Jā</td>
-<td>-</td>
-<td>(Jā)*</td>
-<td>Jā</td>
-<td>* <em>Vērtība cilnē &quot;Uzstādījumi&quot; ir jāaktualizē atbilstoši izmaiņām likumdošanā. <br> Uzstādījumi aprakstīti nodaļā &quot;Algas komponentes&quot;.</em></td>
+<td>Atvaļinājuma perioda garums</td>
+<td>Norāda atvaļinājuma perioda garumu</td>
 </tr>
 <tr>
-<td>Bāzes</td>
-<td>Jā</td>
-<td>-</td>
-<td>(Jā)*</td>
-<td>Jā</td>
-<td>* <em>Atsevišķos gadījumos lietotājs pats var koriģēt vidējās izpeļņas aprēķinu un ieturējumus par izpildrakstiem. <br> Uzstādījumi aprakstīti nodaļā &quot;Bāzes&quot;.</em></td>
+<td>Atvaļ. dienu tips</td>
+<td>Kalendāra diena vai darba diena.</td>
 </tr>
 <tr>
-<td>Darbinieka kontējuma grupas</td>
-<td>Jā</td>
-<td>(Jā)*</td>
-<td>Jā</td>
-<td>-</td>
-<td>* <em>Ar konfigurācijas pakotni tiks importētas standarta kontējuma grupas. Nepieciešamības gadījumā tās var pārsaukt, vai pievienot jaunas. <br> Uzstādījumi aprakstīti nodaļā &quot;Darbinieku kontējuma grupas&quot;</em>.</td>
+<td>Atvaļ. dienu skaits vienā periodā</td>
+<td>Norāda piešķiramo atvaļinājuma kalendāra dienu skaitu par vienu periodu.</td>
 </tr>
 <tr>
-<td>Darbinieku grāmatošanas uzstādījumi</td>
-<td>Jā</td>
-<td>(Jā)*</td>
-<td>Jā</td>
-<td>-</td>
-<td>* <em>Ar konfigurācijas pakotni tiks importēti grāmatošanas uzstādījumi, bet papildus darbinieku kontējuma grupu pievienošanas gadījumā, grāmatojumu uzstādījumu rindas ir jāpapildina. Uzstādījumi aprakstīti nodaļā &quot;Darbinieku kontējuma grupas&quot;</em>.</td>
+<td>Plānotās darba dienas</td>
+<td>Norāda piešķiramo atvaļinājuma darba dienu skaitu par vienu periodu.</td>
 </tr>
 <tr>
-<td>Algu dimensiju uzstādījumi</td>
-<td>-</td>
-<td>Jā</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Nav obligāta prasība. Uzstādījumi aprakstīti nodaļā &quot;Uzņēmuma uzstādījumi&quot;</em>.</td>
+<td>Plānotās darba dienas 6DDN</td>
+<td>Norāda piešķiramo atvaļinājuma darba dienu skaitu par vienu periodu sešu darba dienu nedēļai.</td>
 </tr>
 <tr>
-<td>Darba laika kalendāri</td>
-<td>Jā</td>
-<td>-</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Ja nepieciešams, var papildus izveidot jaunus kalendārus. Cilnē &quot;Kalendāra izmaiņu apakšforma&quot; jāpapildina ar darba dienu datumiem, kad darba laiks ir saīsināts. Uzstādījumi aprakstīti nodaļā &quot;Kalendāri&quot;</em>.</td>
+<td>Uzturēt papildus atvaļinājumus</td>
+<td>Iespējot, ja nepieciešams uzturēt papildus atvaļinājumus.</td>
 </tr>
 <tr>
-<td>Svētku dienu kalendāri</td>
-<td>Jā</td>
-<td>-</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Ja nepieciešams, var papildus izveidot kalendārus. Cilnē &quot;Kalendāra izmaiņu apakšforma&quot; jāpapildina ar to svētku dienu datumiem, kas ir atšķirīgi katru gadu. Uzstādījumi aprakstīti nodaļā &quot;Kalendāri&quot;</em>.</td>
+<td>Dienu apaļošanas precizitāte</td>
+<td>Norāda precizitāti (zīmes aiz komata), ar kādu atlikušās atvaļinājuma dienas/ stundas tiks izmantotas aprēķinos.</td>
 </tr>
 <tr>
-<td>Prombūtne</td>
-<td>Jā</td>
-<td>-</td>
-<td>-</td>
-<td>Jā</td>
-<td><em>Prombūtņu iemesla kodi jāizskata, un vajadzības gadījumā, jākoriģē vai jāpapildina konsultējoties ar ELVA speciālistu. Uzstādījumi aprakstīti nodaļā &quot;Prombūtnes iemesli&quot;</em>.</td>
-</tr>
-<tr>
-<td>Struktūrvienības</td>
-<td>-</td>
-<td>Jā</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Uzstādījumi aprakstīti nodaļā &quot;Darbinieku uzstādījumi&quot;</em>.</td>
-</tr>
-<tr>
-<td>Amati</td>
-<td>-</td>
-<td>Jā</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Uzstādījumi aprakstīti nodaļā &quot;Uzņēmuma uzstādījumi&quot;</em>.</td>
-</tr>
-<tr>
-<td>Algu banku konti</td>
-<td>Jā</td>
-<td>(Jā)*</td>
-<td>Jā</td>
-<td>-</td>
-<td>* <em>Ar konfigurācijas pakotni tiks importēta kartiņa algu bankas kontam. Ja bankas konti, no kuriem izmaksā algu, ir vairāki, nepieciešams pievienot jaunas bankas kontu kartiņas. <br> Uzstādījumi aprakstīti nodaļā &quot;Algu uzstādījumi&quot;</em>.</td>
+<td>Atvaļ. periodu numuri</td>
+<td>Norāda atvaļinājumu periodu Nr. sēriju.</td>
 </tr>
 </tbody>
 </table>
+<h2 id="atvaļinājuma-periodu-papilddienu-uzstādījumi">Atvaļinājuma periodu papilddienu uzstādījumi</h2>
+<p>Atvaļinājumu periodu papilddienu uzstādījumi (Lomu centrs - <em>Atvaļinājumu periodi</em> - <em>Uzstādījumi</em> - <em>Atvaļinājuma perioda papildus dienas iestatīšana</em>) sastāv no sekojošiem laukiem (visiem gadījumiem jāizveido savs uzstādījums):</p>
+<p><img src="4.3.vacation_setup_2.png" alt="alt"></p>
+<table>
+<thead>
+<tr>
+<th>Lauka nosaukums</th>
+<th>Apraksts</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kods</td>
+<td>Brīvi izvēlēts koda nosaukums.</td>
+</tr>
+<tr>
+<td>Nosaukums</td>
+<td>Brīvi izvēlēts nosaukums.</td>
+</tr>
+<tr>
+<td>Minimālais radinieku skaits</td>
+<td>Norādiet skaitli.</td>
+</tr>
+<tr>
+<td>Maksimālais radinieka vecums</td>
+<td>Norādiet skaitli. Jāņem vēra, ka vecums noradīts, ieskaitot šo vērtību.</td>
+</tr>
+<tr>
+<td>Papilddienu skaits</td>
+<td>Norādiet, cik dienu pienākas par vienu periodu.</td>
+</tr>
+<tr>
+<td>Prioritāte</td>
+<td>Gadījumā, ja izpildās vairāki nosacījumi, tiks ņemta augstākā prioritāte.</td>
+</tr>
+<tr>
+<td>Tikai radinieks ar invaliditāti</td>
+<td>Iespējo, ja papildatvaļinājuma tips attiecas uz radiniekiem ar invaliditāti.</td>
+</tr>
+<tr>
+<td>Radinieka filtrs</td>
+<td>Tiks apstrādāti dati tikai ar noradīto kodu.</td>
+</tr>
+<tr>
+<td>Prombūtnes kods</td>
+<td>Papildatvaļinājumu dienu uzskaitei tiks apstrādātas prombūtnes ar noradīto kodu.</td>
+</tr>
+</tbody>
+</table>
+<p>Risinājums paredzēts automātiskai papildatvaļinājuma dienu  piešķiršanai (par bērniem).</p>
+<p><em>VID pamatojums:</em></p>
+<ol>
+<li><p><em>Darbiniekam, kuram ir divi bērni līdz 14 gadiem, par pirmo darba gadu  pienākas 1 papildatvaļinājuma diena. Papildatvaļinājuma diena proporcionāli nav jārēķina.</em></p>
+</li>
+<li><p><em>Darbiniekam, kurš nav nostrādājis pilnu gadu, ir tiesības uz papildatvaļinājumu, kā to nosaka Darba likuma 151. pants, un darbinieks papildatvaļinājumu drīkst pieprasīt, jo papildatvaļinājums piešķirams darba gada ietvaros.</em></p>
+</li>
+<li><p><em>Darbiniekam ir tiesības uz papildatvaļinājumu līdz kamēr bērnam nepaliek 15 gadu. Tādējādi, līdz laikam, kamēr bērnam ir 14 gadi un 11 mēneši, darbiniekam ir tiesības uz papildatvaļinājumu.</em></p>
+</li>
+</ol>
+<p><em>Saskaņā ar VDI vēstuli, jāņem vērā, ka dienas tiek piešķirtas, ja darbiniekam ir vismaz viena darba diena šajā atvaļinājuma periodā (nav proporcionāli aprēķināts). Gadījumā, ja darbiniekam ir reģistrēta ilgstošā prombūtne, par kuru nepienākas atvaļinājums, un konkrētajā atvaļinājuma periodā ir reģistrēta tikai tāda prombūtne, atvaļinājums netiks piešķirts.</em></p>
+<p>Gadījumā, ja uzstādījumi nav aizpildīti, automātiska dienu piešķiršana nenotiks.</p>
+<p>Tiek pielāgota lapa Darbinieka Radinieki. Ievadot jaunu ierakstu katalogā Radinieki, tiek pārbaudīts vai sakrīt radinieka kods ar papildatvaļinājuma uzstādījumos radinieka kodu. Gadījumā, ja kods sakrīt, tiek piedāvāts papildatvaļinājuma dienu pārrēķins.</p>
+<p><img src="4.3.vacation_setup_3.png" alt="alt"></p>
+<p>Radinieka lapā ir izveidots lauks <em>Persona ar invaliditāti</em>, kurš ietekmē piešķirto papildatvaļinājumu dienu skaitu.<br>
+Laukā <em>Vecums</em>, sistēma automātiski aprēķina vecumu uz šodienu ( tas ir servera datums, nevis darba datums) vadoties no laukā <em>Dzimšanas datums</em> ievadītās vērtības.</p>
+<p>Sistēma, izejot no radinieka datiem, piešķir papildatvaļinājuma dienas. Tika pieņemts, ka ja nostrādāta kaut 1 diena atvaļinājuma perioda robežās, tad papilddiena par bērniem darbiniekam pienākas. Gadījumā, ja vienā atvaļinājuma periodā mainās nosacījumi, kuri ietekmē pienākošo dienu skaitu (piemēram, bērns sasniedzis kādu noteiktu vecumu), tad sistēma aprēķina dienas uz perioda sākumu un perioda beigām un piešķir lielāko dienu skaitu.</p>
+<p>Pastāv iespēja piešķirt dienas manuāli, aizpildot <em>Atvaļinājuma periodu žurnālu</em> (Lomu centrs - <em>Atvaļinājumu periodi</em> - <em>Atvaļinājuma periodu žurnāls</em>). Tādam nolūkam žurnālā ir izveidots jauns lauks <em>Papilddienu uzstādījuma kods</em>. Šis lauks jāaizpilda tikai gadījumā, ja tiek koriģētas papildatvaļinājuma dienas par bērniem.</p>
+<p><img src="4.3.vacation_setup_4.png" alt="alt"></p>
+<p>Pastāv iespēja, palaist pienākošo dienu skaita pārrēķinu <img src="count1.png" alt="alt"> no atvaļinājuma periodu saraksta <em>Atvaļinājuma periodi</em> (Lomu centrs - <em>Atvaļinājumu periodi</em> - <em>Atvaļinājumu periodi</em>):</p>
+<p><img src="4.3.vacation_setup_5.png" alt="alt"></p>
+<p>Izmantojot standarta funkciju <em>Ģenerēt periodus</em> <img src="count2.png" alt="alt">, sistēma arī piešķirs papildatvaļinājuma dienas par bērniem.</p>
+<p>Ievadot prombūtni, sistēma veic atlikuma pārrēķinu. Ja tabulā <em>Atvaļ. periodu papilddienu uzstādījumi</em> nav ierakstu ar lauka <em>Prombūtnes kods</em> vērtību, kura sakrīt ar lauku <em>Prombūtnes kods</em> darbinieka prombūtnes kartiņā, tad pārrēķins nenotiek.</p>
+<p>Lai nodrošinātu dienu par bērniem nedalīšanu proporcionāli, tām prombūtnēm, kurām laukā <em>Ietekme uz atvaļinājumu</em> vienādu ar <em>Samazina atvaļinājuma periodu</em> , pirms pieejamo papildatvaļinājumu dienu aprēķina, tiek uzlikts filtrs <em>Papilddienu uzstādījuma koda filtrs</em> tabulai <em>Atvaļinājuma periods</em> uz tukšumu. Kā arī netiks pārbaudīts, ka papildatvaļinājums par bērniem paliek negatīvs, respektīvi, ja tas tika izmantots, tad nebūs kļūdas paziņojums par dienu nepietiekamību.</p>
+<p><img src="4.3.vacation_setup_6.png" alt="alt"></p>
+<p>Dienu attiecināšana pa periodiem: papildināta funkcionalitāte, lai varētu piešķirt papildatvaļinājuma dienas par bērniem vai citas papildatvaļinājuma dienas. Tiek pārbaudīts vai tagad tiek apstrādāts papildatvaļinājums, tad tiek pārbaudīts vai tabulā <em>Atvaļ. periodu papilddienu uzstādījumi</em> pastāv ieraksts ar tādu <em>Prombūtnes kods</em>, kā šim ierakstam. Ja ir, tad tiks uzlikts filtrs uz lauku <em>Papilddienu uzstādījuma koda filtrs</em> tabulai <em>Atvaļinājuma periodi</em>, kur nav tukšs, pretējā gadījumā, tas tiks uzlikts tieši tukšs, lai aprēķinātu korekti pieejamas papildatvaļinājuma dienas – atbilstoši bērnu papilddienas vai citas. Ja tas būs par bērniem, tad tiks aizpildīts lauks <em>Papilddienu uzstādījuma kods</em> ar pirmo atrasto tabulā <em>Atvaļ. periodu papilddienu uzstādījumi</em>. Pārējā loģika paliek, ka bija standarta – mēģinās piešķirt dienas pa visiem iespējamiem periodiem.</p>
+<p>Gadījumā, ja papildatvaļinājums tika piešķirts un izmantots par nākamajiem periodiem, tad atlaižot darbinieku, sistēma noslēgs tekošo atvaļinājuma periodu, pārējie tiks dzēsti.</p>
+<h2 id="atvaļinājuma-periodi">Atvaļinājuma periodi</h2>
+<p>Lomu centrs - <em>Atvaļinājumu periodi</em> - <em>Atvaļinājumu periodi</em>.</p>
+<p><img src="4.3.vacation_setup_7.png" alt="alt"></p>
+<p>Atvaļinājuma periodos iespējams iegūt informāciju par darbiniekam piešķirtajām, izmantotajām, pieejamajām ikgadējā/papildatvaļinājuma dienām, kā arī, uz kādiem darba periodiem tās attiecas.
+Lai izveidotu jaunus atvaļinājuma periodus, jāizvēlas <em>Ģenerēt periodus</em></p>
+<p><img src="4.3.vacation_setup_8.png" alt="alt"></p>
+<h2 id="atvaļinājuma-periodu-žurnāls">Atvaļinājuma periodu žurnāls</h2>
+<p>Lomu centrs - <em>Atvaļinājumu periodi</em> - <em>Atvaļinājuma periodu žurnāls</em></p>
+<p>Atvaļinājuma periodu žurnālā iespējams ievadīt/koriģēt datus par piešķirto/izmantoto atvaļinājuma/papildatvaļinājuma dienu skaitu.</p>
+<p>Kad nepieciešamā informācija atvaļinājuma periodu žurnālā ir ievadīta, to iespējams Pārbaudīt <img src="count1.png" alt="alt"> un pēc tam Grāmatot <img src="count2.png" alt="alt">. Pēc grāmatošanas iegrāmatotā informācija atspoguļojas <em>Atvaļinājumu periodi</em>.</p>
+<p><img src="4.3.vacation_setup_9.png" alt="alt"></p>
+<table>
+<thead>
+<tr>
+<th>Lauka nosaukums</th>
+<th>Apraksts</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sākotnējā piešķ. dienu rinda</td>
+<td>Izmanto gadījumos, kad ir nepieciešamība koriģēt perioda piešķirto dienu skaitu. Tiks ņemts vērā pie perioda samazināšanas un pie atlikušo dienu aprēķina perioda vidū.</td>
+</tr>
+<tr>
+<td>Atlaišanas pārrēķina rinda</td>
+<td>Izmanto gadījumos, kad ir nepieciešamība koriģēt dienu skaitu, kas aprēķināts pie darbinieka atbrīvošanas pēdējā atvaļinājuma periodā.</td>
+</tr>
+<tr>
+<td>Bezalgas atvaļinājuma rinda</td>
+<td>Izmanto gadījumos, kad ir nepieciešamība veikt piešķirto atvaļinājuma dienu skaita samazinājuma korekciju saistībā ar bezalgas atvaļinājumu. Darba likums paredz, ka laikā, kas dod tiesības uz ikgadējo apmaksāto atvaļinājumu, neieskaita atvaļinājuma laiku bez darba samaksas saglabāšanas, kas ir ilgāks par četrām nedēļām viena gada laikā.</td>
+</tr>
+<tr>
+<td>Atvaļinājuma atsevišķu dienu piešķiršana</td>
+<td>Izmanto gadījumos, kad ir nepieciešams piešķirt papildu dienu no kāda konkrēta datuma. Diena netiek sadalīta proporcionāli atvaļinājuma periodam, stājas spēkā uzreiz.</td>
+</tr>
+</tbody>
+</table>
+<p>Jāpievērš uzmanība, ka gadījumos, kad atvaļinājumu dienas uzskaite ir kalendārās dienās, tad piešķirot papildatvaļinājuma dienu, sistēma uzkrājumos ņems vērā ka piešķirta diena ir darba diena, nevis kalendārā diena.</p>
 </article>
           </div>
           

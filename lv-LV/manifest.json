@@ -1709,15 +1709,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "docs/payroll_extended/setup/1.0.setting_up.md",
       "output": {
         ".html": {
           "relative_path": "docs/payroll_extended/setup/1.0.setting_up.html",
-          "hash": "FYsit/LuGMw0Wx46ahk1gw=="
+          "hash": "iZpXCfG/BWqffJXnwOOrHA=="
         }
       },
       "is_incremental": false,
@@ -2948,7 +2945,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_extended/setup/3.2.additional_info.html",
-          "hash": "ghSOPsrDaNzug40tEMjyBg=="
+          "hash": "FRQ7QMAPuCh8kHrxq0QRRw=="
         }
       },
       "is_incremental": false,
@@ -2960,6 +2957,28 @@
       "output": {
         "resource": {
           "relative_path": "docs/payroll_extended/setup/3.2.additional_info_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/3.2.additional_info_10.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/3.2.additional_info_10.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/3.2.additional_info_11.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/3.2.additional_info_11.png"
         }
       },
       "is_incremental": false,
@@ -3032,12 +3051,22 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "docs/payroll_extended/setup/3.3.calc_examples.md",
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/3.2.additional_info_8.png",
       "output": {
-        ".html": {
-          "relative_path": "docs/payroll_extended/setup/3.3.calc_examples.html",
-          "hash": "p/x39AEJbYoj3fvM6QykCQ=="
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/3.2.additional_info_8.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/3.2.additional_info_9.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/3.2.additional_info_9.png"
         }
       },
       "is_incremental": false,
@@ -3045,11 +3074,121 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/payroll_extended/setup/4.0.absence_register.md",
+      "source_relative_path": "docs/payroll_extended/setup/3.3.calc_examples.md",
       "output": {
         ".html": {
-          "relative_path": "docs/payroll_extended/setup/4.0.absence_register.html",
-          "hash": "Ymi4XcW5I7g/69lXfetswA=="
+          "relative_path": "docs/payroll_extended/setup/3.3.calc_examples.html",
+          "hash": "ZzrT4cFXyhGr+NbaejsJOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/3.3.calc_examples_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/3.3.calc_examples_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/3.3.calc_examples_10.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/3.3.calc_examples_10.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/3.3.calc_examples_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/3.3.calc_examples_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/3.3.calc_examples_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/3.3.calc_examples_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/3.3.calc_examples_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/3.3.calc_examples_4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/3.3.calc_examples_5.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/3.3.calc_examples_5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/3.3.calc_examples_6.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/3.3.calc_examples_6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/3.3.calc_examples_7.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/3.3.calc_examples_7.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/3.3.calc_examples_8.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/3.3.calc_examples_8.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/3.3.calc_examples_9.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/3.3.calc_examples_9.png"
         }
       },
       "is_incremental": false,
@@ -3061,7 +3200,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_extended/setup/4.1.registering_absence.html",
-          "hash": "P/e9/q4MuLzqozZ4w9bKSA=="
+          "hash": "LgFw3UnPYzn5q0ibJyXAXQ=="
         }
       },
       "is_incremental": false,
@@ -3069,10 +3208,21 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "docs/payroll_extended/setup/4.1.registering_absence_1.png",
+      "source_relative_path": "docs/payroll_extended/setup/4.1.registering_absence_1.1.png",
       "output": {
         "resource": {
-          "relative_path": "docs/payroll_extended/setup/4.1.registering_absence_1.png"
+          "relative_path": "docs/payroll_extended/setup/4.1.registering_absence_1.1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/4.1.registering_absence_1.2.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/4.1.registering_absence_1.2.png"
         }
       },
       "is_incremental": false,
@@ -3084,7 +3234,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_extended/setup/4.2.absence_contin.html",
-          "hash": "Dk4aeXVYqcmrijcgMweCRw=="
+          "hash": "kl5YMXtuj38W8XyA4Hs8NQ=="
         }
       },
       "is_incremental": false,
@@ -3096,7 +3246,106 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_extended/setup/4.3.vacation_setup.html",
-          "hash": "DLxD4SzKMrNQcyll2L6Bvg=="
+          "hash": "NBBBn5ANlk4JnXVWVhOFuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/4.3.vacation_setup_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/4.3.vacation_setup_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/4.3.vacation_setup_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/4.3.vacation_setup_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/4.3.vacation_setup_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/4.3.vacation_setup_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/4.3.vacation_setup_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/4.3.vacation_setup_4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/4.3.vacation_setup_5.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/4.3.vacation_setup_5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/4.3.vacation_setup_6.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/4.3.vacation_setup_6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/4.3.vacation_setup_7.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/4.3.vacation_setup_7.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/4.3.vacation_setup_8.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/4.3.vacation_setup_8.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/4.3.vacation_setup_9.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/4.3.vacation_setup_9.png"
         }
       },
       "is_incremental": false,
@@ -3317,15 +3566,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "docs/payroll_extended/setup/8.1.advance.md",
       "output": {
         ".html": {
           "relative_path": "docs/payroll_extended/setup/8.1.advance.html",
-          "hash": "kubnQLCdrwhhcMm7GrhL7Q=="
+          "hash": "pEOy9/llKvqrVSmh5c7lfw=="
         }
       },
       "is_incremental": false,
@@ -3639,7 +3885,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_extended/toc.html",
-          "hash": "m9Flk0F9I/nWYCvyUV53Gg=="
+          "hash": "/Yp73WZ+oYKot6BdtiuXbQ=="
         }
       },
       "is_incremental": false,
@@ -4007,7 +4253,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 117,
+          "total_file_count": 116,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
