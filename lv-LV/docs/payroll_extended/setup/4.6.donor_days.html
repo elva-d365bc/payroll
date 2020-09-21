@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Uzst&#257;d&#299;jumi | Latvian Payroll </title>
+    <title>Donoru dienas | Latvian Payroll </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Uzst&#257;d&#299;jumi | Latvian Payroll ">
+    <meta name="title" content="Donoru dienas | Latvian Payroll ">
     <meta name="generator" content="docfx 2.56.2.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
@@ -77,117 +77,34 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="uzstādījumi">Uzstādījumi</h1>
+<h1 id="donoru-dienas">Donoru dienas</h1>
 
-<p>Lai Dynamics 365 Business Central Latvian Payroll Base varētu sekmīgi funkcionēt atbilstoši jūsu uzņēmuma prasībām, ir pieejami zemāk minētie uzstādījumi.</p>
-<p>Pamatuzstādījumi tiek importēti ar konfigurācijas pakotni, tomēr papildus ir jāpārbauda/ jāaizpilda turpmāk aprakstītie uzstādījumu, lai nodrošinātu un verificētu precīzu sistēmas pielāgošanu Jūsu uzņēmuma vajadzībām.</p>
+<p>Ja tiek izmantota Atvaļinājuma pārvaldība, ir iespēja izmantot Donoru dienas risinājumu. Prombūtnes kartē, jānorāda, ka par šo prombūtni pienākas 1 papildatvaļinājuma diena, bet šīs prombūtnes aprēķina veids ir saglabājot darba algu.</p>
+<p><img src="4.6.donor_days_1.png" alt="alt"></p>
+<div class="TIP">
+<h5>Tip</h5>
+<p><strong>Jāpievērš uzmanība: ja ielikts ķeksis “Brīvdiena saglabājot darba algu”, ievadot prombūtni sistēma prombūtnes kartē uzreiz aprēķinās dienas/stundas izpeļņu ar pazīmi “Vidējā izpeļņa izmainīta”. Veicot algas aprēķinu, tiks ignorēts prombūtnes iemesla aprēķina veids un tiks ņemta vērā vidējā izpeļņa no prombūtnes kartes.</strong></p>
+</div>
+<p>Dienas / stundas  aprēķins: tiek analizētas darbinieka algas komponentes, kurām ir pazīme Pamatalga. Tiek apstrādāti sekojošie veidi: proporc. nostr. dienām, proporc. nostr. stundām, stundu, dienu. Gadījumā, ja darbinieka kartē pazīme Vidējā samaksa par stundām,  tad tiek rēķināta arī stundu izpeļņa. Stundu skaits apmaksai tiek ņemts no grafika. Ja darbiniekam šajā periodā tika mainīta algas, tad tiek analizēta katra diena un izrēķināta vidējā par šo periodu.</p>
+<p>Atvaļinājuma periodos automātiski tiks izveidots ieraksts par piešķirto papildatvaļinājuma dienu.  Atvaļinājuma periods – prombūtnes <em>No datuma</em> periods.</p>
+<p><img src="4.6.donor_days_2.png" alt="alt"></p>
+<p>Donora dienas apmaksai nevajadzētu būt iekļautai vidējā izpeļņā. Tāpēc Bāzē ATVALIN apmaksas komponentes kodam jābūt izslēgtam no bāzes.</p>
+<p><img src="4.6.donor_days_3.png" alt="alt"></p>
+<p><strong>!!! Atpūtas dienai par donoru dienu labāk izveidot jaunu prombūtnes kodu, kuram būtu sekojošie uzstādījumi:</strong></p>
+<p>Lomu centrs - <em>Prombūtnes</em> - <em>Prombūtnes iemesli</em></p>
+<p>Atvaļinājuma periodu žurnālā iespējams ievadīt/koriģēt datus par piešķirto/izmantoto atvaļinājuma/papildatvaļinājuma dienu skaitu.</p>
+<p>Kad nepieciešamā informācija atvaļinājuma periodu žurnālā ir ievadīta, to iespējams Pārbaudīt <img src="count1.png" alt="alt"> un pēc tam Grāmatot <img src="count2.png" alt="alt">. Pēc grāmatošanas iegrāmatotā informācija atspoguļojas <em>Atvaļinājumu periodi</em>.</p>
 <table>
 <thead>
 <tr>
-<th>Uzstādījumu nosaukums</th>
-<th>Ar pakotni importēts</th>
-<th>Lietotāja izveidots</th>
-<th>Lietotājs rediģē</th>
-<th>Lietotājam patstāvīgi nav ieteicams rediģēt</th>
-<th>Komentārs</th>
+<th>Lauka nosaukums</th>
+<th>Apraksts</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Algas uzstādījumi</td>
-<td>Jā</td>
-<td>-</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Uzstādījumi aprakstīti nodaļā &quot;Algu uzstādījumi&quot;</em>.</td>
-</tr>
-<tr>
-<td>Algas komponentes</td>
-<td>Jā</td>
-<td>-</td>
-<td>(Jā)*</td>
-<td>Jā</td>
-<td>* <em>Vērtība cilnē &quot;Uzstādījumi&quot; ir jāaktualizē atbilstoši izmaiņām likumdošanā. <br> Uzstādījumi aprakstīti nodaļā &quot;Algas komponentes&quot;.</em></td>
-</tr>
-<tr>
-<td>Bāzes</td>
-<td>Jā</td>
-<td>-</td>
-<td>(Jā)*</td>
-<td>Jā</td>
-<td>* <em>Atsevišķos gadījumos lietotājs pats var koriģēt vidējās izpeļņas aprēķinu un ieturējumus par izpildrakstiem. <br> Uzstādījumi aprakstīti nodaļā &quot;Bāzes&quot;.</em></td>
-</tr>
-<tr>
-<td>Darbinieka kontējuma grupas</td>
-<td>Jā</td>
-<td>(Jā)*</td>
-<td>Jā</td>
-<td>-</td>
-<td>* <em>Ar konfigurācijas pakotni tiks importētas standarta kontējuma grupas. Nepieciešamības gadījumā tās var pārsaukt, vai pievienot jaunas. <br> Uzstādījumi aprakstīti nodaļā &quot;Darbinieku kontējuma grupas&quot;</em>.</td>
-</tr>
-<tr>
-<td>Darbinieku grāmatošanas uzstādījumi</td>
-<td>Jā</td>
-<td>(Jā)*</td>
-<td>Jā</td>
-<td>-</td>
-<td>* <em>Ar konfigurācijas pakotni tiks importēti grāmatošanas uzstādījumi, bet papildus darbinieku kontējuma grupu pievienošanas gadījumā, grāmatojumu uzstādījumu rindas ir jāpapildina. Uzstādījumi aprakstīti nodaļā &quot;Darbinieku kontējuma grupas&quot;</em>.</td>
-</tr>
-<tr>
-<td>Algu dimensiju uzstādījumi</td>
-<td>-</td>
-<td>Jā</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Nav obligāta prasība. Uzstādījumi aprakstīti nodaļā &quot;Uzņēmuma uzstādījumi&quot;</em>.</td>
-</tr>
-<tr>
-<td>Darba laika kalendāri</td>
-<td>Jā</td>
-<td>-</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Ja nepieciešams, var papildus izveidot jaunus kalendārus. Cilnē &quot;Kalendāra izmaiņu apakšforma&quot; jāpapildina ar darba dienu datumiem, kad darba laiks ir saīsināts. Uzstādījumi aprakstīti nodaļā &quot;Kalendāri&quot;</em>.</td>
-</tr>
-<tr>
-<td>Svētku dienu kalendāri</td>
-<td>Jā</td>
-<td>-</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Ja nepieciešams, var papildus izveidot kalendārus. Cilnē &quot;Kalendāra izmaiņu apakšforma&quot; jāpapildina ar to svētku dienu datumiem, kas ir atšķirīgi katru gadu. Uzstādījumi aprakstīti nodaļā &quot;Kalendāri&quot;</em>.</td>
-</tr>
-<tr>
-<td>Prombūtne</td>
-<td>Jā</td>
-<td>-</td>
-<td>-</td>
-<td>Jā</td>
-<td><em>Prombūtņu iemesla kodi jāizskata, un vajadzības gadījumā, jākoriģē vai jāpapildina konsultējoties ar ELVA speciālistu. Uzstādījumi aprakstīti nodaļā &quot;Prombūtnes iemesli&quot;</em>.</td>
-</tr>
-<tr>
-<td>Struktūrvienības</td>
-<td>-</td>
-<td>Jā</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Uzstādījumi aprakstīti nodaļā &quot;Darbinieku uzstādījumi&quot;</em>.</td>
-</tr>
-<tr>
-<td>Amati</td>
-<td>-</td>
-<td>Jā</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Uzstādījumi aprakstīti nodaļā &quot;Uzņēmuma uzstādījumi&quot;</em>.</td>
-</tr>
-<tr>
-<td>Algu banku konti</td>
-<td>Jā</td>
-<td>(Jā)*</td>
-<td>Jā</td>
-<td>-</td>
-<td>* <em>Ar konfigurācijas pakotni tiks importēta kartiņa algu bankas kontam. Ja bankas konti, no kuriem izmaksā algu, ir vairāki, nepieciešams pievienot jaunas bankas kontu kartiņas. <br> Uzstādījumi aprakstīti nodaļā &quot;Algu uzstādījumi&quot;</em>.</td>
+<td>Sākotnējā piešķ. dienu rinda</td>
+<td>Izmanto gadījumos, kad ir nepieciešamība koriģēt perioda piešķirto dienu skaitu. Tiks ņemts vērā pie perioda samazināšanas un pie atlikušo dienu aprēķina perioda vidū.</td>
 </tr>
 </tbody>
 </table>

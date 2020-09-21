@@ -3357,7 +3357,73 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_extended/setup/4.5.business_trips.html",
-          "hash": "Z0hPqQiglvS87MWSENLWrg=="
+          "hash": "eZwgVjoOp4R493kLHzC8rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/4.5.business_trips_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/4.5.business_trips_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/4.5.business_trips_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/4.5.business_trips_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/4.5.business_trips_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/4.5.business_trips_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/4.5.business_trips_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/4.5.business_trips_4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/4.5.business_trips_5.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/4.5.business_trips_5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/4.5.business_trips_6.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/4.5.business_trips_6.png"
         }
       },
       "is_incremental": false,
@@ -3369,7 +3435,40 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_extended/setup/4.6.donor_days.html",
-          "hash": "KlSvLapy1uBoU2UCLklmsA=="
+          "hash": "ziu2qFOjUD2jV+VKX59epA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/4.6.donor_days_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/4.6.donor_days_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/4.6.donor_days_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/4.6.donor_days_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/4.6.donor_days_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/4.6.donor_days_3.png"
         }
       },
       "is_incremental": false,
