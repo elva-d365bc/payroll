@@ -4003,21 +4003,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Conceptual",
-      "source_relative_path": "docs/personnel_base/Usage scenarios/usage_scenarios.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/personnel_base/Usage scenarios/usage_scenarios.html",
-          "hash": "e2CCjOWSb0O7Ib7jTuWoig=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "docs/personnel_base/faq.md",
       "output": {
@@ -5143,7 +5128,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 117,
+          "total_file_count": 116,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
