@@ -108,8 +108,8 @@ In terms of real life scenarios, please ensure that your master data are configu
 <p><strong>About this walkthrough</strong>: Registration number is used in preparing bank export files and on document printouts, that are handed out to customers or vendors.
 This walkthrough demonstrates the process for entering registration numbers for customer in Customer card.</p>
 <p><strong>Roles</strong>: No specific user roles are required.</p>
-<p><strong>Story</strong>: You are Katrīna Pavlova, assigned by Cronus International to be a CFO in Cronus Latvia, SIA. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
-Cronus Latvia, SIA is required to use customer company registration number on official documents sent to the customer. Your task is to add the company registration number to customer card.</p>
+<p><strong>Story</strong>: You are Katrīna Pavlova, assigned by Cronus International to be a CFO in Cronus Ltd. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
+Cronus Ltd is required to use customer company registration number on official documents sent to the customer. Your task is to add the company registration number to customer card.</p>
 <p><strong>Pre-requisites</strong>: Master data catalogues to be created and configured.</p>
 <p><strong>Steps</strong>:</p>
 <ol>
@@ -125,14 +125,14 @@ Cronus Latvia, SIA is required to use customer company registration number on of
 </ol>
 <p><img src="us_Usage_CustomerCard_002.png" alt="alt"></p>
 <ol start="8">
-<li>Enter Customer Company Registration number (40003687406) and it is done.</li>
+<li>Enter Customer Company Registration number (234567890) and it is done.</li>
 </ol>
 <p><img src="us_Usage_CustomerCard_003.png" alt="alt"></p>
 <h1 id="walkthrough-create-transporter">Walkthrough: Create Transporter</h1>
 <p><strong>About this walkthrough</strong>: Each company may keep a list of transporters, where it includes vehicle and driver information for its own transport or external service provider transport. This walkthrough demonstrates the process for creating a transporter card.</p>
 <p><strong>Roles</strong>: No specific user roles are required.</p>
-<p><strong>Story</strong>: You are Linda Martina, a manager in Cronus Latvia, SIA. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
-Cronus Latvia, SIA has signed a contract with local transportation company who would deliver sales orders to customers. Your task is to create new transporter card for “JL Logistics, SIA” mentioning the vehicle and the driver.</p>
+<p><strong>Story</strong>: You are Linda Martina, a manager in Cronus Ltd. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
+Cronus Ltd has signed a contract with local transportation company who would deliver sales orders to customers. Your task is to create new transporter card for <em>JL Logistics, SIA</em> mentioning the vehicle and the driver.</p>
 <p><strong>Prerequisite</strong>: No specific prerequisites are required</p>
 <p><strong>Steps</strong>:</p>
 <ol>
@@ -148,7 +148,7 @@ Cronus Latvia, SIA has signed a contract with local transportation company who w
 </ol>
 <p><img src="Setup_Transporters_002.png" alt="alt"></p>
 <ol start="4">
-<li>Enter Code – JL_VWTRANSP</li>
+<li>Enter Code – (JL_VWTRANSP)</li>
 <li>Enter Name, Surname – (Jānis Liepa) for particular Driver</li>
 <li>Enter Vehicle Reg.No.-  (LP 147)</li>
 <li>Enter Company Name- (JL Logistics, SIA)</li>
@@ -160,32 +160,62 @@ Cronus Latvia, SIA has signed a contract with local transportation company who w
 <h1 id="walkthrough-create-payment-file-for-bank">Walkthrough: Create payment file for bank</h1>
 <p><strong>About this walkthrough</strong>: This walkthrough demonstrates the process for creating payment files in ISO format that can be uploaded into Banking Online of commercial banks of Latvia.</p>
 <p><strong>Roles</strong>: No specific user roles are required.</p>
-<p><strong>Story</strong>: You are Katrīna Pavlova, assigned by Cronus International to be a CFO in Cronus Latvia, SIA. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
-Cronus Latvia, SIA is required to create a payment of outstanding vendor <em>First Up Consultants</em> (No. 20000) invoices. Your task is to create a payment file in ISO (SEPA) format that can be uploaded into your commercial bank online.</p>
+<p><strong>Story</strong>: You are Katrīna Pavlova, assigned by Cronus International to be a CFO in Cronus Ltd. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
+Cronus Ltd is required to create a payment of outstanding vendor <em>First Up Consultants</em> (No. 20000) invoices. Your task is to create a payment file in ISO (SEPA) format that can be uploaded into your commercial bank online.</p>
 <p><strong>Prerequisite</strong>:
 Vendor Card, Vendor Bank Account Card, Open Vendor Ledger Entries.</p>
 <p>Add IBAN to Vendor's card</p>
 <ol>
-<li>Open vendor's No. 20000 Bank Account card.</li>
+<li><p>Click on the button Search for Page or Report...
+<img src="GettingStarted_Search_001.PNG" alt="alt"></p>
+</li>
+<li><p>Enter Vendor, and click the related link.
+<img src="base_vendor001.png" alt="alt"></p>
+</li>
+<li><p>Open vendor's No. 20000 Bank Account card.</p>
+</li>
 </ol>
 <p><img src="us_To_001.4.png" alt="alt"></p>
-<ol start="2">
-<li>Open ECA bank account card and add a bank account number to IBAN field - 1200 100004
+<ol start="4">
+<li>Open ECA bank account card and add a bank account number to IBAN field - 1200 100004 and confirm with Yes
 <img src="us_To_001.1.png" alt="alt"></li>
 </ol>
 <p>Create additional number series</p>
 <ol>
-<li>Clicking <em>New</em> in <em>No. Series</em> list.</li>
-<li>Enter Code - MUZIN</li>
-<li>Enter Description - Payment messages</li>
-<li>Place checkmark at Default Nos.</li>
-<li>Click on the field Starting No. in order to enter the numbers</li>
+<li><p>Click on the button Search for Page or Report...
+<img src="GettingStarted_Search_001.PNG" alt="alt"></p>
+</li>
+<li><p>Enter No. Series, and click the related link.
+<img src="GettingStarted_Search_001.3.png" alt="alt"></p>
+</li>
+<li><p>Clicking <em>New</em> in <em>No. Series</em> list.</p>
+</li>
+<li><p>Enter Code - MUZIN</p>
+</li>
+<li><p>Enter Description - Payment messages</p>
+</li>
+<li><p>Place checkmark at Default Nos.</p>
+</li>
+<li><p>Click on the field Starting No. in order to enter the numbers</p>
+</li>
 </ol>
 <p><img src="us_To_001.2.png" alt="alt"></p>
 <ol start="7">
 <li>Enter Starting No. - MZ000001</li>
 <li>Enter Ending No. - MZ999999
 <img src="us_To_001.3.png" alt="alt"></li>
+</ol>
+<p>Adjust payment export settings</p>
+<ol>
+<li><p>Click on the button Search for Page or Report...
+<img src="GettingStarted_Search_001.PNG" alt="alt"></p>
+</li>
+<li><p>Enter <em>General Ledger Setup</em>, and click the related link.
+<img src="us_To_001.6.png" alt="alt"></p>
+</li>
+<li><p>Enable function <em>SEPA Non-EUR Export</em>.
+<img src="us_To_001.5.png" alt="alt"></p>
+</li>
 </ol>
 <p><strong>Steps</strong>:</p>
 <p>Create a new bank account card.</p>
@@ -200,9 +230,7 @@ Vendor Card, Vendor Bank Account Card, Open Vendor Ledger Entries.</p>
 </li>
 <li><p>In the field Credit Transfer Msg. Nos. choose - MUZIN.</p>
 </li>
-<li><p>Select Currency code - EUR</p>
-</li>
-<li><p>Choose Bank Acc. Posting Group - OPERATING</p>
+<li><p>Choose Bank Acc. Posting Group - CHECKING</p>
 </li>
 <li><p>Choose SWIFT - PARXLV22</p>
 </li>
@@ -217,7 +245,7 @@ Vendor Card, Vendor Bank Account Card, Open Vendor Ledger Entries.</p>
 <img src="us_To_003.1.png" alt="alt"></p>
 <p>Create a new payment journal batch for particular bank card (B010).</p>
 <ol>
-<li>Choose the Search icon, enter payment journals, select the related link and then choose journal.</li>
+<li>Choose the Search icon, enter payment journals, select the related link.</li>
 </ol>
 <p><img src="us_To_005.png" alt="alt"></p>
 <ol start="2">
@@ -229,12 +257,12 @@ Vendor Card, Vendor Bank Account Card, Open Vendor Ledger Entries.</p>
 </ol>
 <p><img src="us_To_007.png" alt="alt"></p>
 <ol start="4">
-<li>In the Name and Description fields, enter name for particular batch.</li>
+<li>In the Name and Description fields, enter name (B010) and a description for particular batch (Bank 111 journal).</li>
 <li>In the Bal. Account Type field, select - Bank Account.</li>
 <li>In the Bal. Account No. field, select particular bank account - B010.</li>
 <li>In the No.series field, select - GJNL-PMT.</li>
 <li>In the Allow Payment Export field, place a checkmark.</li>
-<li>Click OK.</li>
+<li>Click OK. Stay in this particular journal to proceed further with the next steps.</li>
 </ol>
 <p><img src="us_To_008.png" alt="alt"></p>
 <p>Run the Suggest Vendor Payments batch job.</p>
@@ -244,7 +272,7 @@ Vendor Card, Vendor Bank Account Card, Open Vendor Ledger Entries.</p>
 <p><img src="us_To_008.1.png" alt="alt"></p>
 <ol start="11">
 <li>Enter the following information on the Options FastTab.</li>
-<li>In the Last Payment Date field, enter the desired date from the purchase invoices (for example date 30 days before today's date).</li>
+<li>In the Last Payment Date field, enter the desired date from the purchase invoices (for example date 30 days after today's date).</li>
 <li>Place a checkmark in the Summarize per Vendor field.</li>
 <li>In the Posting Date field, enter today's date.</li>
 <li>Enter the following information on the Vendor FastTab</li>
@@ -260,7 +288,7 @@ Vendor Card, Vendor Bank Account Card, Open Vendor Ledger Entries.</p>
 <p><img src="us_To_008.3.png" alt="alt"></p>
 <p>Create the SEPA Payment file.</p>
 <ol>
-<li>On the ribbon, on the Home tab, click Export….</li>
+<li>On the ribbon, on the Home tab, click Bank and then click Export….</li>
 </ol>
 <p><img src="us_To_009.png" alt="alt"></p>
 <ol start="2">
@@ -280,8 +308,8 @@ Vendor Card, Vendor Bank Account Card, Open Vendor Ledger Entries.</p>
 <h1 id="walkthrough-import-bank-statement-transactions">Walkthrough: Import bank statement transactions</h1>
 <p><strong>About this walkthrough</strong>: This walkthrough demonstrates the process for importing bank statement files into Business Central.</p>
 <p><strong>Roles</strong>: No specific user roles are required.</p>
-<p><strong>Story</strong>: You are Katrīna Pavlova, assigned by Cronus International to be a CFO in Cronus Latvia, SIA. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
-Cronus Latvia, SIA is required to create a payment of outstanding vendor invoices. Your task is import bank transaction file in ISO (SEPA) format.</p>
+<p><strong>Story</strong>: You are Katrīna Pavlova, assigned by Cronus International to be a CFO in Cronus Ltd. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
+Cronus Ltd is required to create a payment of outstanding vendor invoices. Your task is import bank transaction file in ISO (SEPA) format.</p>
 <p><strong>Prerequisite</strong>: No specific prerequisites are required</p>
 <p><strong>Steps</strong>:</p>
 <ol>
@@ -301,6 +329,9 @@ Cronus Latvia, SIA is required to create a payment of outstanding vendor invoice
 </ol>
 <p><img src="To_013.png" alt="alt">
 <img src="us_To_013.png" alt="alt"></p>
+<ol start="5">
+<li>Make sure that Payment reconciliation journal lines are being generated.</li>
+</ol>
 <h1 id="walkthrough-assign-foreign-payment-code">Walkthrough: Assign foreign payment code</h1>
 <p><strong>About this walkthrough</strong>: National Bank of Latvia requires to specify foreign payment code for external incoming payments. When posting external incoming payments, a Foreign Payment Code needs to be assigned to particular transaction. Afterwards a Foreign Payment Report can be created.
 This walkthrough demonstrates the process for assigning foreign payment code for an incoming payment.</p>
@@ -317,32 +348,47 @@ You should assign a foreign payment code for incoming external payment and prepa
 </ol>
 <ul>
 <li>No. - 111</li>
-<li>Name - Preču eksports, imports
+<li>Name - Export/ Import of the goods
 <img src="base_fpc001.png" alt="alt"></li>
+<li>Close the code card.</li>
 </ul>
 <p><strong>Steps</strong>:</p>
 <ol>
-<li>Click on the button Search for Page or Report..
-<img src="GettingStarted_Search_001.PNG" alt="alt"></li>
-<li>Type Payment Journals and select Cash Receipt Journals from Pages and Tasks
-<img src="cash_receipt001.png" alt="alt"></li>
-<li>Create a journal line with an incoming payment from a foreign Customer</li>
-<li>Enter Posting Date - today's day</li>
-<li>Enter Document Type – Payment</li>
-<li>Enter Account Type: Customer</li>
-<li>Enter Account No.: (4000 Alpine Ski House)</li>
-<li>Enter Amount: -50 000.00</li>
-<li>Enter Bal. Account Type: Bank Account</li>
-<li>Enter Bal. Account No.: B010</li>
-<li>Assign Foreign Payment Code: 111
-<img src="cash_receipt002.png" alt="alt"></li>
-<li>Post Journal</li>
-<li>Click on the button Search for Page or Report...
-<img src="GettingStarted_Search_001.PNG" alt="alt"></li>
-<li>Type Foreign Bank Payments 1-IB and select Foreign Bank Payments 1-IB from Reports and Analysis
-<img src="To_021.png" alt="alt"></li>
-<li>Set Printing Options
-<strong>Printing Options</strong>:</li>
+<li><p>Click on the button Search for Page or Report..
+<img src="GettingStarted_Search_001.PNG" alt="alt"></p>
+</li>
+<li><p>Type Payment Journals and select Cash Receipt Journals from Pages and Tasks
+<img src="cash_receipt001.png" alt="alt"></p>
+</li>
+<li><p>Create a journal line with an incoming payment from a foreign Customer</p>
+</li>
+<li><p>Enter Posting Date - today's day</p>
+</li>
+<li><p>Enter Document Type – Payment</p>
+</li>
+<li><p>Enter Account Type: Customer</p>
+</li>
+<li><p>Enter Account No.: (4000 Alpine Ski House)</p>
+</li>
+<li><p>Enter Amount: -50 000.00</p>
+</li>
+<li><p>Enter Bal. Account Type: Bank Account</p>
+</li>
+<li><p>Enter Bal. Account No.: B010</p>
+</li>
+<li><p>Choose Foreign Payment Code: 111
+<img src="cash_receipt002.png" alt="alt"></p>
+</li>
+<li><p>Post Journal by pressing on Post/Print and then Post. And close the journal.</p>
+</li>
+<li><p>Click on the button Search for Page or Report...
+<img src="GettingStarted_Search_001.PNG" alt="alt"></p>
+</li>
+<li><p>Type Foreign Bank Payments 1-IB and select Foreign Bank Payments 1-IB from Reports and Analysis
+<img src="To_021.png" alt="alt"></p>
+</li>
+<li><p>Set Printing Options:</p>
+</li>
 </ol>
 <ul>
 <li>Year – enter year - current year</li>
@@ -350,8 +396,10 @@ You should assign a foreign payment code for incoming external payment and prepa
 <li>Company Official – from the list of Employees (Anette Hill)</li>
 <li>Transaction Limit, LCY – (10 000)</li>
 </ul>
-<p><img src="base_fbp001.png" alt="alt">
-14.	Press Print, in order to view the Report</p>
+<p><img src="base_fbp001.png" alt="alt"></p>
+<ol start="14">
+<li>Press Preview in order to view the Report</li>
+</ol>
 <p><img src="base_fbp002.png" alt="alt"></p>
 <h1 id="walkthrough-import-currency-exchange-rates">Walkthrough: Import Currency Exchange Rates</h1>
 <p><strong>About this walkthrough</strong>: transactions in foreign currencies are recorded in the system in local currency, based on currency exchange rate. Currency Exchange Rates may be uploaded into system either automatically on a regular basis using a job que entry or manually by user. The source of information is European Central Bank (<a href="http://www.ecb.int/stats/exchange/eurofxref/html/index.en.html">http://www.ecb.int/stats/exchange/eurofxref/html/index.en.html</a>).
@@ -370,7 +418,7 @@ In order to enable the Currency Exchange Rate Service proceed with following ste
 </ol>
 <p><img src="Setup_CurrExchangeRates_001.png" alt="alt"></p>
 <ol start="3">
-<li>Select ECB-EXCHANGE-RATES from Currency Exchange Rate Services and press Enable.</li>
+<li>Select ECB-EXCHANGE-RATES from Currency Exchange Rate Services and press Enable. Enabling will creates a JobQueue entry, what will automatically runs the currency rate import.</li>
 </ol>
 <p><img src="us_Setup_CurrExchangeRates_002.png" alt="alt"></p>
 <ol start="4">
@@ -382,10 +430,14 @@ In order to enable the Currency Exchange Rate Service proceed with following ste
 </ol>
 <p><img src="Usage_Currencies_001.png" alt="alt"></p>
 <ol start="6">
-<li>Press Import Currency Rates</li>
+<li><p>Review the list of Currencies. Review only the currencies that are supported by ECB, for example AUD. If the automatically JOBQueue update will be already done, then the Exchange Rate will be imported.
+<img src="us_base_use_curr002.png" alt="alt"></p>
+</li>
+<li><p>It the rates are not yet updated then a manual update can be done by clicking on <em>Import Currency Rates</em></p>
+</li>
 </ol>
 <p><img src="us_base_use_curr000.png" alt="alt"></p>
-<ol start="7">
+<ol start="8">
 <li>Set Import Currency Rates options
 <strong>Options</strong>:</li>
 </ol>
@@ -394,11 +446,9 @@ In order to enable the Currency Exchange Rate Service proceed with following ste
 <li>To Date – set the period end date for import (by default is set to today)</li>
 <li>Curr.Exch. Rate Update Setup – select ECB-EXCHANGE-RATES (date must not be older than 90 days before. It is recommended to use yesterday's date.)</li>
 </ul>
-<ol start="8">
+<ol start="9">
 <li>Press OK
 <img src="base_use_curr001.png" alt="alt"></li>
-<li>Review the list of Currencies, where the Exchange Rate is updated. Review only the currencies that are supported by ECB, for example AUD.
-<img src="us_base_use_curr002.png" alt="alt"></li>
 </ol>
 <p><strong>Note</strong>:
 This will import currency exchange rates from European Central Bank for the period of 90 days, when Exchange Rate Services is enabled, it creates a Job Que Entry for Exchange Rate Services.
@@ -409,8 +459,8 @@ Foreign currency exchange rate amounts are calculated as amount of foreign curre
 <p><strong>About this walkthrough</strong>: is prepared for customers as a sales prepayment invoice for goods not yet shipped provided as sales source document. The printout has all required data for sales prepayment document.
 This walkthrough demonstrates the process for printing sales prepayment invoice.</p>
 <p><strong>Roles</strong>: No specific user roles are required.</p>
-<p><strong>Story</strong>: You are Katrīna Pavlova, assigned by Cronus International to be a CFO in Cronus Latvia, SIA. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
-Cronus Latvia, SIA has agreed on a sales order with 50% prepayment with customer K00010 Nordic Group, SIA, therefore your task is to prepare a sales prepayment invoice.</p>
+<p><strong>Story</strong>: You are Katrīna Pavlova, assigned by Cronus International to be a CFO in Cronus Ltd. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
+Cronus Ltd has agreed on a sales order with 50% prepayment with customer 20000 Trey Research, therefore your task is to prepare a sales prepayment invoice.</p>
 <p><strong>Steps</strong>:</p>
 <ol>
 <li>Choose the Search icon, enter sales orders, and click the related link.</li>
@@ -449,13 +499,13 @@ Cronus Latvia, SIA has agreed on a sales order with 50% prepayment with customer
 <li>View Printout</li>
 </ol>
 <p><img src="us_To_035.png" alt="alt"></p>
-<p><strong>Note</strong>: document can be printed from unposted sales documents- Sales Order; printing this document does not create any postings.</p>
+<p><strong>Note</strong>: document can be printed from unposted sales documents- Sales Order.</p>
 <h2 id="sales-invoice">Sales Invoice</h2>
-<p><strong>About this walkthrough</strong>: is prepared for customers as a sales invoice for goods shipped as sales source document. The printout has all required data for sales prepayment document.
+<p><strong>About this walkthrough</strong>: is prepared for customers as a sales invoice for goods shipped as sales source document. The printout has all required data for sales.
 This walkthrough demonstrates the process for printing sales invoice.</p>
 <p><strong>Roles</strong>: No specific user roles are required.</p>
-<p><strong>Story</strong>: You are Aleksandrs Kuzņecovs, assigned by Cronus International to be a salesperson in Cronus Latvia, SIA. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
-Cronus Latvia, SIA has agreed on a sales order with customer K00010 Nordic Group, SIA, therefore your task is to prepare a sales invoice.</p>
+<p><strong>Story</strong>: You are Aleksandrs Kuzņecovs, assigned by Cronus International to be a salesperson in Cronus Ltd. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
+Cronus Ltd has agreed on a sales order with customer 20000 Trey Research, therefore your task is to prepare a sales invoice.</p>
 <p><strong>Pre-requisites</strong>: Master data catalogues to be created and configured.</p>
 <p><strong>Steps</strong>:</p>
 <ol>
@@ -464,8 +514,6 @@ Cronus Latvia, SIA has agreed on a sales order with customer K00010 Nordic Group
 <li>In the Customer field enter <em>20000</em> and move to the next field. The sales order header is automatically filled in with the default settings from the customer card.</li>
 <li>In the Document Date, Posting Date and Order Date fields, enter today's date.</li>
 <li>Enter Sales Person code PS for Peter Saddow</li>
-<li>Expand the Prepayment FastTab.</li>
-<li>In the Prepmt. Payment Terms Code enter 14 DAYS.</li>
 <li>Move to the Lines FastTab.</li>
 <li>In the first line enter the following information:</li>
 <li>In the Type field, enter Item.</li>
@@ -479,8 +527,7 @@ Cronus Latvia, SIA has agreed on a sales order with customer K00010 Nordic Group
 <li>In the Unit Price Excl. VAT field, enter 125.10.</li>
 </ol>
 <p><img src="us_To_029.1.png" alt="alt">
-<img src="us_To_029.2.png" alt="alt">
-<img src="us_To_029.3.png" alt="alt"></p>
+<img src="us_To_029.2.png" alt="alt"></p>
 <ol start="20">
 <li>Print Sales Invoice- Particular Print button LV Sales Invoice is located in the Ribbon under the TAB ACTIONS, in section PRINT.</li>
 </ol>
@@ -493,7 +540,7 @@ Cronus Latvia, SIA has agreed on a sales order with customer K00010 Nordic Group
 <li>Count of Copies – enter 1, that will ensure printing of one original and one document copy</li>
 <li>Service invoice – should not be checked</li>
 <li>Print Payer – should not be checked</li>
-<li>Print Transporter – select Sender for Cronus Latvia to appear as Transporter</li>
+<li>Print Transporter – select Sender for Cronus Ltd to appear as Transporter</li>
 <li>Print Amount in LCY – should not be checked</li>
 <li>Print Salesperson Name – insert a checkmark</li>
 <li>Print VAT Specification – insert a checkmark</li>
@@ -507,8 +554,8 @@ Cronus Latvia, SIA has agreed on a sales order with customer K00010 Nordic Group
 <p><strong>About this walkthrough</strong>: Transfer of goods is required to be supported by a delivery note – transfer invoice. The document indicates the quantity and unit costs of goods transferred. This walkthrough demonstrates the process for printing transfer invoice.
 Transfer of goods is required to be supported by a delivery note – transfer invoice. The document indicates the quantity and unit costs of goods transferred.</p>
 <p><strong>Roles</strong>: No specific user roles are required.</p>
-<p><strong>Story</strong>: You are Marks Hansons, assigned by Cronus International to be a warehouse employee in Cronus Latvia, SIA. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
-Cronus Latvia, SIA requires to transfer goods from location MAIN to location EAST, therefore your task is to prepare a transfer invoice.</p>
+<p><strong>Story</strong>: You are Marks Hansons, assigned by Cronus International to be a warehouse employee in Cronus Ltd. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
+Cronus Ltd requires to transfer goods from location MAIN to location EAST, therefore your task is to prepare a transfer invoice.</p>
 <p><strong>Pre-requisites</strong>: Master data catalogues to be created and configured.</p>
 <p><strong>Steps</strong>:</p>
 <ol>
@@ -581,7 +628,7 @@ Cronus is required to record employee expenses for John Smith and create Advance
 <li><p>Enter Vendor Invoice No. AA-1334
 <img src="base_purchase003.png" alt="alt"></p>
 </li>
-<li><p>Go to the Shipping and Payment FastTab. In Pay-to select <strong>Another Vendor</strong>, in next field Name- select required employee (<strong>John Smith</strong>)
+<li><p>Go to the Shipping and Payment FastTab. In Pay-to select <strong>Another Vendor</strong>, in next field Name- select required employee <strong>John Smith</strong>
 <img src="us_base_purchase005.png" alt="alt"></p>
 </li>
 <li><p>Move to the lines.</p>
@@ -624,7 +671,7 @@ Cronus is required to record employee expenses for John Smith and create Advance
 This walkthrough demonstrates the process for recording and controlling physical inventory.</p>
 <p><strong>Role</strong>: no specific role required</p>
 <p><strong>Story</strong>: You are Richard Lum, Production Manager in Cronus International. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
-Cronus International is required to perform an inventory stock take at 06/04/2020. Your task is to calculate stock for item 1896-S and prepare Physical Inventory Document.</p>
+Cronus International is required to perform an inventory stock take. Your task is to calculate stock for item 1896-S and prepare Physical Inventory Document.</p>
 <p><strong>Pre-requisites:</strong> Master data catalogues to be created and configured.</p>
 <p><strong>Steps</strong>:</p>
 <ol>
@@ -651,15 +698,12 @@ Cronus International is required to perform an inventory stock take at 06/04/202
 <li>Enter Phys. Inventory Document in Search for Page or Report…
 <img src="To_062.png" alt="alt"></li>
 </ol>
-<p><strong>Note</strong>: The document can be printed only after the Phys. Inventory Journal lines are posted and Adjust Cost-Item Entries job has been successfully executed.
-10.	Set Printing Options</p>
-<p><strong>Printing Options</strong>: the following printing options are available for this printout:</p>
-<ul>
-<li>
-<ol>
-<li>Person.. 5.Person – select employee (AH, JR, MD)</li>
+<p><strong>Note</strong>: The document can be printed only after the Phys. Inventory Journal lines are posted and Adjust Cost-Item Entries job has been successfully executed.</p>
+<ol start="10">
+<li>Set Printing Options:</li>
 </ol>
-</li>
+<ul>
+<li>1.Person.. 5.Person – select employee (AH, JR, MD)</li>
 <li>Responsible Person- select employee who is financially responsible for keeping the stock accurate – (RL)</li>
 <li>Apply Phys. Inventory Ledger Entry Filters set filter to Document No. (INV034)
 <img src="us_base_physical005.png" alt="alt"></li>
@@ -672,8 +716,8 @@ Cronus International is required to perform an inventory stock take at 06/04/202
 <p><strong>About this walkthrough</strong>:  Company may write off items from stock that are damaged and not suitable for sale. Inventory Write-off document is used for writing-off goods that shall not be sold and recognized as expenses.
 This walkthrough demonstrates the process for writing off physical inventory.</p>
 <p><strong>Role</strong>: no specific role required</p>
-<p><strong>Story</strong>: You are Katrīna Pavlova, assigned by Cronus International to be a CFO in Cronus Latvia, SIA. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
-Cronus Latvia, SIA is required to perform an inventory stock take at 02/29/2019. Your task is to calculate stock for all locations and prepare Physical Inventory Document.</p>
+<p><strong>Story</strong>: You are Katrīna Pavlova, assigned by Cronus International to be a CFO in Cronus Ltd. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
+Few damaged goods are identified after the stock take. Your task is to write off damaged goods and prepare the documentation.</p>
 <p><strong>Steps</strong>:</p>
 <ol>
 <li><p>Choose the Search icon, enter Item Journals, and then choose the related link.</p>
@@ -712,7 +756,7 @@ Cronus Latvia, SIA is required to perform an inventory stock take at 02/29/2019.
 </li>
 <li>Set Filter Item Ledger Entry</li>
 </ul>
-<p>o	Posting Date: 09/30/2019</p>
+<p>o	Posting Date: today's date</p>
 <p>o	Document No. : T0001</p>
 <p><img src="us_To_068.png" alt="alt"></p>
 <ol start="12">
