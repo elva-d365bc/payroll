@@ -402,7 +402,7 @@ You should assign a foreign payment code for incoming external payment and prepa
 </ol>
 <p><img src="base_fbp002.png" alt="alt"></p>
 <h1 id="walkthrough-import-currency-exchange-rates">Walkthrough: Import Currency Exchange Rates</h1>
-<p><strong>About this walkthrough</strong>: transactions in foreign currencies are recorded in the system in local currency, based on currency exchange rate. Currency Exchange Rates may be uploaded into system either automatically on a regular basis using a job que entry or manually by user. The source of information is European Central Bank (<a href="http://www.ecb.int/stats/exchange/eurofxref/html/index.en.html">http://www.ecb.int/stats/exchange/eurofxref/html/index.en.html</a>).
+<p><strong>About this walkthrough</strong>: transactions in foreign currencies are recorded in the system in local currency, based on currency exchange rate. Currency Exchange Rates may be uploaded into system either automatically on a regular basis using a job queue entry or manually by user. The source of information is European Central Bank (<a href="http://www.ecb.int/stats/exchange/eurofxref/html/index.en.html">http://www.ecb.int/stats/exchange/eurofxref/html/index.en.html</a>).
 This walkthrough demonstrates the process for importing currency exchange rates.</p>
 <p><strong>Roles</strong>: No specific user roles are required.</p>
 <p><strong>Story</strong>: You are Anette Hill, assigned by Cronus International to import currency exchange rates.</p>
@@ -418,7 +418,7 @@ In order to enable the Currency Exchange Rate Service proceed with following ste
 </ol>
 <p><img src="Setup_CurrExchangeRates_001.png" alt="alt"></p>
 <ol start="3">
-<li>Select ECB-EXCHANGE-RATES from Currency Exchange Rate Services and press Enable. Enabling will creates a JobQueue entry, what will automatically runs the currency rate import.</li>
+<li>Select ECB-EXCHANGE-RATES from Currency Exchange Rate Services and press Enable. Enabling will creates a job queue entry, what will automatically runs the currency rate import.</li>
 </ol>
 <p><img src="us_Setup_CurrExchangeRates_002.png" alt="alt"></p>
 <ol start="4">
@@ -430,7 +430,7 @@ In order to enable the Currency Exchange Rate Service proceed with following ste
 </ol>
 <p><img src="Usage_Currencies_001.png" alt="alt"></p>
 <ol start="6">
-<li><p>Review the list of Currencies. Review only the currencies that are supported by ECB, for example AUD. If the automatically JOBQueue update will be already done, then the Exchange Rate will be imported.
+<li><p>Review the list of Currencies. Review only the currencies that are supported by ECB, for example AUD. If the automatically job queue update will be already done, then the Exchange Rate will be updated.
 <img src="us_base_use_curr002.png" alt="alt"></p>
 </li>
 <li><p>It the rates are not yet updated then a manual update can be done by clicking on <em>Import Currency Rates</em></p>
@@ -465,7 +465,7 @@ Cronus Ltd has agreed on a sales order with 50% prepayment with customer 20000 T
 <ol>
 <li>Choose the Search icon, enter sales orders, and click the related link.</li>
 <li>On the ribbon, on the Home tab, click New to create the prepayment sales order.</li>
-<li>In the Customer field enter <em>20000</em> and move to the next field. The sales order header is automatically filled in with the default settings from the customer card.</li>
+<li>In the Customer field choose customer <em>20000</em> and move to the next field. The sales order header is automatically filled in with the default settings from the customer card.</li>
 <li>In the Document Date, Posting Date and Order Date fields, enter desirable date, for example today's date.</li>
 <li>Expand the Prepayment FastTab.</li>
 <li>In the Prepayment % field, enter 50.</li>
@@ -480,7 +480,7 @@ Cronus Ltd has agreed on a sales order with 50% prepayment with customer 20000 T
 <p><img src="us_To_033.png" alt="alt">
 <img src="us_To_033.1.png" alt="alt"></p>
 <ol start="15">
-<li>Print Sales Prepayment Invoice- Particular Print button LV Sales Prepayment Invoice is located in the Ribbon under the TAB ACTIONS, in section PRINT.</li>
+<li>Print Sales Prepayment Invoice- Particular Print button <em>LV Sales Prepayment Invoice</em> is located in the ribbon under the tab <em>Actions</em>, in section <em>Print</em>.</li>
 </ol>
 <p><img src="us_To_032.png" alt="alt"></p>
 <ol start="15">
@@ -496,7 +496,7 @@ Cronus Ltd has agreed on a sales order with 50% prepayment with customer 20000 T
 </ul>
 <p><img src="us_To_034.png" alt="alt"></p>
 <ol start="16">
-<li>View Printout</li>
+<li>View Preview</li>
 </ol>
 <p><img src="us_To_035.png" alt="alt"></p>
 <p><strong>Note</strong>: document can be printed from unposted sales documents- Sales Order.</p>
@@ -504,13 +504,13 @@ Cronus Ltd has agreed on a sales order with 50% prepayment with customer 20000 T
 <p><strong>About this walkthrough</strong>: is prepared for customers as a sales invoice for goods shipped as sales source document. The printout has all required data for sales.
 This walkthrough demonstrates the process for printing sales invoice.</p>
 <p><strong>Roles</strong>: No specific user roles are required.</p>
-<p><strong>Story</strong>: You are Aleksandrs Kuzņecovs, assigned by Cronus International to be a salesperson in Cronus Ltd. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
+<p><strong>Story</strong>: You are Peter Saddow, assigned by Cronus International to be a salesperson in Cronus Ltd. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
 Cronus Ltd has agreed on a sales order with customer 20000 Trey Research, therefore your task is to prepare a sales invoice.</p>
 <p><strong>Pre-requisites</strong>: Master data catalogues to be created and configured.</p>
 <p><strong>Steps</strong>:</p>
 <ol>
 <li>Choose the Search icon, enter sales orders, and click the related link.</li>
-<li>On the ribbon, on the Home tab, click New to create the prepayment sales order.</li>
+<li>On the ribbon, on the Home tab, click New to create the sales order.</li>
 <li>In the Customer field enter <em>20000</em> and move to the next field. The sales order header is automatically filled in with the default settings from the customer card.</li>
 <li>In the Document Date, Posting Date and Order Date fields, enter today's date.</li>
 <li>Enter Sales Person code PS for Peter Saddow</li>
@@ -529,13 +529,12 @@ Cronus Ltd has agreed on a sales order with customer 20000 Trey Research, theref
 <p><img src="us_To_029.1.png" alt="alt">
 <img src="us_To_029.2.png" alt="alt"></p>
 <ol start="20">
-<li>Print Sales Invoice- Particular Print button LV Sales Invoice is located in the Ribbon under the TAB ACTIONS, in section PRINT.</li>
+<li>Print Sales Invoice- Particular Print button <em>LV Sales Invoice</em> is located in the ribbon under the tab <em>Actions</em>, in section <em>Print</em>.</li>
 </ol>
 <p><img src="us_To_029.png" alt="alt"></p>
 <ol start="20">
-<li>Set Printing Options</li>
+<li>Set Printing Options:</li>
 </ol>
-<p><strong>Printing Options</strong>: the following printing options are available for this printout:</p>
 <ul>
 <li>Count of Copies – enter 1, that will ensure printing of one original and one document copy</li>
 <li>Service invoice – should not be checked</li>
@@ -547,7 +546,7 @@ Cronus Ltd has agreed on a sales order with customer 20000 Trey Research, theref
 </ul>
 <p><img src="us_To_030.png" alt="alt"></p>
 <ol start="21">
-<li>Press Print</li>
+<li>Press Preview</li>
 </ol>
 <p><img src="us_To_031.png" alt="alt"></p>
 <h2 id="transfer-invoice">Transfer Invoice</h2>
@@ -559,15 +558,15 @@ Cronus Ltd requires to transfer goods from location MAIN to location EAST, there
 <p><strong>Pre-requisites</strong>: Master data catalogues to be created and configured.</p>
 <p><strong>Steps</strong>:</p>
 <ol>
-<li>Choose the Search icon, enter transfer orders, and click the related link.</li>
-<li>On the ribbon, on the Home tab, click New to create the transfer order.</li>
+<li>Choose the Search icon, enter <em>Transfer orders</em>, and click the related link.</li>
+<li>On the ribbon, on the Home tab, click <em>New</em> to create the transfer order.</li>
 <li>In the Transfer From field select location code (MAIN), in Transfer to field select location code (EAST), set In-Transit code (OWN LOG).</li>
 <li>In the Document Date, Posting Date and Order Date fields enter the date, for example today's date.</li>
 <li>Move to the Lines FastTab.</li>
 <li>In the first line enter the following information:</li>
 <li>In the No. field, enter Item No. (1896-S).</li>
 <li>In the Quantity field, enter 2.</li>
-<li>Print Transfer Invoice- Particular Print button LV Transfer Invoice is located in the Ribbon under the TAB ACTIONS.</li>
+<li>Print Transfer Invoice- Particular Print button <em>LV Transfer Invoice</em> is located in the ribbon under the tab <em>Action</em>.</li>
 </ol>
 <p><img src="us_To_046.png" alt="alt"></p>
 <ol start="10">
@@ -586,7 +585,7 @@ Cronus Ltd requires to transfer goods from location MAIN to location EAST, there
 <h1 id="walkthrough-post-advance-holder-transactions-and-prepare-advance-statement-report">Walkthrough: Post Advance Holder Transactions and Prepare Advance Statement Report</h1>
 <p><strong>About this walkthrough</strong>:  Advance holder transactions are the procurements made by the Employee, that are considered as company expenses. When a procurement happens, an advance holder reports to the company about the expenditures that were made. This walkthrough demonstrates the process for recording, controlling and reimbursing employee expenses.</p>
 <p><strong>Role</strong>: No specific user roles are required.</p>
-<p><strong>Story</strong>: You are John Roberts, assigned by Cronus International to be a CFO in Cronus. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
+<p><strong>Story</strong>: You are John Roberts, assigned by Cronus International to be a CFO in Cronus Ltd. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
 Cronus is required to record employee expenses for John Smith and create Advance Statement report.</p>
 <p><strong>Pre-requisites</strong>: Master data catalogues to be created and configured.</p>
 <p><strong>Steps</strong></p>
@@ -609,7 +608,7 @@ Cronus is required to record employee expenses for John Smith and create Advance
 <li><p>Enter Purchases &amp; Payables setup, and click the related link.
 <img src="GettingStarted_Search_001.4.png" alt="alt"></p>
 </li>
-<li><p>Enable function Copy line description to G/L Entry.
+<li><p>Enable function <em>Copy line description to G/L Entry</em>
 <img src="GettingStarted_Search_001.5.png" alt="alt"></p>
 </li>
 <li><p>Click on the button Search for Page or Report...
@@ -662,7 +661,7 @@ Cronus is required to record employee expenses for John Smith and create Advance
 <img src="us_base_use_advr1.png" alt="alt"></li>
 </ul>
 <ol start="19">
-<li>Press Print and review the printout
+<li>Press Preview and review the printout
 <img src="us_base_use_advr3.png" alt="alt"></li>
 </ol>
 <h1 id="walkthrough-inventory">Walkthrough: Inventory</h1>
@@ -670,8 +669,8 @@ Cronus is required to record employee expenses for John Smith and create Advance
 <p><strong>About this walkthrough</strong>:  Company may perform a stock-take on regular basis, in order to control item quantities in system and in nature.
 This walkthrough demonstrates the process for recording and controlling physical inventory.</p>
 <p><strong>Role</strong>: no specific role required</p>
-<p><strong>Story</strong>: You are Richard Lum, Production Manager in Cronus International. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
-Cronus International is required to perform an inventory stock take. Your task is to calculate stock for item 1896-S and prepare Physical Inventory Document.</p>
+<p><strong>Story</strong>: You are Richard Lum, Production Manager in Cronus Ltd. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers
+Cronus Ltd is required to perform an inventory stock-take. Your task is to calculate stock for item 1896-S and prepare Physical Inventory Document.</p>
 <p><strong>Pre-requisites:</strong> Master data catalogues to be created and configured.</p>
 <p><strong>Steps</strong>:</p>
 <ol>
@@ -684,18 +683,18 @@ Cronus International is required to perform an inventory stock take. Your task i
 <li>In the Calculate Inventory window, specify the conditions to use to create the journal lines, such as whether to include items that have zero recorded inventory.</li>
 </ol>
 <ul>
-<li>Posting Date - <strong>9/21/2020</strong></li>
-<li>Document No. - <strong>INV034</strong></li>
-<li>No. - <strong>1896-S</strong>
+<li>Posting Date - today's date</li>
+<li>Document No. - (INV034)</li>
+<li>No. - (1896-S)
 <img src="us_base_physical003.png" alt="alt"></li>
 </ul>
 <ol start="5">
 <li>Choose the OK button.</li>
-<li>For first journal line Item 1896-S change Qty. (Phys.Inventory) set to 3
+<li>For first journal line Item 1896-S change Qty. (Phys.Inventory) to 3
 <img src="us_base_use_inv001.png" alt="alt"></li>
-<li>Post Journal</li>
+<li>Post journal by clicking on <em>Post/Print</em> and <em>Post</em></li>
 <li>Choose the OK button.</li>
-<li>Enter Phys. Inventory Document in Search for Page or Report…
+<li>Enter <em>Phys. Inventory Document</em> in Search for Page or Report…
 <img src="To_062.png" alt="alt"></li>
 </ol>
 <p><strong>Note</strong>: The document can be printed only after the Phys. Inventory Journal lines are posted and Adjust Cost-Item Entries job has been successfully executed.</p>
@@ -722,7 +721,7 @@ Few damaged goods are identified after the stock take. Your task is to write off
 <ol>
 <li><p>Choose the Search icon, enter Item Journals, and then choose the related link.</p>
 </li>
-<li><p>Enter Posting Date- 09/30/2020</p>
+<li><p>Enter Posting Date- today's date</p>
 </li>
 <li><p>Enter Entry Type- Negative Adjmt.</p>
 </li>
@@ -739,28 +738,22 @@ Few damaged goods are identified after the stock take. Your task is to write off
 <li><p>Press OK to close the journal
 <img src="us_base_use_comp004.png" alt="alt"></p>
 </li>
-<li><p>Choose the  icon, enter Posted Inventory Write-Off Document</p>
+<li><p>Choose the Search icon, enter Posted Inventory Write-Off Document</p>
 </li>
 </ol>
 <p><img src="To_066.png" alt="alt"></p>
 <ol start="11">
-<li>Set Printing Options
-<strong>Printing Options</strong>:</li>
+<li>Set Printing Options:</li>
 </ol>
 <ul>
-<li>Reason – type ‘Damaged Goods’</li>
-<li>
-<ol>
-<li>Person.. 5.Person – select employees from List of Employees (AH, JR, MD)</li>
-</ol>
-</li>
-<li>Set Filter Item Ledger Entry</li>
+<li>Reason – (Damaged Goods)</li>
+<li>1.Person.. 5.Person – select employees from List of Employees (AH, JR, MD)</li>
+<li>Document No. - T00001</li>
+<li>Posting Date - today's date</li>
 </ul>
-<p>o	Posting Date: today's date</p>
-<p>o	Document No. : T0001</p>
 <p><img src="us_To_068.png" alt="alt"></p>
 <ol start="12">
-<li>Press Print</li>
+<li>Press <em>Preview</em></li>
 </ol>
 <p><img src="us_To_069.png" alt="alt"></p>
 </article>
