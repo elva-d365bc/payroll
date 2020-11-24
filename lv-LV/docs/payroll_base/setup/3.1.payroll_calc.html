@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Uzst&#257;d&#299;jumi | Latvian Payroll </title>
+    <title>B&#257;zes | Latvian Payroll </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Uzst&#257;d&#299;jumi | Latvian Payroll ">
+    <meta name="title" content="B&#257;zes | Latvian Payroll ">
     <meta name="generator" content="docfx 2.56.5.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
@@ -77,120 +77,67 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="uzstādījumi">Uzstādījumi</h1>
+<h1 id="bāzes">Bāzes</h1>
 
-<p>Lai Dynamics 365 Business Central Latvian Payroll Base varētu sekmīgi funkcionēt atbilstoši jūsu uzņēmuma prasībām, ir pieejami zemāk minētie uzstādījumi.</p>
-<p>Pamatuzstādījumi tiek importēti ar konfigurācijas pakotni, tomēr papildus ir jāpārbauda/ jāaizpilda turpmāk aprakstītie uzstādījumu, lai nodrošinātu un verificētu precīzu sistēmas pielāgošanu Jūsu uzņēmuma vajadzībām.</p>
+<p>Bāzes ir uzstādījumi, kuri nosaka dažādu algas sastāvdaļu aprēķinu - atvaļinājumu, slimības naudu, kā arī dažu atskaišu aprēķināšanas algoritmus. Šīs summas var definēt pēc vajadzības.</p>
+<p>Katrai bāzei ir sava kartiņa un visas bāžu kartiņas ir apkopotas sarakstā <em>Bāzes</em>.</p>
+<h2 id="cilne-visp-info">Cilne: <em>Visp. info</em></h2>
+<p><img src="3.payroll_calc_5.png" alt="alt"></p>
 <table>
 <thead>
 <tr>
-<th>Uzstādījumu nosaukums</th>
-<th>Ar pakotni importēts</th>
-<th>Lietotāja izveidots</th>
-<th>Lietotājs rediģē</th>
-<th>Lietotājam patstāvīgi nav ieteicams rediģēt</th>
-<th>Komentārs</th>
+<th>Lauka nosaukums</th>
+<th>Apraksts</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Algas uzstādījumi</td>
-<td>Jā</td>
-<td>-</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Uzstādījumi aprakstīti nodaļā &quot;Algu uzstādījumi&quot;</em>.</td>
+<td>Bāze</td>
+<td>Brīvi definēts kods.</td>
 </tr>
 <tr>
-<td>Algas komponentes</td>
-<td>Jā</td>
-<td>-</td>
-<td>(Jā)*</td>
-<td>Jā</td>
-<td>* <em>Vērtība cilnē &quot;Uzstādījumi&quot; ir jāaktualizē atbilstoši izmaiņām likumdošanā. <br> Uzstādījumi aprakstīti nodaļā &quot;Algas komponentes&quot;.</em></td>
+<td>Nosaukums</td>
+<td>Brīvi izvēlēts nosaukums.</td>
 </tr>
 <tr>
-<td>Bāzes</td>
-<td>Jā</td>
-<td>-</td>
-<td>(Jā)*</td>
-<td>Jā</td>
-<td>* <em>Atsevišķos gadījumos lietotājs pats var koriģēt vidējās izpeļņas aprēķinu un ieturējumus par izpildrakstiem. <br> Uzstādījumi aprakstīti nodaļā &quot;Bāzes&quot;.</em></td>
+<td>Saistītās komponentes kods</td>
+<td>Šī funkcionalitāte paredzēta paplašinātai datu filtrēšanai. Ja bāzei tiek norādīts Saistītās komponentes kods, tad no algas komponenšu rindām tiek skaitītas tikai rindas, kur komponentes kods vai saistītās komponentes kods sakrīt ar bāzes summas saistītās komponentes kodu. Saistītai komponentei ir ierobežojumi (PFPIS korektai aizpildīšanai), tāpēc obligāti konsultēties ar ELVA konsultantiem.</td>
 </tr>
 <tr>
-<td>Darbinieka kontējuma grupas</td>
-<td>Jā</td>
-<td>(Jā)*</td>
-<td>Jā</td>
-<td>-</td>
-<td>* <em>Ar konfigurācijas pakotni tiks importētas standarta kontējuma grupas. Nepieciešamības gadījumā tās var pārsaukt, vai pievienot jaunas. <br> Uzstādījumi aprakstīti nodaļā &quot;Darbinieku kontējuma grupas&quot;</em>.</td>
-</tr>
-<tr>
-<td>Darbinieku grāmatošanas uzstādījumi</td>
-<td>Jā</td>
-<td>(Jā)*</td>
-<td>Jā</td>
-<td>-</td>
-<td>* <em>Ar konfigurācijas pakotni tiks importēti grāmatošanas uzstādījumi, bet papildus darbinieku kontējuma grupu pievienošanas gadījumā, grāmatojumu uzstādījumu rindas ir jāpapildina. Uzstādījumi aprakstīti nodaļā &quot;Darbinieku kontējuma grupas&quot;</em>.</td>
-</tr>
-<tr>
-<td>Algu dimensiju uzstādījumi</td>
-<td>-</td>
-<td>Jā</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Nav obligāta prasība. Uzstādījumi aprakstīti nodaļā &quot;Uzņēmuma uzstādījumi&quot;</em>.</td>
-</tr>
-<tr>
-<td>Darba laika kalendāri</td>
-<td>Jā</td>
-<td>-</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Ja nepieciešams, var papildus izveidot jaunus kalendārus. Cilnē &quot;Kalendāra izmaiņu apakšforma&quot; jāpapildina ar darba dienu datumiem, kad darba laiks ir saīsināts. Uzstādījumi aprakstīti nodaļā &quot;Kalendāri&quot;</em>.</td>
-</tr>
-<tr>
-<td>Svētku dienu kalendāri</td>
-<td>Jā</td>
-<td>-</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Ja nepieciešams, var papildus izveidot kalendārus. Cilnē &quot;Kalendāra izmaiņu apakšforma&quot; jāpapildina ar to svētku dienu datumiem, kas ir atšķirīgi katru gadu. Uzstādījumi aprakstīti nodaļā &quot;Kalendāri&quot;</em>.</td>
-</tr>
-<tr>
-<td>Prombūtne</td>
-<td>Jā</td>
-<td>-</td>
-<td>-</td>
-<td>Jā</td>
-<td><em>Prombūtņu iemesla kodi jāizskata, un vajadzības gadījumā, jākoriģē vai jāpapildina konsultējoties ar ELVA speciālistu. Uzstādījumi aprakstīti nodaļā &quot;Prombūtnes iemesli&quot;</em>.</td>
-</tr>
-<tr>
-<td>Struktūrvienības</td>
-<td>-</td>
-<td>Jā</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Uzstādījumi aprakstīti nodaļā &quot;Darbinieku uzstādījumi&quot;</em>.</td>
-</tr>
-<tr>
-<td>Amati</td>
-<td>-</td>
-<td>Jā</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Uzstādījumi aprakstīti nodaļā &quot;Uzņēmuma uzstādījumi&quot;</em>.</td>
-</tr>
-<tr>
-<td>Algu banku konti</td>
-<td>Jā</td>
-<td>(Jā)*</td>
-<td>Jā</td>
-<td>-</td>
-<td>* <em>Ar konfigurācijas pakotni tiks importēta kartiņa algu bankas kontam. Ja bankas konti, no kuriem izmaksā algu, ir vairāki, nepieciešams pievienot jaunas bankas kontu kartiņas. <br> Uzstādījumi aprakstīti nodaļā &quot;Algu uzstādījumi&quot;</em>.</td>
+<td>IIN līmeņa filtrs</td>
+<td>Ja ir izvēlēti %, tad norāda bāzi, no kuras (bāzes) summas tiks rēķināti %.</td>
 </tr>
 </tbody>
 </table>
+<h2 id="cilne-uzstādījumi">Cilne: <em>Uzstādījumi</em></h2>
+<p><img src="3.payroll_calc_6.png" alt="alt"></p>
+<table>
+<thead>
+<tr>
+<th>Tabulas nosaukums</th>
+<th>Apraksts</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>+ Tips</td>
+<td>Norāda komponenšu tipus, kuri tiks pieskaitīti bāzes summas aprēķinā.</td>
+</tr>
+<tr>
+<td>- Tips</td>
+<td>Norāda  komponentes tipus, kuri tiks atņemti no bāzes summas.</td>
+</tr>
+<tr>
+<td>+ Kods</td>
+<td>Norāda konkrētas komponentes, kuras tiks pieskaitītas bāzes summas aprēķinam.</td>
+</tr>
+<tr>
+<td>- Kods</td>
+<td>Norāda komponentes, kuras tiks atņemtas bāzes summas aprēķinā.</td>
+</tr>
+</tbody>
+</table>
+<p>Papildus katrā tabulā pie komponentes ir iespējams norādīt datumu, no kura un līdz kuram aprēķinā darbojas attiecīgā komponente vai komponentes tips. Šie dati saglabājas vēsturē.</p>
 </article>
           </div>
           
@@ -199,7 +146,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/elva-bc-projects/Latvian-Payroll/_git/Latvian-Payroll-Help?path=lv-LV/docs/Algu b&#257;zes pakotne/setup/1.setting_up.md&amp;version=GBmaster&amp;line=1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://dev.azure.com/elva-bc-projects/Latvian-Payroll/_git/Latvian-Payroll-Help?path=lv-LV/docs/payroll_base/setup/3.1.payroll_calc.md&amp;version=GBmaster&amp;line=1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

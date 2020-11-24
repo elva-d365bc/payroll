@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>B&#257;zes | Latvian Payroll </title>
+    <title>Piemaksas un atvilkumi | Latvian Payroll </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="B&#257;zes | Latvian Payroll ">
+    <meta name="title" content="Piemaksas un atvilkumi | Latvian Payroll ">
     <meta name="generator" content="docfx 2.56.5.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
@@ -77,67 +77,21 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="bāzes">Bāzes</h1>
+<h1 id="piemaksas-un-atvilkumi">Piemaksas un atvilkumi</h1>
 
-<p>Bāzes ir uzstādījumi, kuri nosaka dažādu algas sastāvdaļu aprēķinu - atvaļinājumu, slimības naudu, kā arī dažu atskaišu aprēķināšanas algoritmus. Šīs summas var definēt pēc vajadzības.</p>
-<p>Katrai bāzei ir sava kartiņa un visas bāžu kartiņas ir apkopotas sarakstā <em>Bāzes</em>.</p>
-<h2 id="cilne-visp-info">Cilne: <em>Visp. info</em></h2>
-<p><img src="3.payroll_calc_5.png" alt="alt"></p>
-<table>
-<thead>
-<tr>
-<th>Lauka nosaukums</th>
-<th>Apraksts</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Bāze</td>
-<td>Brīvi definēts kods.</td>
-</tr>
-<tr>
-<td>Nosaukums</td>
-<td>Brīvi izvēlēts nosaukums.</td>
-</tr>
-<tr>
-<td>Saistītās komponentes kods</td>
-<td>Šī funkcionalitāte paredzēta paplašinātai datu filtrēšanai. Ja bāzei tiek norādīts Saistītās komponentes kods, tad no algas komponenšu rindām tiek skaitītas tikai rindas, kur komponentes kods vai saistītās komponentes kods sakrīt ar bāzes summas saistītās komponentes kodu. Saistītai komponentei ir ierobežojumi (PFPIS korektai aizpildīšanai), tāpēc obligāti konsultēties ar ELVA konsultantiem.</td>
-</tr>
-<tr>
-<td>IIN līmeņa filtrs</td>
-<td>Ja ir izvēlēti %, tad norāda bāzi, no kuras (bāzes) summas tiks rēķināti %.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="cilne-uzstādījumi">Cilne: <em>Uzstādījumi</em></h2>
-<p><img src="3.payroll_calc_6.png" alt="alt"></p>
-<table>
-<thead>
-<tr>
-<th>Tabulas nosaukums</th>
-<th>Apraksts</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>+ Tips</td>
-<td>Norāda komponenšu tipus, kuri tiks pieskaitīti bāzes summas aprēķinā.</td>
-</tr>
-<tr>
-<td>- Tips</td>
-<td>Norāda  komponentes tipus, kuri tiks atņemti no bāzes summas.</td>
-</tr>
-<tr>
-<td>+ Kods</td>
-<td>Norāda konkrētas komponentes, kuras tiks pieskaitītas bāzes summas aprēķinam.</td>
-</tr>
-<tr>
-<td>- Kods</td>
-<td>Norāda komponentes, kuras tiks atņemtas bāzes summas aprēķinā.</td>
-</tr>
-</tbody>
-</table>
-<p>Papildus katrā tabulā pie komponentes ir iespējams norādīt datumu, no kura un līdz kuram aprēķinā darbojas attiecīgā komponente vai komponentes tips. Šie dati saglabājas vēsturē.</p>
+<h2 id="komponenšu-reģistrs">Komponenšu reģistrs</h2>
+<p>Komponenšu reģistru (KR) paredzēts aizpildīt gadījumos, ja darbiniekam ir ienākumi vai atvilkumi, kas katru mēnesi atšķiras – tiek noteiktas ārpus programmas. Aizpildot KR, visas minētās algas komponentes tiks iekļautas tajā mēneša algas aprēķinā, kurš norādīts reģistra virsrakstā.</p>
+<h3 id="jauna-reģistra-izveide">Jauna reģistra izveide</h3>
+<p>Jaunu reģistru veido sākuma lapā vai sistēmas meklētājā izvēloties <em>Komponenšu reģistri</em> un nospiežot pogu <em>Jauns</em>.</p>
+<p>Numurs reģistram tiks piešķirts automātiski. Tālāk jāizvēlas Gads un Mēnesis, par kuru tiks ievadītas piemaksas un atvilkumi (atverot jaunu sarakstu, kā noklusētais automātiski tiks ievadīts tekošais gads un mēnesis) (<img src="count1.png" alt="alt">).
+Ieteicams brīvā formā aizpildīt arī lauku Apraksts, izvēloties apzīmējumu, kuru pēc tam viegli atšifrēt un pēc kura viegli atrast nepieciešamo sarakstu, piem., ievadot nodaļas nosaukumu, vai komponentes veida nosaukumu (piem., ceturkšņa prēmijas), vai darbinieku grupas aprakstu (piem., līgumstrādnieki), u.tml (<img src="count2.png" alt="alt">).</p>
+<p>Darbinieku sarakstu KR-ā iespējams sastādīt vairākos variantos – gan automātiski ģenerējot ar filtriem atlasot darbiniekus un norādot konkrētu algas komponentes kodu, gan atlasot darbiniekus pa vienam. Mēs iesakām datus sagatavot Excel programmā, izmantojot  eksportēšanas un importēšanas funkciju rīkjoslā klikšķinot uz <em>Apstrādāt</em> (<img src="count3.png" alt="alt">) - <em>Importēt no Excel</em> (<img src="count4.png" alt="alt">) vai <em>Exportēt uz Excel</em> (<img src="count5.png" alt="alt">).</p>
+<p>Nepieciešamības gadījumā saģenerētās vai importētās rindas ir manuāli koriģējamas, izdzēšot liekos darbiniekus (<img src="count6.png" alt="alt">) vai nomainot Komponentes kodu (<img src="count7.png" alt="alt">) un/vai Vērtību (<img src="count7.png" alt="alt">). Periods ielasās automātiski - tāds pats, kāds norādīts kartiņas galvenē. Ja komponente attiecas uz citu Periodu (piemēram, ienākumi tiek precizēti), jānomaina vērtība uz nepieciešamo.</p>
+<p><img src="10.salary_comp.register_1.png" alt="alt"></p>
+<h2 id="darbinieka-kartiņa">Darbinieka kartiņa</h2>
+<p>Piemaksas un atvilkumus, kuri ilgu laika periodu tiek iekļauti ikmēneša algas aprēķinā kā konstantas summas, ieteicams ievadīt Darbinieka kartiņā. To izdarot, darbiniekam katru mēnesi algu aprēķinā automātiski tiks pielikta attiecīgā piemaksa vai/un noņemts attiecīgais atvilkums.</p>
+<p>Var ērti ievadīt darbinieka kartiņas Algas komponenšu rindās.</p>
+<p><img src="10.salary_comp.register_8.png" alt="alt"></p>
 </article>
           </div>
           
@@ -146,7 +100,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/elva-bc-projects/Latvian-Payroll/_git/Latvian-Payroll-Help?path=lv-LV/docs/Algu b&#257;zes pakotne/setup/3.1.payroll_calc.md&amp;version=GBmaster&amp;line=1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://dev.azure.com/elva-bc-projects/Latvian-Payroll/_git/Latvian-Payroll-Help?path=lv-LV/docs/payroll_base/setup/10.salary_comp.register.md&amp;version=GBmaster&amp;line=1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

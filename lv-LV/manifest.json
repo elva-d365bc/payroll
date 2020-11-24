@@ -14,1429 +14,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/Algu bāzes pakotne/faq.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/Algu bāzes pakotne/faq.html",
-          "hash": "0t3teOEbEEMhCgS/oqmj9w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/Algu bāzes pakotne/overview.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/Algu bāzes pakotne/overview.html",
-          "hash": "5wpKVIyAC1ksBkh4+By/8w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/0.conf_pack.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/0.conf_pack.html",
-          "hash": "TYnvuPCwzGRO620BVUzkJA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/0.conf_pack.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/0.conf_pack.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/0.conf_pack_1.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/0.conf_pack_1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/1.empl_termin_1.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/1.empl_termin_1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/1.setting_up.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/1.setting_up.html",
-          "hash": "Pch+utEkmfeImr323NlVKQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/10.salary_comp.register.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/10.salary_comp.register.html",
-          "hash": "1mC0IcRgozmeZD3L00s2Ew=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/10.salary_comp.register_1.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/10.salary_comp.register_1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/10.salary_comp.register_2.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/10.salary_comp.register_2.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/10.salary_comp.register_3.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/10.salary_comp.register_3.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/10.salary_comp.register_4.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/10.salary_comp.register_4.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/10.salary_comp.register_5.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/10.salary_comp.register_5.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/10.salary_comp.register_6.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/10.salary_comp.register_6.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/10.salary_comp.register_7.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/10.salary_comp.register_7.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/10.salary_comp.register_8.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/10.salary_comp.register_8.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/11.salary_calc.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/11.salary_calc.html",
-          "hash": "xUfORFixEQ7tIge+nW2xhw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/11.salary_calc_1.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/11.salary_calc_1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/11.salary_calc_2.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/11.salary_calc_2.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/11.salary_calc_3.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/11.salary_calc_3.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/12.salary_pay.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/12.salary_pay.html",
-          "hash": "kBqEoPbCEic/4bxVNA0axg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/12.salary_pay_1.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/12.salary_pay_1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/12.salary_pay_2.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/12.salary_pay_2.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/12.salary_pay_3.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/12.salary_pay_3.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/12.salary_pay_4.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/12.salary_pay_4.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/12.salary_pay_5.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/12.salary_pay_5.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/12.salary_pay_6.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/12.salary_pay_6.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/13.salary_corect_1.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/13.salary_corect_1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/13.salary_recalc.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/13.salary_recalc.html",
-          "hash": "wuD3tPL5Zr9GGkdRdvuYuA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/13.salary_recalc_1.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/13.salary_recalc_1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/13.salary_recalc_2.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/13.salary_recalc_2.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/13.salary_recalc_3.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/13.salary_recalc_3.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/14.reports.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/14.reports.html",
-          "hash": "d2t6DRkzi6X2uRMdm4Hf/Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/14.reports_1.1.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/14.reports_1.1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/14.reports_1.2.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/14.reports_1.2.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/14.reports_1.5.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/14.reports_1.5.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/14.reports_1.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/14.reports_1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/14.reports_2.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/14.reports_2.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/14.reports_3.1.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/14.reports_3.1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/14.reports_3.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/14.reports_3.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/14.reports_an.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/14.reports_an.html",
-          "hash": "dOQJdpIZIwg5+pt/AyO91g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/14.reports_eds.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/14.reports_eds.html",
-          "hash": "cmqzc1b8ZeJnVj4JxPgvRQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/15.empl_termin_1.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/15.empl_termin_1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/15.empl_termin_2.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/15.empl_termin_2.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/2.1.payroll_acc.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/2.1.payroll_acc.html",
-          "hash": "Du2h6Pz2EyNmIo7YZIavYg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/2.2.payroll_acc.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/2.2.payroll_acc.html",
-          "hash": "NlATPYSWywgoOgBuDeQbdQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/2.payroll_acc.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/2.payroll_acc.html",
-          "hash": "MPO3TY8OuG/VALpWN3WjJg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/2.payroll_acc_1.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/2.payroll_acc_1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/2.payroll_acc_10.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/2.payroll_acc_10.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/2.payroll_acc_11.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/2.payroll_acc_11.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/2.payroll_acc_2.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/2.payroll_acc_2.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/2.payroll_acc_3.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/2.payroll_acc_3.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/2.payroll_acc_4.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/2.payroll_acc_4.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/2.payroll_acc_5.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/2.payroll_acc_5.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/2.payroll_acc_6.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/2.payroll_acc_6.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/2.payroll_acc_7.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/2.payroll_acc_7.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/2.payroll_acc_8.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/2.payroll_acc_8.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/2.payroll_acc_9.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/2.payroll_acc_9.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/3.1.payroll_calc.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/3.1.payroll_calc.html",
-          "hash": "EmQAS2WdiQt2jNUCSk/HZA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/3.absence.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/3.absence.html",
-          "hash": "OSqr9nL2AIH/k+fVMCHAiA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/3.calendars.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/3.calendars.html",
-          "hash": "T+ZPZrl4XdW6ferA3xlrkA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/3.payroll_calc.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/3.payroll_calc.html",
-          "hash": "oldsO+RiC6bpHzva7p4Eyw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/3.payroll_calc_1.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/3.payroll_calc_1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/3.payroll_calc_10.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/3.payroll_calc_10.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/3.payroll_calc_11.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/3.payroll_calc_11.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/3.payroll_calc_12.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/3.payroll_calc_12.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/3.payroll_calc_13.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/3.payroll_calc_13.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/3.payroll_calc_14.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/3.payroll_calc_14.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/3.payroll_calc_2.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/3.payroll_calc_2.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/3.payroll_calc_3.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/3.payroll_calc_3.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/3.payroll_calc_4.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/3.payroll_calc_4.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/3.payroll_calc_5.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/3.payroll_calc_5.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/3.payroll_calc_6.1.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/3.payroll_calc_6.1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/3.payroll_calc_6.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/3.payroll_calc_6.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/3.payroll_calc_7.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/3.payroll_calc_7.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/3.payroll_calc_8.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/3.payroll_calc_8.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/3.payroll_calc_9.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/3.payroll_calc_9.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/4.empl_card.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/4.empl_card.html",
-          "hash": "00kp0vvjBuCERmsiiX0OXQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/4.empl_card_0.1.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/4.empl_card_0.1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/4.empl_card_1.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/4.empl_card_1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/4.empl_card_2.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/4.empl_card_2.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/4.empl_card_3.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/4.empl_card_3.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/4.empl_card_4.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/4.empl_card_4.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/5.empl_info.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/5.empl_info.html",
-          "hash": "kEmw4uEVmYwJmEbtVYBb+w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/5.empl_info_1.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/5.empl_info_1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/5.empl_info_2.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/5.empl_info_2.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/5.empl_info_3.1.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/5.empl_info_3.1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/5.empl_info_3.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/5.empl_info_3.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/5.empl_info_4.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/5.empl_info_4.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/5.empl_info_5.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/5.empl_info_5.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/5.empl_info_6.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/5.empl_info_6.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/5.empl_info_7.1.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/5.empl_info_7.1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/5.empl_info_7.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/5.empl_info_7.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/5.empl_info_8.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/5.empl_info_8.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/6.1.empl_add.info.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/6.1.empl_add.info.html",
-          "hash": "E0GwzeCQrC/CZOiYAKV/5Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/6.empl_add.info.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/6.empl_add.info.html",
-          "hash": "kEZw+y+cfexcUCHeUKUXrQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/6.empl_add_info1.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/6.empl_add_info1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/6.empl_add_info2.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/6.empl_add_info2.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/6.empl_add_info3.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/6.empl_add_info3.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/6.empl_add_info4.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/6.empl_add_info4.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/6.empl_add_info5.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/6.empl_add_info5.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/6.empl_add_info6.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/6.empl_add_info6.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/6.empl_add_info7.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/6.empl_add_info7.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/6.empl_add_info8.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/6.empl_add_info8.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/8.salary_hours_1.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/8.salary_hours_1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/8.salary_hours_2.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/8.salary_hours_2.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/8.salary_timing.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/8.salary_timing.html",
-          "hash": "QhimhKqrt7g9dgIV0frYSQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/9.salary_absence.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/9.salary_absence.html",
-          "hash": "OCpUKgBclAsDR+yQni3s9g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/9.salary_absence_1.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/9.salary_absence_1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/9.salary_absence_2.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/9.salary_absence_2.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/9.salary_absence_3.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/9.salary_absence_3.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/9.salary_absence_4.1.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/9.salary_absence_4.1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/9.salary_absence_4.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/9.salary_absence_4.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/9.salary_absence_5.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/9.salary_absence_5.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/count1.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/count1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/count10.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/count10.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/count2.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/count2.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/count3.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/count3.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/count4.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/count4.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/count5.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/count5.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/count6.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/count6.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/count7.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/count7.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/count8.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/count8.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/count9.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/count9.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Algu bāzes pakotne/setup/faq_1.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Algu bāzes pakotne/setup/faq_1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "docs/Algu bāzes pakotne/toc.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/Algu bāzes pakotne/toc.html",
-          "hash": "LIDGZQIBRQQYwM6inw+KzA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/Algu bāzes pakotne/usage_scenarios.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/Algu bāzes pakotne/usage_scenarios.html",
-          "hash": "vnRIBOYfxlmAbVrkmvypXA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "docs/eds_import/faq.md",
       "output": {
         ".html": {
@@ -1656,6 +233,1429 @@
       "output": {
         "resource": {
           "relative_path": "docs/images/elva_logo_big.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_base/faq.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_base/faq.html",
+          "hash": "myBr+i3Ix5j4Ojp+lkF+DA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_base/overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_base/overview.html",
+          "hash": "oYlE+EMflqgXpeTbzJ1XFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_base/setup/0.conf_pack.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_base/setup/0.conf_pack.html",
+          "hash": "rvGHqATMUEOvHOppTEdVHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/0.conf_pack.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/0.conf_pack.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/0.conf_pack_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/0.conf_pack_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/1.empl_termin_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/1.empl_termin_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_base/setup/1.setting_up.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_base/setup/1.setting_up.html",
+          "hash": "+XF99WQmk3U5ZaMVabOlZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_base/setup/10.salary_comp.register.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_base/setup/10.salary_comp.register.html",
+          "hash": "dEx6O+6NJNMGj5feEBJZYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/10.salary_comp.register_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/10.salary_comp.register_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/10.salary_comp.register_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/10.salary_comp.register_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/10.salary_comp.register_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/10.salary_comp.register_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/10.salary_comp.register_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/10.salary_comp.register_4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/10.salary_comp.register_5.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/10.salary_comp.register_5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/10.salary_comp.register_6.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/10.salary_comp.register_6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/10.salary_comp.register_7.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/10.salary_comp.register_7.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/10.salary_comp.register_8.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/10.salary_comp.register_8.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_base/setup/11.salary_calc.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_base/setup/11.salary_calc.html",
+          "hash": "gRqWaoKYJM2P+jJbbePeZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/11.salary_calc_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/11.salary_calc_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/11.salary_calc_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/11.salary_calc_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/11.salary_calc_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/11.salary_calc_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_base/setup/12.salary_pay.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_base/setup/12.salary_pay.html",
+          "hash": "UsScR2G6/Lfa2LhtGoaujw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/12.salary_pay_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/12.salary_pay_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/12.salary_pay_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/12.salary_pay_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/12.salary_pay_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/12.salary_pay_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/12.salary_pay_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/12.salary_pay_4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/12.salary_pay_5.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/12.salary_pay_5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/12.salary_pay_6.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/12.salary_pay_6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/13.salary_corect_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/13.salary_corect_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_base/setup/13.salary_recalc.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_base/setup/13.salary_recalc.html",
+          "hash": "izg6GKm3t11tGRePqC+G4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/13.salary_recalc_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/13.salary_recalc_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/13.salary_recalc_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/13.salary_recalc_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/13.salary_recalc_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/13.salary_recalc_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_base/setup/14.reports.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_base/setup/14.reports.html",
+          "hash": "NRI2EFiKlSDm28ooXGYvKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/14.reports_1.1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/14.reports_1.1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/14.reports_1.2.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/14.reports_1.2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/14.reports_1.5.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/14.reports_1.5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/14.reports_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/14.reports_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/14.reports_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/14.reports_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/14.reports_3.1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/14.reports_3.1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/14.reports_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/14.reports_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_base/setup/14.reports_an.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_base/setup/14.reports_an.html",
+          "hash": "Vm040jfhhjmCE2qiwWvK7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_base/setup/14.reports_eds.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_base/setup/14.reports_eds.html",
+          "hash": "uVCJf6+1nWV2FbSFEtVuvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/15.empl_termin_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/15.empl_termin_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/15.empl_termin_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/15.empl_termin_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_base/setup/2.1.payroll_acc.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_base/setup/2.1.payroll_acc.html",
+          "hash": "d/OOTdKwoFJ5KWhKMvJE+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_base/setup/2.2.payroll_acc.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_base/setup/2.2.payroll_acc.html",
+          "hash": "MFee8oqCCINWMYenQQt7lQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_base/setup/2.payroll_acc.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_base/setup/2.payroll_acc.html",
+          "hash": "WSN1NxfPvsg1Uy9YaaxjhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/2.payroll_acc_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/2.payroll_acc_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/2.payroll_acc_10.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/2.payroll_acc_10.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/2.payroll_acc_11.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/2.payroll_acc_11.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/2.payroll_acc_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/2.payroll_acc_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/2.payroll_acc_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/2.payroll_acc_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/2.payroll_acc_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/2.payroll_acc_4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/2.payroll_acc_5.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/2.payroll_acc_5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/2.payroll_acc_6.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/2.payroll_acc_6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/2.payroll_acc_7.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/2.payroll_acc_7.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/2.payroll_acc_8.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/2.payroll_acc_8.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/2.payroll_acc_9.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/2.payroll_acc_9.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_base/setup/3.1.payroll_calc.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_base/setup/3.1.payroll_calc.html",
+          "hash": "OHT+JM9N1A7Iv/yTAZBQbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_base/setup/3.absence.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_base/setup/3.absence.html",
+          "hash": "N1zOszczqxGYpCA6R5cbpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_base/setup/3.calendars.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_base/setup/3.calendars.html",
+          "hash": "kenHEtT1HS0l5kzV/L3b5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_base/setup/3.payroll_calc.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_base/setup/3.payroll_calc.html",
+          "hash": "hdgCgS3MHCVp1Pdjt4DZ1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/3.payroll_calc_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/3.payroll_calc_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/3.payroll_calc_10.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/3.payroll_calc_10.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/3.payroll_calc_11.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/3.payroll_calc_11.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/3.payroll_calc_12.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/3.payroll_calc_12.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/3.payroll_calc_13.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/3.payroll_calc_13.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/3.payroll_calc_14.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/3.payroll_calc_14.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/3.payroll_calc_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/3.payroll_calc_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/3.payroll_calc_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/3.payroll_calc_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/3.payroll_calc_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/3.payroll_calc_4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/3.payroll_calc_5.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/3.payroll_calc_5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/3.payroll_calc_6.1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/3.payroll_calc_6.1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/3.payroll_calc_6.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/3.payroll_calc_6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/3.payroll_calc_7.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/3.payroll_calc_7.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/3.payroll_calc_8.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/3.payroll_calc_8.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/3.payroll_calc_9.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/3.payroll_calc_9.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_base/setup/4.empl_card.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_base/setup/4.empl_card.html",
+          "hash": "9e5+HSBEiVZneHGJI+jQpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/4.empl_card_0.1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/4.empl_card_0.1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/4.empl_card_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/4.empl_card_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/4.empl_card_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/4.empl_card_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/4.empl_card_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/4.empl_card_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/4.empl_card_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/4.empl_card_4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_base/setup/5.empl_info.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_base/setup/5.empl_info.html",
+          "hash": "VJIdzyHmbHw5FCBw4MZorQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/5.empl_info_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/5.empl_info_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/5.empl_info_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/5.empl_info_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/5.empl_info_3.1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/5.empl_info_3.1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/5.empl_info_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/5.empl_info_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/5.empl_info_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/5.empl_info_4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/5.empl_info_5.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/5.empl_info_5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/5.empl_info_6.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/5.empl_info_6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/5.empl_info_7.1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/5.empl_info_7.1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/5.empl_info_7.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/5.empl_info_7.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/5.empl_info_8.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/5.empl_info_8.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_base/setup/6.1.empl_add.info.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_base/setup/6.1.empl_add.info.html",
+          "hash": "IP40oH7qBMidqS3dtje2AQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_base/setup/6.empl_add.info.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_base/setup/6.empl_add.info.html",
+          "hash": "bSd+4mjVDH2PmmijdV9FGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/6.empl_add_info1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/6.empl_add_info1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/6.empl_add_info2.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/6.empl_add_info2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/6.empl_add_info3.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/6.empl_add_info3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/6.empl_add_info4.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/6.empl_add_info4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/6.empl_add_info5.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/6.empl_add_info5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/6.empl_add_info6.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/6.empl_add_info6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/6.empl_add_info7.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/6.empl_add_info7.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/6.empl_add_info8.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/6.empl_add_info8.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/8.salary_hours_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/8.salary_hours_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/8.salary_hours_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/8.salary_hours_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_base/setup/8.salary_timing.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_base/setup/8.salary_timing.html",
+          "hash": "Udch5CGuPguyfWFGQoTzUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_base/setup/9.salary_absence.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_base/setup/9.salary_absence.html",
+          "hash": "vkBUh2HFo9yOLulUOwCZmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/9.salary_absence_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/9.salary_absence_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/9.salary_absence_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/9.salary_absence_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/9.salary_absence_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/9.salary_absence_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/9.salary_absence_4.1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/9.salary_absence_4.1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/9.salary_absence_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/9.salary_absence_4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/9.salary_absence_5.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/9.salary_absence_5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/count1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/count1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/count10.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/count10.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/count2.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/count2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/count3.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/count3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/count4.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/count4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/count5.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/count5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/count6.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/count6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/count7.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/count7.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/count8.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/count8.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/count9.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/count9.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_base/setup/faq_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_base/setup/faq_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/payroll_base/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_base/toc.html",
+          "hash": "LIDGZQIBRQQYwM6inw+KzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_base/usage_scenarios.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_base/usage_scenarios.html",
+          "hash": "4d0JSjipRnjVEWrRv3yp2A=="
         }
       },
       "is_incremental": false,
@@ -5543,15 +5543,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "bol+EP+Id4o8lvBi3TKHoA=="
+          "hash": "S9KA3Oo985V1RP3EfOAMUA=="
         }
       },
       "is_incremental": false,
@@ -5575,7 +5572,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "67+M35CCVjQHUxSXFog4DQ=="
+          "hash": "9rD0qaJdMA61FYG/r+KWUA=="
         }
       },
       "is_incremental": false,
