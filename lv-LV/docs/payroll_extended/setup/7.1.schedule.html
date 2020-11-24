@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Uzst&#257;d&#299;jumi | Latvian Payroll </title>
+    <title>Grafiks | Latvian Payroll </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Uzst&#257;d&#299;jumi | Latvian Payroll ">
-    <meta name="generator" content="docfx 2.56.3.0">
+    <meta name="title" content="Grafiks | Latvian Payroll ">
+    <meta name="generator" content="docfx 2.56.5.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
     <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
@@ -59,11 +59,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list"></div>
+          <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination"></ul>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
       <div role="main" class="container body-content hide-when-search">
@@ -77,120 +77,28 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="uzstādījumi">Uzstādījumi</h1>
+<h1 id="grafiks">Grafiks</h1>
 
-<p>Lai Dynamics 365 Business Central Latvian Payroll Base varētu sekmīgi funkcionēt atbilstoši jūsu uzņēmuma prasībām, ir pieejami zemāk minētie uzstādījumi.</p>
-<p>Pamatuzstādījumi tiek importēti ar konfigurācijas pakotni, tomēr papildus ir jāpārbauda/ jāaizpilda turpmāk aprakstītie uzstādījumu, lai nodrošinātu un verificētu precīzu sistēmas pielāgošanu Jūsu uzņēmuma vajadzībām.</p>
-<table>
-<thead>
-<tr>
-<th>Uzstādījumu nosaukums</th>
-<th>Ar pakotni importēts</th>
-<th>Lietotāja izveidots</th>
-<th>Lietotājs rediģē</th>
-<th>Lietotājam patstāvīgi nav ieteicams rediģēt</th>
-<th>Komentārs</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Algas uzstādījumi</td>
-<td>Jā</td>
-<td>-</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Uzstādījumi aprakstīti nodaļā &quot;Algu uzstādījumi&quot;</em>.</td>
-</tr>
-<tr>
-<td>Algas komponentes</td>
-<td>Jā</td>
-<td>-</td>
-<td>(Jā)*</td>
-<td>Jā</td>
-<td>* <em>Vērtība cilnē &quot;Uzstādījumi&quot; ir jāaktualizē atbilstoši izmaiņām likumdošanā. <br> Uzstādījumi aprakstīti nodaļā &quot;Algas komponentes&quot;.</em></td>
-</tr>
-<tr>
-<td>Bāzes</td>
-<td>Jā</td>
-<td>-</td>
-<td>(Jā)*</td>
-<td>Jā</td>
-<td>* <em>Atsevišķos gadījumos lietotājs pats var koriģēt vidējās izpeļņas aprēķinu un ieturējumus par izpildrakstiem. <br> Uzstādījumi aprakstīti nodaļā &quot;Bāzes&quot;.</em></td>
-</tr>
-<tr>
-<td>Darbinieka kontējuma grupas</td>
-<td>Jā</td>
-<td>(Jā)*</td>
-<td>Jā</td>
-<td>-</td>
-<td>* <em>Ar konfigurācijas pakotni tiks importētas standarta kontējuma grupas. Nepieciešamības gadījumā tās var pārsaukt, vai pievienot jaunas. <br> Uzstādījumi aprakstīti nodaļā &quot;Darbinieku kontējuma grupas&quot;</em>.</td>
-</tr>
-<tr>
-<td>Darbinieku grāmatošanas uzstādījumi</td>
-<td>Jā</td>
-<td>(Jā)*</td>
-<td>Jā</td>
-<td>-</td>
-<td>* <em>Ar konfigurācijas pakotni tiks importēti grāmatošanas uzstādījumi, bet papildus darbinieku kontējuma grupu pievienošanas gadījumā, grāmatojumu uzstādījumu rindas ir jāpapildina. Uzstādījumi aprakstīti nodaļā &quot;Darbinieku kontējuma grupas&quot;</em>.</td>
-</tr>
-<tr>
-<td>Algu dimensiju uzstādījumi</td>
-<td>-</td>
-<td>Jā</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Nav obligāta prasība. Uzstādījumi aprakstīti nodaļā &quot;Uzņēmuma uzstādījumi&quot;</em>.</td>
-</tr>
-<tr>
-<td>Darba laika kalendāri</td>
-<td>Jā</td>
-<td>-</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Ja nepieciešams, var papildus izveidot jaunus kalendārus. Cilnē &quot;Kalendāra izmaiņu apakšforma&quot; jāpapildina ar darba dienu datumiem, kad darba laiks ir saīsināts. Uzstādījumi aprakstīti nodaļā &quot;Kalendāri&quot;</em>.</td>
-</tr>
-<tr>
-<td>Svētku dienu kalendāri</td>
-<td>Jā</td>
-<td>-</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Ja nepieciešams, var papildus izveidot kalendārus. Cilnē &quot;Kalendāra izmaiņu apakšforma&quot; jāpapildina ar to svētku dienu datumiem, kas ir atšķirīgi katru gadu. Uzstādījumi aprakstīti nodaļā &quot;Kalendāri&quot;</em>.</td>
-</tr>
-<tr>
-<td>Prombūtne</td>
-<td>Jā</td>
-<td>-</td>
-<td>-</td>
-<td>Jā</td>
-<td><em>Prombūtņu iemesla kodi jāizskata, un vajadzības gadījumā, jākoriģē vai jāpapildina konsultējoties ar ELVA speciālistu. Uzstādījumi aprakstīti nodaļā &quot;Prombūtnes iemesli&quot;</em>.</td>
-</tr>
-<tr>
-<td>Struktūrvienības</td>
-<td>-</td>
-<td>Jā</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Uzstādījumi aprakstīti nodaļā &quot;Darbinieku uzstādījumi&quot;</em>.</td>
-</tr>
-<tr>
-<td>Amati</td>
-<td>-</td>
-<td>Jā</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Uzstādījumi aprakstīti nodaļā &quot;Uzņēmuma uzstādījumi&quot;</em>.</td>
-</tr>
-<tr>
-<td>Algu banku konti</td>
-<td>Jā</td>
-<td>(Jā)*</td>
-<td>Jā</td>
-<td>-</td>
-<td>* <em>Ar konfigurācijas pakotni tiks importēta kartiņa algu bankas kontam. Ja bankas konti, no kuriem izmaksā algu, ir vairāki, nepieciešams pievienot jaunas bankas kontu kartiņas. <br> Uzstādījumi aprakstīti nodaļā &quot;Algu uzstādījumi&quot;</em>.</td>
-</tr>
-</tbody>
-</table>
+<p>Grafiks – darbinieku plānotais darba laiks. Tas sistēmā ir nepieciešams, lai veiktu pareizus aprēķinus slimības lapas A gadījumā – nosakot, kuras dienas darbiniekam ir jāapmaksā, pamatojoties uz to, kāds bija viņa plānotais darba laiks (skat. sadaļu Prombūtnes reģistrēšana), kā arī nostrādātā laika proporcijas aprēķinam, ja darbinieks nostrādājis nepilnu mēnesi. Grafiks jāģenerē jau laicīgi (piem., mēneša sākumā), lai būtu iespējams korekti ievadīt Slimības lapas A.</p>
+<p><img src="7.1.schedule_1.png" alt="alt"></p>
+<p>Sākot darbu, jābūt uzstādītām Grafiku numuru sērijām: Lomu Centrs - <em>Administrēšana</em> - <em>Algu uzstādījumi</em> - cilne <em>Numerācija</em> - <em>Grafiku numuri</em>.</p>
+<p>Grafiks tiek izveidots, ģenerējot ierakstus no darbiniekam piesaistītā darba laika kalendāra.</p>
+<h2 id="vispārīgā-informācija">Vispārīgā informācija</h2>
+<p>Jaunu grafiku veido: Lomu Centrs - <em>Grafiki</em> – poga <em>Jauns</em>. Numurs tiks piešķirts automātiski. Tālāk jāizvēlas Gads un Mēnesis, par kuru tiks veidots darba laika grafiks (automātiski tiek aizpildīts ar tekošais gadu un mēnesi).</p>
+<h2 id="darbinieku-saraksta-izveidošana">Darbinieku saraksta izveidošana</h2>
+<p>Grafiku (darbinieku sarakstu) veido ar <em>Apstrādāt</em> - <em>Izveidot rindas</em>. Grafikā tiek ieģenerēti visi tie darbinieki, kas atbilst iepriekš norādītajiem filtriem ar stundām no kalendāra.</p>
+<h2 id="grafika-aizpildīšana-ms-excel">Grafika aizpildīšana MS Excel</h2>
+<p>Grafiku var eksportēt (nosūtīt) uz Excel failu un ieimportēt (ievilkt) atpakaļ uzskaites formā. Lai to darītu, Grafikā ir jābūt ieģenerētam darbinieku sarakstam (saraksts var būt un var arī nebūt aizpildīts ar datiem no kalendāra). Grafika eksportēšana notiek, izmantojot funkciju <em>Apstrādāt</em> - <em>Eksports uz Excel</em>.</p>
+<p><img src="7.1.schedule_2.png" alt="alt"></p>
+<p>Atskaites parametri:
+Neaizpildīt ierakstus – ja ķeksītis ielikts, tad grafikā netiks aizpildītas stundas.
+Tukšas rindas  - atskaitē paredzētas tukšas rindas darbiniekiem, kuri pieņemti tekošā mēneša laikā;</p>
+<p>Kad Grafika eksports uz Excel ir veiksmīgi pabeigts, tad jaunizveidotajā failā ir iespējams iekopēt datus no citiem uzskaites failiem vai aizpildīt datus ar roku. Importējot šo Grafiku atpakaļ programmā, visa ievadītā informācija tiks saglabāta. Jāievēro, ka rediģējami ir lauki, kuros paredzēts ievadīt plānotās stundas.
+Grafika importēšanai atpakaļ programmā tiek izmantota funkcija <em>Apstrādāt</em> - <em>Imports no Excel</em>. Jāievēro, ka šī funkcija jāveic tajā Grafikā, kurš pirms tam tika eksportēts uz Excel. Sistēmā tiks ieimportēts Grafiks ar visiem veiktajiem ierakstiem – plānoto darba grafiku.</p>
+<p><img src="7.1.schedule_3.png" alt="alt"></p>
+<p>Lai sistēma varētu importēt grafiku, jānorāda excel faila nosaukums (ceļš līdz failam) un excel lapas nosaukums.</p>
+<h2 id="grafika-pārģenerēšana-pēc-pārskata-mēneša">Grafika pārģenerēšana pēc pārskata mēneša</h2>
+<p>Beidzoties pārskata mēnesim, Grafikā jāieģenerē arī tie darbinieki, kas pieņemti mēneša laikā. To dara, izmantojot funkciju <em>Apstrādāt</em> - <em>Izveidot rindas</em>. Tā rezultātā iepriekš izveidotajam sarakstam tiks pievienoti trūkstošie darbinieki.</p>
 </article>
           </div>
           
@@ -204,7 +112,8 @@
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

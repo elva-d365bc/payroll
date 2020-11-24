@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Uzst&#257;d&#299;jumi | Latvian Payroll </title>
+    <title>Uzskaite | Latvian Payroll </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Uzst&#257;d&#299;jumi | Latvian Payroll ">
-    <meta name="generator" content="docfx 2.56.3.0">
+    <meta name="title" content="Uzskaite | Latvian Payroll ">
+    <meta name="generator" content="docfx 2.56.5.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
     <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
@@ -59,11 +59,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list"></div>
+          <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination"></ul>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
       <div role="main" class="container body-content hide-when-search">
@@ -77,120 +77,41 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="uzstādījumi">Uzstādījumi</h1>
+<h1 id="uzskaite">Uzskaite</h1>
 
-<p>Lai Dynamics 365 Business Central Latvian Payroll Base varētu sekmīgi funkcionēt atbilstoši jūsu uzņēmuma prasībām, ir pieejami zemāk minētie uzstādījumi.</p>
-<p>Pamatuzstādījumi tiek importēti ar konfigurācijas pakotni, tomēr papildus ir jāpārbauda/ jāaizpilda turpmāk aprakstītie uzstādījumu, lai nodrošinātu un verificētu precīzu sistēmas pielāgošanu Jūsu uzņēmuma vajadzībām.</p>
-<table>
-<thead>
-<tr>
-<th>Uzstādījumu nosaukums</th>
-<th>Ar pakotni importēts</th>
-<th>Lietotāja izveidots</th>
-<th>Lietotājs rediģē</th>
-<th>Lietotājam patstāvīgi nav ieteicams rediģēt</th>
-<th>Komentārs</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Algas uzstādījumi</td>
-<td>Jā</td>
-<td>-</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Uzstādījumi aprakstīti nodaļā &quot;Algu uzstādījumi&quot;</em>.</td>
-</tr>
-<tr>
-<td>Algas komponentes</td>
-<td>Jā</td>
-<td>-</td>
-<td>(Jā)*</td>
-<td>Jā</td>
-<td>* <em>Vērtība cilnē &quot;Uzstādījumi&quot; ir jāaktualizē atbilstoši izmaiņām likumdošanā. <br> Uzstādījumi aprakstīti nodaļā &quot;Algas komponentes&quot;.</em></td>
-</tr>
-<tr>
-<td>Bāzes</td>
-<td>Jā</td>
-<td>-</td>
-<td>(Jā)*</td>
-<td>Jā</td>
-<td>* <em>Atsevišķos gadījumos lietotājs pats var koriģēt vidējās izpeļņas aprēķinu un ieturējumus par izpildrakstiem. <br> Uzstādījumi aprakstīti nodaļā &quot;Bāzes&quot;.</em></td>
-</tr>
-<tr>
-<td>Darbinieka kontējuma grupas</td>
-<td>Jā</td>
-<td>(Jā)*</td>
-<td>Jā</td>
-<td>-</td>
-<td>* <em>Ar konfigurācijas pakotni tiks importētas standarta kontējuma grupas. Nepieciešamības gadījumā tās var pārsaukt, vai pievienot jaunas. <br> Uzstādījumi aprakstīti nodaļā &quot;Darbinieku kontējuma grupas&quot;</em>.</td>
-</tr>
-<tr>
-<td>Darbinieku grāmatošanas uzstādījumi</td>
-<td>Jā</td>
-<td>(Jā)*</td>
-<td>Jā</td>
-<td>-</td>
-<td>* <em>Ar konfigurācijas pakotni tiks importēti grāmatošanas uzstādījumi, bet papildus darbinieku kontējuma grupu pievienošanas gadījumā, grāmatojumu uzstādījumu rindas ir jāpapildina. Uzstādījumi aprakstīti nodaļā &quot;Darbinieku kontējuma grupas&quot;</em>.</td>
-</tr>
-<tr>
-<td>Algu dimensiju uzstādījumi</td>
-<td>-</td>
-<td>Jā</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Nav obligāta prasība. Uzstādījumi aprakstīti nodaļā &quot;Uzņēmuma uzstādījumi&quot;</em>.</td>
-</tr>
-<tr>
-<td>Darba laika kalendāri</td>
-<td>Jā</td>
-<td>-</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Ja nepieciešams, var papildus izveidot jaunus kalendārus. Cilnē &quot;Kalendāra izmaiņu apakšforma&quot; jāpapildina ar darba dienu datumiem, kad darba laiks ir saīsināts. Uzstādījumi aprakstīti nodaļā &quot;Kalendāri&quot;</em>.</td>
-</tr>
-<tr>
-<td>Svētku dienu kalendāri</td>
-<td>Jā</td>
-<td>-</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Ja nepieciešams, var papildus izveidot kalendārus. Cilnē &quot;Kalendāra izmaiņu apakšforma&quot; jāpapildina ar to svētku dienu datumiem, kas ir atšķirīgi katru gadu. Uzstādījumi aprakstīti nodaļā &quot;Kalendāri&quot;</em>.</td>
-</tr>
-<tr>
-<td>Prombūtne</td>
-<td>Jā</td>
-<td>-</td>
-<td>-</td>
-<td>Jā</td>
-<td><em>Prombūtņu iemesla kodi jāizskata, un vajadzības gadījumā, jākoriģē vai jāpapildina konsultējoties ar ELVA speciālistu. Uzstādījumi aprakstīti nodaļā &quot;Prombūtnes iemesli&quot;</em>.</td>
-</tr>
-<tr>
-<td>Struktūrvienības</td>
-<td>-</td>
-<td>Jā</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Uzstādījumi aprakstīti nodaļā &quot;Darbinieku uzstādījumi&quot;</em>.</td>
-</tr>
-<tr>
-<td>Amati</td>
-<td>-</td>
-<td>Jā</td>
-<td>Jā</td>
-<td>-</td>
-<td><em>Uzstādījumi aprakstīti nodaļā &quot;Uzņēmuma uzstādījumi&quot;</em>.</td>
-</tr>
-<tr>
-<td>Algu banku konti</td>
-<td>Jā</td>
-<td>(Jā)*</td>
-<td>Jā</td>
-<td>-</td>
-<td>* <em>Ar konfigurācijas pakotni tiks importēta kartiņa algu bankas kontam. Ja bankas konti, no kuriem izmaksā algu, ir vairāki, nepieciešams pievienot jaunas bankas kontu kartiņas. <br> Uzstādījumi aprakstīti nodaļā &quot;Algu uzstādījumi&quot;</em>.</td>
-</tr>
-</tbody>
-</table>
+<p>Uzskaiti ģenerē mēneša beigās, kad ievadīti visi mēneša laikā pieņemtie darbinieki, iereģistrētas visas darba laika izmaiņas, vai arī mēneša sākumā, bet tādā gadījumā mēneša beigās saraksts noteikti jāpapildina ar mēneša laikā pieņemtajiem darbiniekiem. Datus uzskaites tabelē var kopēt no grafika, aizpildīt ar roku vai izmantot tabeles eksporta/importa funkciju uz/no MS excel (izveidot sistēmā darbinieku sarakstu, eksportēt uz excel, un tad importēt atpakaļ sistēmā).</p>
+<p><img src="7.2.count_1.png" alt="alt"></p>
+<p>Kodus, kurus izmanto darba laika un neierašanos atzīmēšanai, norāda Uzstādījumos.</p>
+<p><img src="7.2.count_2.png" alt="alt"></p>
+<p>Sākot darbu ar Uzskaites tabeli, programmā jābūt Uzskaites grafiku numuru sēriju uzstādījumiem: Lomu Centrs - <em>Administrēšana</em> - <em>Algu uzstādījumi</em> - cilne <em>Numerācija</em> - <em>Uzskaišu numuri</em></p>
+<h2 id="jauna-uzskaites-tabele">Jauna Uzskaites tabele</h2>
+<p>Jaunu Uzskaites tabeli veido: Lomu Centrs - <em>Uzskaites</em> – poga <em>Jauns</em>. Numurs tiks piešķirts automātiski. Tālāk jāizvēlas Gads un Mēnesis, par kuru tiks veidota darba laika tabele (automātiski tiek aizpildīts ar tekošo gadu un mēnesi).</p>
+<h2 id="darbinieku-saraksta-izveidošana">Darbinieku saraksta izveidošana</h2>
+<p>Darbinieku sarakstu Uzskaites tabelē ģenerē ar funkcijas palīdzību: <em>Apstrādāt</em> - <em>Izveidot rindas</em>, kā rezultātā uz ekrāna parādās darbinieku saraksts, saskaņā ar izveides loga izvēlētajām vērtībām. Nepieciešamības gadījumā var izmantot filtrus, lai sagrupēt darbiniekus dažādos sarakstos.</p>
+<h2 id="dažādas-tabeles-aizpildīšanas-iespējas">Dažādas tabeles aizpildīšanas iespējas</h2>
+<p><strong>Dati no Grafika</strong></p>
+<p>Tabeli var aizpildīt ar plānoto stundu grafiku. Šim nolūkam izmanto funkciju <em>Kopēt no grafika</em>.
+Lai iegūtu pareizus datus par darbinieku prombūtni, izmanto funkciju <em>Kopēt no prombūtņu reģistra</em>, kā rezultātā Uzskaites tabelē iekopēsies dati no Prombūtnes reģistra – par piešķirtajiem atvaļinājumiem, slimību, bērnu kopšanas atvaļinājumu u.c. neierašanos.
+Gadījumā, ja vienā dienā darbiniekam jāreģistrē darba stundas ar dažādām dimensijām, var sadalīt stundas, nospiežot pogu <em>Sadalīt rindu</em>. Sistēma izveidos vēl vienu rindu, kurā jāievada stundas. Dimensijas var norādīt, nospiežot pogu <em>Dimensijas</em>.</p>
+<p><img src="7.2.count_3.png" alt="alt"></p>
+<p><strong>Tabeles aizpildīšana MS Excel</strong></p>
+<p>Uzģenerēto Uzskaites tabeli eksportē (nosūta) uz Excel failu. Lai to darītu, Uzskaites tabelē obligāti ir jābūt ieģenerētam darbinieku sarakstam, bet saraksts var arī nebūt aizpildīts ar datiem no Prombūtnes reģistra. Tomēr Prombūtnes reģistra datu iekļaušana šajā tabulā atvieglos Uzskaites tabeles manuālo aizpildīšanu excel. Tabulas eksportēšana notiek, izmantojot funkciju <em>Eksports uz Excel</em>.
+Kad Uzskaites tabeles eksports uz Excel ir veiksmīgi pabeigts, tad jaunizveidotajā failā ir iespējams iekopēt datus no citiem uzskaites failiem vai aizpildīt datus par nostrādāto laiku manuāli. Importējot šo Uzskaiti atpakaļ programmā, visa ievadītā informācija tiks saglabāta. <strong>Jāievēro, ka jāaizpilda tie lauki, kuros paredzēts ievadīt stundas, brīvdienas, neierašanās.</strong></p>
+<p><img src="7.2.count_4.png" alt="alt"></p>
+<p>Neierašanos kodi jāizmanto darba laika ievadīšanai izveidotajā failā tādi paši, kādi tiks atpazīti, importējot atpakaļ sistēmā aizpildīto failu. Ja kļūdas dēļ tiks ievadīti savādāki kodi, sistēma tos klasificēs kā Neattaisnotu neierašanos. Jāņem vērā, ka pirmā rinda satur kopsummas / faktiskas nostrādātas stundas , t. sk. nakts stundas (otrā rinda)  un virsstundas rinda (trešā rinda). Šajā tabulā mēneša laikā ievada arī pieņemtos darbiniekus. Tam paredzētas brīvas rindas tabulas lejas daļā.
+Gadījumā, ja darbiniekam vienā dienā darba stundas ar dažādām dimensijām, Excel failā katrai dimensijai jābūt atsevišķi aizpildīts (sk. attēlu):</p>
+<p><img src="7.2.count_5.png" alt="alt"></p>
+<h2 id="uzskaites-pārģenerēšana-pēc-pārskata-mēneša">Uzskaites pārģenerēšana pēc pārskata mēneša</h2>
+<p><strong>Saraksta pārģenerēšana sistēmā</strong></p>
+<p>Arī Uzskaites tabelē ir jāieģenerē tie darbinieki, kas pieņemti darbā mēneša laikā. To dara, izmantojot funkciju <em>Izvaidot rindas</em>. Rezultātā tiks pieģenerēti klāt tie darbinieki, kuri vēl nav šajā sarakstā. Ja nepieciešams, tiem pieģenerē arī datus no Grafika.</p>
+<p><strong>Saraksta papildināšana MS Excel</strong></p>
+<p>Ja tiek izmantota iespēja aizpildīt Uzskaites tabeli Excel, tad pārskata mēneša laikā šajā tabulā iespējams manuāli ievadīt visus pieņemtos darbiniekus. Tam paredzētas tukšas rindas saraksta beigās. Ja darbinieku saraksts sistēmā un excel tabulā sakrīt (kārtība var būt atšķirīga, bet darbinieku numuriem jābūt visiem iekļautiem), tad šīs tabulas imports atpakaļ programmā noritēs veiksmīgi.</p>
+<h2 id="uzskaites-imports-no-excel">Uzskaites imports no Excel</h2>
+<p>Nākamā mēneša sākumā, kad dati par tekošo mēnesi tabelē ievadīti, veic šīs tabeles importēšanu atpakaļ programmā.
+Uzskaites importēšanai atpakaļ programmā tiek izmantota funkcija <em>Imports no Excel</em>. Jāievēro, ka šī funkcija jāveic tajā Uzskaites tabelē, kura pirms tam tika eksportēta uz Excel.</p>
+<p><img src="7.2.count_6.png" alt="alt"></p>
+<p><strong>Gadījumā, ja tiek izmantota uzskaite pa dimensijām, jāpievērš uzmanība, ka 1. darbinieka rindai jābūt izveidotai no sistēmas (bez dimensijas norādes) un tikai pēc tam jābūt rindai ar dimensiju.</strong>
+<strong>Gadījumā, ja ir ielikts ķeksis Pievienot rindas esošiem ierakstiem , sistēma tikai pievienos jaunus datus, nelabojot iepriekš aizpildītos datus.</strong></p>
 </article>
           </div>
           
@@ -204,7 +125,8 @@
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

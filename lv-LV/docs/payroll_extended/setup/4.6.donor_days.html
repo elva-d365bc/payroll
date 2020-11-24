@@ -8,7 +8,7 @@
     <title>Donoru dienas | Latvian Payroll </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Donoru dienas | Latvian Payroll ">
-    <meta name="generator" content="docfx 2.56.3.0">
+    <meta name="generator" content="docfx 2.56.5.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
     <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
@@ -59,11 +59,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list"></div>
+          <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination"></ul>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
       <div role="main" class="container body-content hide-when-search">
@@ -79,7 +79,7 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="donoru-dienas">Donoru dienas</h1>
 
-<p>Ja tiek izmantota Atvaļinājuma pārvaldība, ir iespēja izmantot Donoru dienas risinājumu. Prombūtnes kartē, jānorāda, ka par šo prombūtni pienākas 1 papildatvaļinājuma diena, bet šīs prombūtnes aprēķina veids ir saglabājot darba algu.</p>
+<p>Prombūtnes kartē <em>NEIER_DND</em> (atrodams: Lomu centrs - <em>Prombūtnes</em> - <em>Prombūtnes iemesli</em>) jānorāda, ka par šo prombūtni pienākas 1 papildatvaļinājuma diena, bet šīs prombūtnes aprēķina veids ir saglabājot darba algu.</p>
 <p><img src="4.6.donor_days_1.png" alt="alt"></p>
 <div class="TIP">
 <h5>Tip</h5>
@@ -91,23 +91,8 @@
 <p>Donora dienas apmaksai nevajadzētu būt iekļautai vidējā izpeļņā. Tāpēc Bāzē ATVALIN apmaksas komponentes kodam jābūt izslēgtam no bāzes.</p>
 <p><img src="4.6.donor_days_3.png" alt="alt"></p>
 <p><strong>!!! Atpūtas dienai par donoru dienu labāk izveidot jaunu prombūtnes kodu, kuram būtu sekojošie uzstādījumi:</strong></p>
-<p>Lomu centrs - <em>Prombūtnes</em> - <em>Prombūtnes iemesli</em></p>
-<p>Atvaļinājuma periodu žurnālā iespējams ievadīt/koriģēt datus par piešķirto/izmantoto atvaļinājuma/papildatvaļinājuma dienu skaitu.</p>
-<p>Kad nepieciešamā informācija atvaļinājuma periodu žurnālā ir ievadīta, to iespējams Pārbaudīt <img src="count1.png" alt="alt"> un pēc tam Grāmatot <img src="count2.png" alt="alt">. Pēc grāmatošanas iegrāmatotā informācija atspoguļojas <em>Atvaļinājumu periodi</em>.</p>
-<table>
-<thead>
-<tr>
-<th>Lauka nosaukums</th>
-<th>Apraksts</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Sākotnējā piešķ. dienu rinda</td>
-<td>Izmanto gadījumos, kad ir nepieciešamība koriģēt perioda piešķirto dienu skaitu. Tiks ņemts vērā pie perioda samazināšanas un pie atlikušo dienu aprēķina perioda vidū.</td>
-</tr>
-</tbody>
-</table>
+<p><img src="4.6.donor_days_4.png" alt="alt"></p>
+<p>Tādā gadījumā, rēķinot atlikumu uz jebkuru datumu, dienas piešķiršanai / norakstīšanai  tiks izmantots princips “stājas spēkā uzreiz” ( nevis proporcionāli).</p>
 </article>
           </div>
           
@@ -121,7 +106,8 @@
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>
