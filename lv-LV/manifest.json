@@ -1679,7 +1679,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_extended/overview.html",
-          "hash": "WcvAG0TiI2Bt9mUQ+QXPFQ=="
+          "hash": "p0spiBH0JicREcpdePNBWQ=="
         }
       },
       "is_incremental": false,
@@ -2177,7 +2177,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_extended/setup/10.0.corrections.html",
-          "hash": "BpBajvl2I5vJhncMNm9Kjg=="
+          "hash": "O2mMSAjfw3oLRmfw8jnOnA=="
         }
       },
       "is_incremental": false,
@@ -2189,7 +2189,40 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_extended/setup/10.1.corrections1.html",
-          "hash": "q9fOvNuVDaHGPKl/Ufx2MA=="
+          "hash": "HVbsFHMAHnhOhTH8cQfA0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/10.1.corrections1_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/10.1.corrections1_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/10.1.corrections1_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/10.1.corrections1_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/10.1.corrections2_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/10.1.corrections2_1.png"
         }
       },
       "is_incremental": false,
@@ -2201,7 +2234,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_extended/setup/10.2.corrections2.html",
-          "hash": "AWxZfuKfrGW4fsibQftEAA=="
+          "hash": "E9JV4Q8eGF8WgFFzDraZQw=="
         }
       },
       "is_incremental": false,
@@ -2230,12 +2263,23 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/10.2.corrections2_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/10.2.corrections2_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "docs/payroll_extended/setup/10.3.corrections3.md",
       "output": {
         ".html": {
           "relative_path": "docs/payroll_extended/setup/10.3.corrections3.html",
-          "hash": "m8X6FeRhHkEKTsg5blaIcg=="
+          "hash": "e7dPkk5iie9VkNCL1Z1GVA=="
         }
       },
       "is_incremental": false,
@@ -2247,7 +2291,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_extended/setup/10.4.corrections4.html",
-          "hash": "CheaeHHFGLHoeX8ibhA1gw=="
+          "hash": "JlD/jAJzHOcIRpE7xMAlWw=="
         }
       },
       "is_incremental": false,
@@ -2259,7 +2303,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_extended/setup/10.5.corrections5.html",
-          "hash": "fzB4sgqggPussLoCYCssog=="
+          "hash": "RqFaYNgNjBLxXud+W75Lzw=="
         }
       },
       "is_incremental": false,
@@ -2271,7 +2315,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_extended/setup/10.6.corrections6.html",
-          "hash": "giEK/omE4YG3x9VR/n7qTg=="
+          "hash": "+m3djeYXSo6G0j70KDcMog=="
         }
       },
       "is_incremental": false,
@@ -2283,19 +2327,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_extended/setup/10.7.corrections7.html",
-          "hash": "GtwnPiG4QKJD58KQ6oxStw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/payroll_extended/setup/10.8.corrections8.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/payroll_extended/setup/10.8.corrections8.html",
-          "hash": "RnFpa5S2Mb0htW1vncYJ4Q=="
+          "hash": "S0ZkNHz+I/2Mfcol4queGQ=="
         }
       },
       "is_incremental": false,
@@ -2307,7 +2339,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_extended/setup/11.writ_of_exec.html",
-          "hash": "El/JVD5j+QhtRn4XRTjAJA=="
+          "hash": "thUjNmoRx2TTs2VHRcMpkA=="
         }
       },
       "is_incremental": false,
@@ -2319,7 +2351,18 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_extended/setup/12.vacation_accr.html",
-          "hash": "yboahyuqsGJwA0Lz997tpw=="
+          "hash": "9AO9SNSjjY+2k0QS2ApXwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/12.vacation_accr_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/12.vacation_accr_1.png"
         }
       },
       "is_incremental": false,
@@ -2331,7 +2374,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_extended/setup/13.0.stat_reports.html",
-          "hash": "KHKyVajsvIPT7VQgck5UKA=="
+          "hash": "s8vylNmmjCgtEvLigt6rcg=="
         }
       },
       "is_incremental": false,
@@ -2343,7 +2386,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_extended/setup/13.1.2darbs.html",
-          "hash": "WdJIoC0shNFbVeabSnzstg=="
+          "hash": "55Kmrum6Be6Rn0pjZlgAfQ=="
         }
       },
       "is_incremental": false,
@@ -2355,7 +2398,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_extended/setup/13.2.5darbs.html",
-          "hash": "XRMWGhi9XYU2iG3fE5gi4A=="
+          "hash": "Ui/vFfKwMt5PeiCaMAuNXA=="
         }
       },
       "is_incremental": false,
@@ -4036,7 +4079,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/payroll_extended/setup/9.posting_salary.html",
-          "hash": "RCN6RWgTYWnNeGmwmF0JGA=="
+          "hash": "ntAy0fJmtpZLIhRQ4Z9MKA=="
         }
       },
       "is_incremental": false,
@@ -4153,12 +4196,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Toc",
       "source_relative_path": "docs/payroll_extended/toc.md",
       "output": {
         ".html": {
           "relative_path": "docs/payroll_extended/toc.html",
-          "hash": "L7QfkQXiIT3WYjxw8DJaBw=="
+          "hash": "UNfmh1YDLoZfa3Tx9QfhFA=="
         }
       },
       "is_incremental": false,
@@ -5593,7 +5639,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 114,
+          "total_file_count": 113,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
