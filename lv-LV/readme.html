@@ -188,6 +188,31 @@ and the second line of note</p>
 </tr>
 </tbody>
 </table>
+<h2 id="usage-scenarious-pdf-failu-ģenerēšana">Usage scenarious PDF failu ģenerēšana</h2>
+<p>Jāaiziet uz saiti:
+<a href="https://github.com/wkhtmltopdf/wkhtmltopdf/releases/tag/0.12.5">https://github.com/wkhtmltopdf/wkhtmltopdf/releases/tag/0.12.5</a></p>
+<p>Jāizvēlas konkrētas versijas instalācija, jo jaunākā versija darbojas nekorekti (neģenerē bildes, kas atrodas uz lokālā datora).</p>
+<p>Jālejuplādē šī instalācija un jāinstalē uz lokālā datora.
+wkhtmltox-0.12.5-1.msvc2015-win64.exe</p>
+<p>Instalēt var pēc noklusējuma folderī:</p>
+<p>C:\Program Files\wkhtmltopdf</p>
+<p>VS Code Latvian-Payroll-Help projektam jāuztaisa sinhronizācija ar Azure.</p>
+<p>Windows Explorer jāatver folderis, kurā atrodas Latvian-Payroll-Help projekts, tajā pēc sinhronizācijas parādīsies folderis en-US\PDF un faili:</p>
+<p>generate_PDF_user_scenarious.cmd</p>
+<p>docfx-pdf-user_scenarious.json</p>
+<p>generate_pdfs_user_scenarious.ps1</p>
+<p>Palaižot failu <strong>generate_PDF_user_scenarious.cmd</strong> ģenerēsies PDF dokumenti folderī <strong>_site_pdf</strong></p>
+<p>LV analoģiski. .. Latvian-Payroll-Help\lv-LV\generate_PDF_user_scenarious.cmd</p>
+<p>Tagad fails generate_pdfs_user_scenarious.ps1 noskaņots atbilstoši tekošai situācijai.
+Būtu korektāk, ja EN un LV folderu struktūra būtu vienāda.</p>
+<p>Ja folderu struktūra un failu usage_scenarios.md vieta tiek mainīta, failā generate_pdfs_user_scenarious.ps1 atbilstoši jāmaina ceļš, lai PDF faili ģenerētos, vai jāpadod ziņa, ka veiktas izmaiņas.</p>
+<p>Vai arī jāatrod PDF faili bez ELVA Logo un manuāli jāapvieno ar PDF failu ar ELVA Logo, ja ir tāda nepieciešamība.</p>
+<p>Bez ELVA Logo PDF failiem jāģenerējas jebkurā gadījumā.</p>
+<h3 id="latvian-payroll-app-esošā-struktūra">Latvian Payroll APP esošā struktūra</h3>
+<p><a href="https://viewer.diagrams.net/?highlight=0000ff&amp;edit=_blank&amp;layers=1&amp;nav=1&amp;page-id=sh0kiihFA3qfodnlnWjH&amp;title=PayrollExtension.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1XqGc79bLRaoQO2oare4AAuQkOHe5IhWE%26export%3Ddownload">https://viewer.diagrams.net/?highlight=0000ff&amp;edit=_blank&amp;layers=1&amp;nav=1&amp;page-id=sh0kiihFA3qfodnlnWjH&amp;title=PayrollExtension.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1XqGc79bLRaoQO2oare4AAuQkOHe5IhWE%26export%3Ddownload</a></p>
+<p>Nākotnē, iespējams, HR Portal Integration APP tiks iekļauts Parsonnel Advanced, pagaidām tas APP nav vēl uzrakstīts.</p>
+<p>Ideālā gadījumā APP Help struktūrai vajadzētu būt analoģiskai APP struktūrai.</p>
+<p>EDS Import būtu jābūt zem Payroll Advanced, nevis atsevišķi izdalītam. Agrāk bija vīzija, ka EDS Import būs atsevišķs modulis, tagad ir vīzija, ka nebūs.</p>
 </article>
           </div>
           
