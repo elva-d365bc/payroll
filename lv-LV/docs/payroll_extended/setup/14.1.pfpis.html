@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>K&#257; s&#257;kt str&#257;d&#257;t | Latvian Payroll </title>
+    <title>PFPIS dokumenta veido&#353;ana | Latvian Payroll </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="K&#257; s&#257;kt str&#257;d&#257;t | Latvian Payroll ">
+    <meta name="title" content="PFPIS dokumenta veido&#353;ana | Latvian Payroll ">
     <meta name="generator" content="docfx 2.56.6.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
@@ -77,29 +77,45 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="kā-sākt-strādāt">Kā sākt strādāt</h1>
+<h1 id="pfpis-dokumenta-veidošana">PFPIS dokumenta veidošana</h1>
 
-<p>Lai sāktu lietot Dynamics 365 Business Central Latvian Personnel Base, nav nepieciešams izvēlēties kādu specifisku lomu centru. Funkcionalitāte darbosies no jebkura lomu centra. Tomēr iesakām izmantot <em>LV Alga</em> lomu centru, lai sākuma lapā būtu pieejamas visas saīsnes ērtākai un ātrākai piekļuvei darbā ar algām.</p>
-<h2 id="konfigurācijas-pakotnes-attiecināšana">Konfigurācijas pakotnes attiecināšana</h2>
-<p>Latvian Personnel Base lietošanai nepieciešamie pamata uzstādījumi un kodi tiek izveidoti, attiecinot konfigurācijas pakotni.</p>
-<p>Lai ielādētu konfigurācijas pakotni, klikšķiniet uz pogas <em>Meklēt lapu vai atskaiti…</em> <img src="count1.png" alt="alt"> Tad ierakstiet meklēšanas logā <em>Konfigurācijas pakotnes</em> <img src="count2.png" alt="alt"> un izvēlieties to no piedāvātās izvēlnes <img src="count3.png" alt="alt">.</p>
-<p><img src="0.conf_pack.png" alt="alt"></p>
-<p>Konfigurācijas pakotnes loga rīkjoslā klikšķiniet uz pogām <em>Apstrādāt</em> <img src="count1.png" alt="alt"> - <em>Importēt pakotni</em> <img src="count2.png" alt="alt"> un izvēlieties attiecīgo pakotnes failu no jūsu failu glabātuves. Ar vienu klikšķi iezīmējiet ielādēto pakotni <img src="count3.png" alt="alt"> un noklikšķiniet uz pogām <em>Apstrādāt</em> <img src="count4.png" alt="alt"> un <em>Attiecināt pakotni</em> <img src="count5.png" alt="alt">.</p>
-<p><img src="0.conf_pack_1.png" alt="alt"></p>
-<h2 id="konfigurācijas-pakotnes-saturs">Konfigurācijas pakotnes saturs</h2>
-<p>Konfigurācijas pakotne ievada sistēmā sekojošu informāciju:</p>
+<p>Lai izveidotu paziņojumu par fiziskajām personām izmaksātajām summām, jāveido jauns dokuments-buferis funkcijā <em>PFPIS saraksts</em>, uz kuru saīsne pieejama no algu Lomu centra.</p>
+<p>PFPIS buferis sastāv no 3 daļām:</p>
+<p><strong>Visp. informācija</strong></p>
+<p><strong>Kopsummas</strong></p>
+<p><strong>PFPIS rindu apakšforma</strong></p>
+<p>Virsrakstā tiek norādīta vienam buferim kopīgā informācija, bet katrā rindā tiek norādīta vienam darbiniekam atbilstoša informācija. Virsraksts satur sekojošu informāciju:</p>
+<p><strong>Visp. info</strong></p>
 <ul>
-<li>Numuru sērijas un to rindas</li>
-<li>Personāla uzstādījumus</li>
-<li>Dokumentu veidņu grupas</li>
-<li>Dokumentu veidnes</li>
+<li>Nr. – PFPIS dokumenta numurs;</li>
+<li>Kods – uzņēmuma reģistrācijas Nr.;</li>
+<li>Apraksts – dokumenta apraksts;</li>
+<li>Gads – bufera veidošanas gads;</li>
+<li>Mēnesis – bufera veidošanas mēnesis;</li>
+<li>Noslēgts – pazīme, ka buferis ir noslēgts;</li>
+<li>Izpildītājs – atbildīgās personas vārds un uzvārds;</li>
+<li>Izpildītāja tālruņa nr. – atbildīgās personas tālruņa nr.</li>
 </ul>
-<h2 id="vispārējie-sistēmas-uzstādījumi">Vispārējie sistēmas uzstādījumi</h2>
-<p><em>Uzņēmuma informācija</em> uzstādījumos ir obligāti aizpildāmi sekojoši lauki :</p>
+<p><strong>Kopsummas</strong></p>
 <ul>
-<li>Uzņēmuma nosaukums</li>
-<li>Reģistrācijas Nr.</li>
+<li>R05..R16 – bufera rindu vērtību lauku kopsummas.</li>
 </ul>
+<p><strong>PFPIS bufera rindu apakšforma</strong></p>
+<ul>
+<li>Darbinieka Nr. – Navision darbinieka Nr. (neobligāts);</li>
+<li>Kods – darbinieka personas kods;</li>
+<li>mNosaukums – darbinieka vārds un uzvārds;</li>
+<li>Ienākuma kods – no ienākumu veidu klasifikatora;</li>
+<li>Ienākuma veids – no ienākumu veidu klasifikatora nosaukums;</li>
+<li>Periods no – periods, no kura gūti konkrētie ienākumi;</li>
+<li>Periods līdz – periods, līdz kuram gūti konkrētie ienākumi;</li>
+<li>Ienākuma izmaksas datums – datums, kad izmaksāti ienākumi;</li>
+<li>R05..R16 – PFPIS atskaitei atbilstošās summas;</li>
+<li>R09a – atvieglojumu kods no klasifikatora.</li>
+</ul>
+<p>Jāpievērš uzmanība, ka aizpildot dokumentu par atbrīvotajiem darbiniekiem, laukā <em>Mēnesis</em> jānorāda mēnesis, kurā darbinieks tiek atbrīvots.
+Gadījumā, ja ir vairāki darbinieki, ģenerējot ierakstus, ir iespējams norādīt atbrīvošanas periodu filtru lauciņā rindu ģenerēšanas funkcijas logā.</p>
+<p><strong>Laukā <em>Mēnesis</em> tiek izvēlēts <em>Gads</em> tikai veidojot paziņojumu par aktīviem uz 31. decembri darbiniekiem.</strong></p>
 </article>
           </div>
           
@@ -108,7 +124,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/elva-bc-projects/Latvian-Payroll/_git/Latvian-Payroll-Help?path=lv-LV/docs/personnel_base/setup/0.conf_pack.md&amp;version=GBmaster&amp;line=1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://dev.azure.com/elva-bc-projects/Latvian-Payroll/_git/Latvian-Payroll-Help?path=lv-LV/docs/payroll_extended/setup/14.1.pfpis.md&amp;version=GBmaster&amp;line=1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
