@@ -2510,6 +2510,125 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "docs/payroll_extended/setup/16.tax_book1.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/payroll_extended/setup/16.tax_book1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_extended/setup/16.tax_book_import.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_extended/setup/16.tax_book_import.html",
+          "hash": "NhWmoNeEkUz3vANw/YZWHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_extended/setup/17.sick_list_import.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_extended/setup/17.sick_list_import.html",
+          "hash": "xzL4VC6dte4kMVNJ5xu6eQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_extended/setup/18.personnel_setup.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_extended/setup/18.personnel_setup.html",
+          "hash": "zGqbk9mImeej+dQuRhLdUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_extended/setup/18.personnel_setup1.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_extended/setup/18.personnel_setup1.html",
+          "hash": "SlvymjCK33GXnTfyvOs4sQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_extended/setup/18.personnel_setup2.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_extended/setup/18.personnel_setup2.html",
+          "hash": "NcEyEOlgljXXIrHm/WGqWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_extended/setup/18.personnel_setup3.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_extended/setup/18.personnel_setup3.html",
+          "hash": "pwlMe6WdwfoMs6FU9tHUNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_extended/setup/18.personnel_setup4.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_extended/setup/18.personnel_setup4.html",
+          "hash": "xJhgZ4/cyfSS0CFF8OENPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_extended/setup/19.positions.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_extended/setup/19.positions.html",
+          "hash": "9NP/LSFFPjWBHuKvLNKWZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_extended/setup/19.positions1.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_extended/setup/19.positions1.html",
+          "hash": "F6+zmhnE3oXBmkXDdPt2sA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "docs/payroll_extended/setup/2.0.salary_list_setup.md",
       "output": {
@@ -2820,6 +2939,78 @@
       "output": {
         "resource": {
           "relative_path": "docs/payroll_extended/setup/2.7.comp_reg_exp_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_extended/setup/20.contract.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_extended/setup/20.contract.html",
+          "hash": "rVQVjp43d7/RHf4+qkPcag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_extended/setup/20.contract1.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_extended/setup/20.contract1.html",
+          "hash": "sEH6OPLttJhVIkOz881l8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_extended/setup/20.contract2.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_extended/setup/20.contract2.html",
+          "hash": "OgkFBVQoO6QinxxfjavfYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_extended/setup/20.contract3.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_extended/setup/20.contract3.html",
+          "hash": "vADmFrTy5cpu8AtvKdlP7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_extended/setup/20.contract4.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_extended/setup/20.contract4.html",
+          "hash": "5g6M0XtX0ul6Dih9YqEjoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/payroll_extended/setup/21.personnel_order.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/payroll_extended/setup/21.personnel_order.html",
+          "hash": "86QeuleqM6aZWiHtRu84TQ=="
         }
       },
       "is_incremental": false,
@@ -4217,15 +4408,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Toc",
       "source_relative_path": "docs/payroll_extended/toc.md",
       "output": {
         ".html": {
           "relative_path": "docs/payroll_extended/toc.html",
-          "hash": "sbYbaby7KZugoox+ewlO5w=="
+          "hash": "G0wJHVkshzXx9fsJkj5OEw=="
         }
       },
       "is_incremental": false,
@@ -5660,7 +5848,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 112,
+          "total_file_count": 127,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
