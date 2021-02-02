@@ -341,8 +341,8 @@
   },
   "docs/payroll_extended/setup/18.personnel_setup2.html": {
     "href": "docs/payroll_extended/setup/18.personnel_setup2.html",
-    "title": "Apdrošināšanas prēmiju imports | Latvian Payroll",
-    "keywords": "Apdrošināšanas prēmiju imports Sistēma piedāvā iespēju importēt darbinieku apdrošināšanas prēmiju sarakstu no MS Excel faila. Faila sagatavošana Jāizveido Excel fails ar importēšanai nepieciešamo informāciju, izvietojot kolonnu nosaukumus un ierakstot rindiņas ar datiem precīzi kā norādīts piemērā: Faila importēšana: Sistēmas meklētājā ierakstiet Importēt darbinieku apdrošināšanas Atlases nosacījumos jānorāda: Darbagrāmatas faila nosaukums – importējamais fails; Darblapas nosaukums – importējamā faila lapa (ja izveidotajā Excel failā ir vairākas) ar apdrošināšanas prēmiju datiem; Rindu ģenerēšanas nosacījumi: Periods – jānorāda apdrošināšanas maksājuma summas sadalījuma periods: Mēnesis – tiek norādīts, ja apdrošināšanas maksājums tiek sadalīts proporcionāli pa mēnešiem; Diena – tiek norādīts, ja apdrošināšanas maksājums tiek sadalīts proporcionāli pa dienām; Nedēļa – tiek norādīts, ja apdrošināšanas maksājums tiek sadalīts proporcionāli pa nedēļām; Ceturksnis – tiek norādīts, ja apdrošināšanas maksājums tiek sadalīts proporcionāli pa ceturkšņiem; Gads – tiek norādīts, ja apdrošināšanas maksājums tiek sadalīts proporcionāli pa gadiem; Summa uz perioda sākumu/beigām – jānorāda uz kuru norādītā perioda daļu (sākumu vai beigām) proporcionāli sadalītā summa tiks aprēķināta; Summas sadalījums – jānorāda par kādu periodu summa tiks proporcionāli dalīta."
+    "title": "Atbrīvošanas pamati un iemesli | Latvian Payroll",
+    "keywords": "Atbrīvošanas pamati un iemesli Analīzei var definēt vairākus atbrīvošanas pamatus."
   },
   "docs/payroll_extended/setup/18.personnel_setup3.html": {
     "href": "docs/payroll_extended/setup/18.personnel_setup3.html",
